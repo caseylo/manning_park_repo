@@ -1,0 +1,1873 @@
+"","PlotNumber","ProjectID","Elevation","Year","SiteSurveyor","RelocationConfidence","Species","2019Plot","ErrorPlot","Cover","present"
+"1","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","ABIEAMA","N","N",93.75,1
+"2","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","ABIELAS","N","N",2,1
+"3","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","AMELALN",NA,NA,0,0
+"4","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","ARNILAT","N","N",0.075,1
+"5","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","CHAMANG",NA,NA,0,0
+"6","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","CHIMUMB","N","N",0.25,1
+"7","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","CLINUNI",NA,NA,0,0
+"8","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","CORNCAN","N","N",1.025,1
+"9","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","GOODOBL",NA,NA,0,0
+"10","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","HERAMAX",NA,NA,0,0
+"11","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","LINNBOR",NA,NA,0,0
+"12","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","LONIUTA","N","N",0.375,1
+"13","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","LUPIARC",NA,NA,0,0
+"14","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","ORTHSEC",NA,NA,0,0
+"15","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","PAXIMYR","N","N",0.2,1
+"16","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","PHLODIF",NA,NA,0,0
+"17","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","PICEENE","N","N",6.625,1
+"18","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","PINUCON",NA,NA,0,0
+"19","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","PSEUMEN",NA,NA,0,0
+"20","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","PYROASA",NA,NA,0,0
+"21","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","RHODALB","N","N",1.25,1
+"22","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","RIBEACE","N","N",0.05,1
+"23","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","RIBELAC","N","N",0.225,1
+"24","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","RUBUPAR",NA,NA,0,0
+"25","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","RUBUPED","N","N",0.95,1
+"26","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","SORBSCO",NA,NA,0,0
+"27","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","SORBSIT","N","N",0.1,1
+"28","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","SPIRLUC",NA,NA,0,0
+"29","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","THALOCC",NA,NA,0,0
+"30","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","THUJPLI",NA,NA,0,0
+"31","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","TIARTRI","N","N",0.175,1
+"32","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","TSUGHET","N","N",15.25,1
+"33","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","VACCMEM","N","N",0.8,1
+"34","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","VACCSCO",NA,NA,0,0
+"35","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","VALESIT","N","N",0.375,1
+"36","00NCe73","NCBG_ESSFplots",1459.460205,2025,"jpstamp","Med-High","VERAVIR",NA,NA,0,0
+"37","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","ABIEAMA",NA,NA,0,0
+"38","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","ABIELAS","N","N",47,1
+"39","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","AMELALN",NA,NA,0,0
+"40","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","ARNILAT","N","N",3.5,1
+"41","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","CHAMANG","N","N",0.5,1
+"42","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","CHIMUMB",NA,NA,0,0
+"43","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","CLINUNI","N","N",3.25,1
+"44","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","CORNCAN",NA,NA,0,0
+"45","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","GOODOBL","N","N",0.075,1
+"46","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","HERAMAX",NA,NA,0,0
+"47","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","LINNBOR",NA,NA,0,0
+"48","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","LONIUTA","N","N",0.8,1
+"49","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","LUPIARC","N","N",1.25,1
+"50","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","ORTHSEC","N","N",0.075,1
+"51","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","PAXIMYR","N","N",8,1
+"52","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","PHLODIF",NA,NA,0,0
+"53","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","PICEENE","N","N",5.5,1
+"54","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","PINUCON","N","N",0.25,1
+"55","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","PSEUMEN",NA,NA,0,0
+"56","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","PYROASA",NA,NA,0,0
+"57","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","RHODALB","N","N",0.275,1
+"58","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","RIBEACE",NA,NA,0,0
+"59","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","RIBELAC","N","N",2.5,1
+"60","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","RUBUPAR","N","N",19.75,1
+"61","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","RUBUPED",NA,NA,0,0
+"62","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","SORBSCO","N","N",0.075,1
+"63","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","SORBSIT",NA,NA,0,0
+"64","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","SPIRLUC","N","N",1.625,1
+"65","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","THALOCC","N","N",1.25,1
+"66","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","THUJPLI",NA,NA,0,0
+"67","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","TIARTRI","N","N",0.075,1
+"68","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","TSUGHET",NA,NA,0,0
+"69","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","VACCMEM","N","N",3.5,1
+"70","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","VACCSCO","N","N",0.15,1
+"71","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","VALESIT",NA,NA,0,0
+"72","00NCe74","NCBG_ESSFplots",1661.301636,2025,"jpstamp","Med-High","VERAVIR",NA,NA,0,0
+"73","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","ABIEAMA",NA,NA,0,0
+"74","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","ABIELAS","N","N",52.75,1
+"75","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","AMELALN",NA,NA,0,0
+"76","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","ARNILAT","N","N",2.5,1
+"77","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","CHAMANG","N","N",0.35,1
+"78","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","CHIMUMB",NA,NA,0,0
+"79","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","CLINUNI",NA,NA,0,0
+"80","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","CORNCAN",NA,NA,0,0
+"81","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","GOODOBL","N","N",0.075,1
+"82","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","HERAMAX",NA,NA,0,0
+"83","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","LINNBOR",NA,NA,0,0
+"84","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","LONIUTA","N","N",0.1,1
+"85","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","LUPIARC","N","N",1.25,1
+"86","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","ORTHSEC","N","N",0.925,1
+"87","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","PAXIMYR","N","N",0.2,1
+"88","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","PHLODIF",NA,NA,0,0
+"89","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","PICEENE","N","N",2.025,1
+"90","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","PINUCON",NA,NA,0,0
+"91","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","PSEUMEN",NA,NA,0,0
+"92","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","PYROASA",NA,NA,0,0
+"93","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","RHODALB","N","N",26,1
+"94","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","RIBEACE","N","N",0.1,1
+"95","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","RIBELAC","N","N",1,1
+"96","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","RUBUPAR",NA,NA,0,0
+"97","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","RUBUPED","N","N",0.375,1
+"98","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","SORBSCO","N","N",1.55,1
+"99","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","SORBSIT","N","N",0.075,1
+"100","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","SPIRLUC",NA,NA,0,0
+"101","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","THALOCC",NA,NA,0,0
+"102","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","THUJPLI",NA,NA,0,0
+"103","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","TIARTRI",NA,NA,0,0
+"104","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","TSUGHET",NA,NA,0,0
+"105","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","VACCMEM","N","N",9.25,1
+"106","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","VACCSCO","N","N",1.725,1
+"107","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","VALESIT","N","N",4.25,1
+"108","00NCe75","NCBG_ESSFplots",1786.920776,2025,"jpstamp","Med-High","VERAVIR",NA,NA,0,0
+"109","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","ABIEAMA","N","N",0.125,1
+"110","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","ABIELAS","N","N",32.75,1
+"111","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","AMELALN","N","N",1.775,1
+"112","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","ARNILAT","N","N",1,1
+"113","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","CHAMANG",NA,NA,0,0
+"114","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","CHIMUMB","N","N",0.175,1
+"115","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","CLINUNI","N","N",4.25,1
+"116","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","CORNCAN",NA,NA,0,0
+"117","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","GOODOBL","N","N",0.525,1
+"118","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","HERAMAX",NA,NA,0,0
+"119","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","LINNBOR",NA,NA,0,0
+"120","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","LONIUTA","N","N",0.775,1
+"121","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","LUPIARC","N","N",0.05,1
+"122","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","ORTHSEC","N","N",1.075,1
+"123","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","PAXIMYR","N","N",11,1
+"124","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","PHLODIF",NA,NA,0,0
+"125","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","PICEENE","N","N",26.25,1
+"126","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","PINUCON",NA,NA,0,0
+"127","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","PSEUMEN","N","N",5.5,1
+"128","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","PYROASA",NA,NA,0,0
+"129","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","RHODALB",NA,NA,0,0
+"130","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","RIBEACE",NA,NA,0,0
+"131","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","RIBELAC","N","N",1.75,1
+"132","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","RUBUPAR","N","N",1.275,1
+"133","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","RUBUPED",NA,NA,0,0
+"134","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","SORBSCO","N","N",0.025,1
+"135","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","SORBSIT",NA,NA,0,0
+"136","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","SPIRLUC",NA,NA,0,0
+"137","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","THALOCC","N","N",0.175,1
+"138","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","THUJPLI","N","N",1.25,1
+"139","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","TIARTRI","N","N",0.225,1
+"140","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","TSUGHET",NA,NA,0,0
+"141","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","VACCMEM","N","N",8,1
+"142","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","VACCSCO",NA,NA,0,0
+"143","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","VALESIT","N","N",0.475,1
+"144","00NCe77","NCBG_ESSFplots",1494.552856,2025,"jpstamp","High","VERAVIR",NA,NA,0,0
+"145","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","ABIEAMA",NA,NA,0,0
+"146","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","ABIELAS","N","N",54.5,1
+"147","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","AMELALN",NA,NA,0,0
+"148","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","ARNILAT","N","N",2.6,1
+"149","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","CHAMANG","N","N",0.5,1
+"150","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","CHIMUMB",NA,NA,0,0
+"151","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","CLINUNI",NA,NA,0,0
+"152","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","CORNCAN",NA,NA,0,0
+"153","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","GOODOBL","N","N",0.175,1
+"154","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","HERAMAX","N","N",2.075,1
+"155","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","LINNBOR",NA,NA,0,0
+"156","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","LONIUTA","N","N",0.25,1
+"157","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","LUPIARC","N","N",0.875,1
+"158","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","ORTHSEC","N","N",0.75,1
+"159","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","PAXIMYR","N","N",5.5,1
+"160","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","PHLODIF",NA,NA,0,0
+"161","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","PICEENE","N","N",1.75,1
+"162","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","PINUCON",NA,NA,0,0
+"163","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","PSEUMEN",NA,NA,0,0
+"164","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","PYROASA",NA,NA,0,0
+"165","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","RHODALB",NA,NA,0,0
+"166","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","RIBEACE","N","N",2.2,1
+"167","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","RIBELAC","N","N",0.75,1
+"168","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","RUBUPAR",NA,NA,0,0
+"169","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","RUBUPED",NA,NA,0,0
+"170","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","SORBSCO",NA,NA,0,0
+"171","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","SORBSIT",NA,NA,0,0
+"172","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","SPIRLUC",NA,NA,0,0
+"173","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","THALOCC","N","N",4.25,1
+"174","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","THUJPLI",NA,NA,0,0
+"175","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","TIARTRI",NA,NA,0,0
+"176","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","TSUGHET",NA,NA,0,0
+"177","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","VACCMEM","N","N",0.6,1
+"178","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","VACCSCO","N","N",2.525,1
+"179","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","VALESIT","N","N",18.25,1
+"180","00NCe78","NCBG_ESSFplots",1845.629517,2025,"jpstamp","Med-High","VERAVIR","N","N",0.125,1
+"181","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","ABIEAMA",NA,NA,0,0
+"182","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","ABIELAS","N","N",28.5,1
+"183","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","AMELALN",NA,NA,0,0
+"184","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","ARNILAT","N","N",6.5,1
+"185","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","CHAMANG","N","N",1.225,1
+"186","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","CHIMUMB",NA,NA,0,0
+"187","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","CLINUNI",NA,NA,0,0
+"188","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","CORNCAN",NA,NA,0,0
+"189","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","GOODOBL","N","N",0.175,1
+"190","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","HERAMAX","N","N",0.075,1
+"191","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","LINNBOR",NA,NA,0,0
+"192","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","LONIUTA","N","N",0.5,1
+"193","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","LUPIARC","N","N",0.875,1
+"194","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","ORTHSEC","N","N",6.5,1
+"195","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","PAXIMYR","N","N",0.275,1
+"196","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","PHLODIF",NA,NA,0,0
+"197","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","PICEENE","N","N",1.15,1
+"198","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","PINUCON",NA,NA,0,0
+"199","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","PSEUMEN",NA,NA,0,0
+"200","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","PYROASA",NA,NA,0,0
+"201","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","RHODALB",NA,NA,0,0
+"202","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","RIBEACE","N","N",12.25,1
+"203","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","RIBELAC","N","N",1.125,1
+"204","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","RUBUPAR",NA,NA,0,0
+"205","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","RUBUPED","N","N",0.75,1
+"206","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","SORBSCO",NA,NA,0,0
+"207","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","SORBSIT","N","N",0.425,1
+"208","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","SPIRLUC",NA,NA,0,0
+"209","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","THALOCC","N","N",3.5,1
+"210","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","THUJPLI",NA,NA,0,0
+"211","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","TIARTRI","N","N",6.25,1
+"212","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","TSUGHET",NA,NA,0,0
+"213","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","VACCMEM","N","N",19,1
+"214","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","VACCSCO","N","N",1.5,1
+"215","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","VALESIT","N","N",11.5,1
+"216","00NCe79","NCBG_ESSFplots",1778.579102,2025,"jpstamp","High","VERAVIR","N","N",0.175,1
+"217","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","ABIEAMA",NA,NA,0,0
+"218","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","ABIELAS","N","N",18.25,1
+"219","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","AMELALN",NA,NA,0,0
+"220","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","ARNILAT","N","N",0.975,1
+"221","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","CHAMANG","N","N",0.725,1
+"222","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","CHIMUMB",NA,NA,0,0
+"223","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","CLINUNI",NA,NA,0,0
+"224","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","CORNCAN",NA,NA,0,0
+"225","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","GOODOBL",NA,NA,0,0
+"226","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","HERAMAX","N","N",0.8,1
+"227","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","LINNBOR",NA,NA,0,0
+"228","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","LONIUTA",NA,NA,0,0
+"229","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","LUPIARC","N","N",0.15,1
+"230","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","ORTHSEC",NA,NA,0,0
+"231","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","PAXIMYR","N","N",0.1,1
+"232","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","PHLODIF","N","N",0.625,1
+"233","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","PICEENE","N","N",0.125,1
+"234","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","PINUCON",NA,NA,0,0
+"235","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","PSEUMEN",NA,NA,0,0
+"236","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","PYROASA",NA,NA,0,0
+"237","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","RHODALB","N","N",3.875,1
+"238","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","RIBEACE","N","N",1.95,1
+"239","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","RIBELAC",NA,NA,0,0
+"240","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","RUBUPAR",NA,NA,0,0
+"241","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","RUBUPED",NA,NA,0,0
+"242","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","SORBSCO",NA,NA,0,0
+"243","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","SORBSIT","N","N",1.4,1
+"244","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","SPIRLUC",NA,NA,0,0
+"245","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","THALOCC","N","N",3,1
+"246","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","THUJPLI",NA,NA,0,0
+"247","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","TIARTRI",NA,NA,0,0
+"248","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","TSUGHET",NA,NA,0,0
+"249","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","VACCMEM","N","N",20.75,1
+"250","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","VACCSCO","N","N",5.25,1
+"251","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","VALESIT","N","N",5.225,1
+"252","00NCe82","NCBG_ESSFplots",1818.514526,2025,"jpstamp","High/ Med-High","VERAVIR","N","N",1.825,1
+"253","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","ABIEAMA",NA,NA,0,0
+"254","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","ABIELAS",NA,NA,0,0
+"255","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","AMELALN",NA,NA,0,0
+"256","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","ARNILAT","N","N",6,1
+"257","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","CHAMANG","N","N",0.2,1
+"258","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","CHIMUMB",NA,NA,0,0
+"259","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","CLINUNI",NA,NA,0,0
+"260","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","CORNCAN",NA,NA,0,0
+"261","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","GOODOBL",NA,NA,0,0
+"262","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","HERAMAX",NA,NA,0,0
+"263","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","LINNBOR",NA,NA,0,0
+"264","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","LONIUTA",NA,NA,0,0
+"265","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","LUPIARC",NA,NA,0,0
+"266","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","ORTHSEC",NA,NA,0,0
+"267","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","PAXIMYR",NA,NA,0,0
+"268","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","PHLODIF",NA,NA,0,0
+"269","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","PICEENE",NA,NA,0,0
+"270","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","PINUCON",NA,NA,0,0
+"271","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","PSEUMEN",NA,NA,0,0
+"272","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","PYROASA",NA,NA,0,0
+"273","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","RHODALB",NA,NA,0,0
+"274","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","RIBEACE",NA,NA,0,0
+"275","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","RIBELAC",NA,NA,0,0
+"276","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","RUBUPAR",NA,NA,0,0
+"277","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","RUBUPED",NA,NA,0,0
+"278","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","SORBSCO",NA,NA,0,0
+"279","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","SORBSIT",NA,NA,0,0
+"280","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","SPIRLUC",NA,NA,0,0
+"281","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","THALOCC","N","N",5,1
+"282","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","THUJPLI",NA,NA,0,0
+"283","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","TIARTRI",NA,NA,0,0
+"284","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","TSUGHET",NA,NA,0,0
+"285","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","VACCMEM",NA,NA,0,0
+"286","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","VACCSCO",NA,NA,0,0
+"287","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","VALESIT","N","N",30,1
+"288","00NCe83","NCBG_ESSFplots",1835.589844,2025,"jpstamp","High/ Med-High","VERAVIR","N","N",25,1
+"289","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","ABIEAMA",NA,NA,0,0
+"290","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","ABIELAS","N","N",10,1
+"291","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","AMELALN",NA,NA,0,0
+"292","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","ARNILAT","N","N",0.4,1
+"293","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","CHAMANG","N","N",0.25,1
+"294","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","CHIMUMB",NA,NA,0,0
+"295","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","CLINUNI",NA,NA,0,0
+"296","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","CORNCAN",NA,NA,0,0
+"297","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","GOODOBL",NA,NA,0,0
+"298","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","HERAMAX","N","N",0.25,1
+"299","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","LINNBOR",NA,NA,0,0
+"300","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","LONIUTA",NA,NA,0,0
+"301","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","LUPIARC","N","N",1,1
+"302","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","ORTHSEC",NA,NA,0,0
+"303","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","PAXIMYR",NA,NA,0,0
+"304","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","PHLODIF",NA,NA,0,0
+"305","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","PICEENE","N","N",3.5,1
+"306","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","PINUCON",NA,NA,0,0
+"307","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","PSEUMEN",NA,NA,0,0
+"308","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","PYROASA",NA,NA,0,0
+"309","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","RHODALB",NA,NA,0,0
+"310","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","RIBEACE",NA,NA,0,0
+"311","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","RIBELAC",NA,NA,0,0
+"312","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","RUBUPAR",NA,NA,0,0
+"313","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","RUBUPED",NA,NA,0,0
+"314","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","SORBSCO",NA,NA,0,0
+"315","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","SORBSIT",NA,NA,0,0
+"316","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","SPIRLUC",NA,NA,0,0
+"317","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","THALOCC","N","N",0.75,1
+"318","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","THUJPLI",NA,NA,0,0
+"319","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","TIARTRI",NA,NA,0,0
+"320","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","TSUGHET",NA,NA,0,0
+"321","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","VACCMEM","N","N",0.5,1
+"322","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","VACCSCO",NA,NA,0,0
+"323","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","VALESIT","N","N",12.5,1
+"324","00NCe84","NCBG_ESSFplots",1693.679199,2025,"jpstamp","Med","VERAVIR","N","N",1.65,1
+"325","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","ABIEAMA",NA,NA,0,0
+"326","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","ABIELAS",NA,NA,0,0
+"327","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","AMELALN",NA,NA,0,0
+"328","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","ARNILAT","N","N",4.25,1
+"329","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","CHAMANG","N","N",7.5,1
+"330","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","CHIMUMB",NA,NA,0,0
+"331","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","CLINUNI",NA,NA,0,0
+"332","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","CORNCAN",NA,NA,0,0
+"333","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","GOODOBL",NA,NA,0,0
+"334","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","HERAMAX","N","N",0.925,1
+"335","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","LINNBOR",NA,NA,0,0
+"336","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","LONIUTA",NA,NA,0,0
+"337","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","LUPIARC","N","N",0.65,1
+"338","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","ORTHSEC",NA,NA,0,0
+"339","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","PAXIMYR",NA,NA,0,0
+"340","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","PHLODIF",NA,NA,0,0
+"341","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","PICEENE",NA,NA,0,0
+"342","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","PINUCON",NA,NA,0,0
+"343","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","PSEUMEN",NA,NA,0,0
+"344","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","PYROASA",NA,NA,0,0
+"345","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","RHODALB",NA,NA,0,0
+"346","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","RIBEACE","N","N",0.55,1
+"347","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","RIBELAC",NA,NA,0,0
+"348","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","RUBUPAR",NA,NA,0,0
+"349","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","RUBUPED",NA,NA,0,0
+"350","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","SORBSCO",NA,NA,0,0
+"351","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","SORBSIT","N","N",0.5,1
+"352","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","SPIRLUC",NA,NA,0,0
+"353","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","THALOCC","N","N",7.5,1
+"354","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","THUJPLI",NA,NA,0,0
+"355","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","TIARTRI",NA,NA,0,0
+"356","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","TSUGHET",NA,NA,0,0
+"357","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","VACCMEM",NA,NA,0,0
+"358","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","VACCSCO",NA,NA,0,0
+"359","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","VALESIT","N","N",15.5,1
+"360","00NCe85","NCBG_ESSFplots",1738.177246,2025,"jpstamp","High","VERAVIR","N","N",10,1
+"361","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","ABIEAMA","N","N",14.875,1
+"362","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","ABIELAS","N","N",26.625,1
+"363","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","AMELALN",NA,NA,0,0
+"364","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","ARNILAT","N","N",4.25,1
+"365","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","CHAMANG",NA,NA,0,0
+"366","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","CHIMUMB",NA,NA,0,0
+"367","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","CLINUNI",NA,NA,0,0
+"368","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","CORNCAN",NA,NA,0,0
+"369","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","GOODOBL",NA,NA,0,0
+"370","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","HERAMAX",NA,NA,0,0
+"371","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","LINNBOR",NA,NA,0,0
+"372","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","LONIUTA",NA,NA,0,0
+"373","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","LUPIARC","N","N",0.675,1
+"374","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","ORTHSEC","N","N",1.15,1
+"375","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","PAXIMYR",NA,NA,0,0
+"376","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","PHLODIF",NA,NA,0,0
+"377","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","PICEENE","N","N",1.05,1
+"378","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","PINUCON",NA,NA,0,0
+"379","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","PSEUMEN",NA,NA,0,0
+"380","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","PYROASA",NA,NA,0,0
+"381","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","RHODALB",NA,NA,0,0
+"382","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","RIBEACE","N","N",2.5,1
+"383","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","RIBELAC",NA,NA,0,0
+"384","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","RUBUPAR",NA,NA,0,0
+"385","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","RUBUPED","N","N",1.35,1
+"386","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","SORBSCO",NA,NA,0,0
+"387","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","SORBSIT","N","N",15.25,1
+"388","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","SPIRLUC",NA,NA,0,0
+"389","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","THALOCC",NA,NA,0,0
+"390","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","THUJPLI",NA,NA,0,0
+"391","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","TIARTRI","N","N",2.3,1
+"392","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","TSUGHET",NA,NA,0,0
+"393","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","VACCMEM","N","N",21.25,1
+"394","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","VACCSCO",NA,NA,0,0
+"395","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","VALESIT","N","N",6.5,1
+"396","00NCe86","NCBG_ESSFplots",1737.692017,2025,"jpstamp","Low","VERAVIR","N","N",0.9,1
+"397","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","ABIEAMA","N","N",81.75,1
+"398","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","ABIELAS","N","N",0.5,1
+"399","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","AMELALN",NA,NA,0,0
+"400","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","ARNILAT","N","N",0.125,1
+"401","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","CHAMANG",NA,NA,0,0
+"402","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","CHIMUMB",NA,NA,0,0
+"403","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","CLINUNI",NA,NA,0,0
+"404","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","CORNCAN",NA,NA,0,0
+"405","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","GOODOBL",NA,NA,0,0
+"406","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","HERAMAX",NA,NA,0,0
+"407","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","LINNBOR",NA,NA,0,0
+"408","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","LONIUTA",NA,NA,0,0
+"409","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","LUPIARC",NA,NA,0,0
+"410","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","ORTHSEC","N","N",1.75,1
+"411","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","PAXIMYR",NA,NA,0,0
+"412","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","PHLODIF",NA,NA,0,0
+"413","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","PICEENE",NA,NA,0,0
+"414","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","PINUCON",NA,NA,0,0
+"415","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","PSEUMEN",NA,NA,0,0
+"416","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","PYROASA",NA,NA,0,0
+"417","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","RHODALB","N","N",20.75,1
+"418","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","RIBEACE","N","N",0.05,1
+"419","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","RIBELAC","N","N",0.025,1
+"420","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","RUBUPAR",NA,NA,0,0
+"421","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","RUBUPED","N","N",1.95,1
+"422","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","SORBSCO",NA,NA,0,0
+"423","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","SORBSIT","N","N",0.45,1
+"424","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","SPIRLUC",NA,NA,0,0
+"425","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","THALOCC",NA,NA,0,0
+"426","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","THUJPLI",NA,NA,0,0
+"427","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","TIARTRI","N","N",0.775,1
+"428","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","TSUGHET",NA,NA,0,0
+"429","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","VACCMEM","N","N",16.25,1
+"430","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","VACCSCO",NA,NA,0,0
+"431","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","VALESIT","N","N",2,1
+"432","00NCe89","NCBG_ESSFplots",1709.093506,2025,"jpstamp","Low","VERAVIR","N","N",0.5,1
+"433","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","ABIEAMA","N","N",17.25,1
+"434","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","ABIELAS","N","N",13.75,1
+"435","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","AMELALN",NA,NA,0,0
+"436","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","ARNILAT",NA,NA,0,0
+"437","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","CHAMANG",NA,NA,0,0
+"438","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","CHIMUMB",NA,NA,0,0
+"439","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","CLINUNI","N","N",0.25,1
+"440","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","CORNCAN",NA,NA,0,0
+"441","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","GOODOBL","N","N",0.025,1
+"442","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","HERAMAX",NA,NA,0,0
+"443","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","LINNBOR",NA,NA,0,0
+"444","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","LONIUTA","N","N",4,1
+"445","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","LUPIARC",NA,NA,0,0
+"446","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","ORTHSEC","N","N",2,1
+"447","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","PAXIMYR",NA,NA,0,0
+"448","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","PHLODIF",NA,NA,0,0
+"449","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","PICEENE","N","N",21.25,1
+"450","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","PINUCON",NA,NA,0,0
+"451","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","PSEUMEN","N","N",0.1,1
+"452","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","PYROASA",NA,NA,0,0
+"453","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","RHODALB","N","N",12.75,1
+"454","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","RIBEACE","N","N",0.125,1
+"455","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","RIBELAC","N","N",1.35,1
+"456","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","RUBUPAR",NA,NA,0,0
+"457","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","RUBUPED","N","N",9.25,1
+"458","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","SORBSCO","N","N",0.25,1
+"459","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","SORBSIT","N","N",0.375,1
+"460","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","SPIRLUC",NA,NA,0,0
+"461","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","THALOCC","N","N",0.075,1
+"462","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","THUJPLI",NA,NA,0,0
+"463","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","TIARTRI","N","N",2,1
+"464","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","TSUGHET","N","N",0.25,1
+"465","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","VACCMEM","N","N",11.75,1
+"466","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","VACCSCO",NA,NA,0,0
+"467","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","VALESIT","N","N",2.25,1
+"468","00NCe90","NCBG_ESSFplots",1385.609375,2025,"jpstamp","High","VERAVIR","N","N",0.15,1
+"469","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","ABIEAMA","N","N",0.5,1
+"470","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","ABIELAS","N","N",37.75,1
+"471","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","AMELALN","N","N",1.625,1
+"472","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","ARNILAT",NA,NA,0,0
+"473","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","CHAMANG","N","N",0.15,1
+"474","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","CHIMUMB","N","N",0.675,1
+"475","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","CLINUNI","N","N",4.65,1
+"476","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","CORNCAN","N","N",1.5,1
+"477","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","GOODOBL","N","N",0.075,1
+"478","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","HERAMAX",NA,NA,0,0
+"479","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","LINNBOR",NA,NA,0,0
+"480","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","LONIUTA","N","N",2.5,1
+"481","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","LUPIARC","N","N",1.1,1
+"482","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","ORTHSEC","N","N",0.225,1
+"483","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","PAXIMYR","N","N",14,1
+"484","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","PHLODIF",NA,NA,0,0
+"485","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","PICEENE","N","N",12.375,1
+"486","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","PINUCON","N","N",4,1
+"487","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","PSEUMEN",NA,NA,0,0
+"488","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","PYROASA",NA,NA,0,0
+"489","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","RHODALB","N","N",1.75,1
+"490","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","RIBEACE",NA,NA,0,0
+"491","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","RIBELAC",NA,NA,0,0
+"492","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","RUBUPAR","N","N",0.075,1
+"493","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","RUBUPED","N","N",0.125,1
+"494","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","SORBSCO","N","N",0.3,1
+"495","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","SORBSIT",NA,NA,0,0
+"496","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","SPIRLUC","N","N",3.25,1
+"497","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","THALOCC",NA,NA,0,0
+"498","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","THUJPLI","N","N",0.25,1
+"499","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","TIARTRI",NA,NA,0,0
+"500","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","TSUGHET","N","N",2.75,1
+"501","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","VACCMEM","N","N",12.5,1
+"502","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","VACCSCO","N","N",17.75,1
+"503","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","VALESIT",NA,NA,0,0
+"504","00NCe91","NCBG_ESSFplots",1343.834229,2025,"jpstamp","Med-High","VERAVIR",NA,NA,0,0
+"505","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","ABIEAMA",NA,NA,0,0
+"506","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","ABIELAS","N","N",15.1,1
+"507","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","AMELALN","N","N",12.5,1
+"508","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","ARNILAT",NA,NA,0,0
+"509","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","CHAMANG",NA,NA,0,0
+"510","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","CHIMUMB",NA,NA,0,0
+"511","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","CLINUNI",NA,NA,0,0
+"512","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","CORNCAN",NA,NA,0,0
+"513","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","GOODOBL",NA,NA,0,0
+"514","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","HERAMAX",NA,NA,0,0
+"515","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","LINNBOR",NA,NA,0,0
+"516","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","LONIUTA","N","N",3,1
+"517","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","LUPIARC","N","N",0.2,1
+"518","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","ORTHSEC",NA,NA,0,0
+"519","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","PAXIMYR","N","N",16,1
+"520","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","PHLODIF","N","N",2.125,1
+"521","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","PICEENE",NA,NA,0,0
+"522","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","PINUCON","N","N",0.25,1
+"523","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","PSEUMEN","N","N",0.125,1
+"524","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","PYROASA",NA,NA,0,0
+"525","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","RHODALB",NA,NA,0,0
+"526","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","RIBEACE",NA,NA,0,0
+"527","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","RIBELAC","N","N",0.5,1
+"528","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","RUBUPAR",NA,NA,0,0
+"529","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","RUBUPED",NA,NA,0,0
+"530","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","SORBSCO","N","N",3.625,1
+"531","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","SORBSIT",NA,NA,0,0
+"532","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","SPIRLUC","N","N",3.75,1
+"533","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","THALOCC",NA,NA,0,0
+"534","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","THUJPLI",NA,NA,0,0
+"535","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","TIARTRI",NA,NA,0,0
+"536","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","TSUGHET",NA,NA,0,0
+"537","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","VACCMEM","N","N",1.25,1
+"538","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","VACCSCO","N","N",10,1
+"539","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","VALESIT",NA,NA,0,0
+"540","00NCe92","NCBG_ESSFplots",1591.405518,2025,"jpstamp","Med","VERAVIR",NA,NA,0,0
+"541","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","ABIEAMA","N","N",3.25,1
+"542","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","ABIELAS","N","N",19,1
+"543","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","AMELALN",NA,NA,0,0
+"544","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","ARNILAT","N","N",1.325,1
+"545","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","CHAMANG","N","N",0.3,1
+"546","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","CHIMUMB",NA,NA,0,0
+"547","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","CLINUNI",NA,NA,0,0
+"548","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","CORNCAN",NA,NA,0,0
+"549","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","GOODOBL",NA,NA,0,0
+"550","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","HERAMAX","N","N",6,1
+"551","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","LINNBOR",NA,NA,0,0
+"552","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","LONIUTA",NA,NA,0,0
+"553","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","LUPIARC","N","N",0.025,1
+"554","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","ORTHSEC","N","N",0.35,1
+"555","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","PAXIMYR","N","N",0.5,1
+"556","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","PHLODIF",NA,NA,0,0
+"557","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","PICEENE","N","N",8,1
+"558","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","PINUCON",NA,NA,0,0
+"559","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","PSEUMEN",NA,NA,0,0
+"560","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","PYROASA","N","N",0.025,1
+"561","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","RHODALB","N","N",7.5,1
+"562","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","RIBEACE","N","N",3.35,1
+"563","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","RIBELAC","N","N",3,1
+"564","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","RUBUPAR",NA,NA,0,0
+"565","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","RUBUPED","N","N",3.5,1
+"566","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","SORBSCO","N","N",0.05,1
+"567","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","SORBSIT","N","N",3.05,1
+"568","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","SPIRLUC",NA,NA,0,0
+"569","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","THALOCC","N","N",1.325,1
+"570","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","THUJPLI",NA,NA,0,0
+"571","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","TIARTRI","N","N",2.2,1
+"572","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","TSUGHET",NA,NA,0,0
+"573","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","VACCMEM","N","N",14.25,1
+"574","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","VACCSCO","N","N",1.25,1
+"575","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","VALESIT","N","N",10.75,1
+"576","00NCe93","NCBG_ESSFplots",1521.86377,2025,"jpstamp","High","VERAVIR","N","N",9,1
+"577","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","ABIEAMA",NA,NA,0,0
+"578","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","ABIELAS","N","N",27,1
+"579","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","AMELALN",NA,NA,0,0
+"580","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","ARNILAT","N","N",3.75,1
+"581","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","CHAMANG","N","N",1.425,1
+"582","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","CHIMUMB",NA,NA,0,0
+"583","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","CLINUNI",NA,NA,0,0
+"584","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","CORNCAN",NA,NA,0,0
+"585","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","GOODOBL","N","N",0.15,1
+"586","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","HERAMAX","N","N",0.25,1
+"587","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","LINNBOR",NA,NA,0,0
+"588","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","LONIUTA","N","N",2.25,1
+"589","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","LUPIARC","N","N",0.4,1
+"590","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","ORTHSEC","N","N",1.575,1
+"591","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","PAXIMYR","N","N",1.35,1
+"592","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","PHLODIF",NA,NA,0,0
+"593","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","PICEENE","N","N",46,1
+"594","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","PINUCON","N","N",1.5,1
+"595","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","PSEUMEN",NA,NA,0,0
+"596","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","PYROASA","N","N",0.275,1
+"597","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","RHODALB","N","N",5.75,1
+"598","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","RIBEACE",NA,NA,0,0
+"599","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","RIBELAC","N","N",4.75,1
+"600","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","RUBUPAR",NA,NA,0,0
+"601","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","RUBUPED","N","N",8.5,1
+"602","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","SORBSCO",NA,NA,0,0
+"603","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","SORBSIT","N","N",0.175,1
+"604","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","SPIRLUC","N","N",0.25,1
+"605","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","THALOCC","N","N",5,1
+"606","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","THUJPLI",NA,NA,0,0
+"607","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","TIARTRI","N","N",0.675,1
+"608","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","TSUGHET","N","N",0.05,1
+"609","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","VACCMEM","N","N",1.2,1
+"610","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","VACCSCO","N","N",3.4,1
+"611","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","VALESIT","N","N",14.75,1
+"612","00NCe94","NCBG_ESSFplots",1412.704102,2025,"jpstamp","Med","VERAVIR",NA,NA,0,0
+"613","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","ABIEAMA",NA,NA,0,0
+"614","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","ABIELAS","N","N",6.1,1
+"615","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","AMELALN",NA,NA,0,0
+"616","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","ARNILAT","N","N",3,1
+"617","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","CHAMANG",NA,NA,0,0
+"618","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","CHIMUMB","N","N",0.05,1
+"619","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","CLINUNI","N","N",2.525,1
+"620","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","CORNCAN","N","N",0.925,1
+"621","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","GOODOBL","N","N",0.375,1
+"622","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","HERAMAX",NA,NA,0,0
+"623","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","LINNBOR",NA,NA,0,0
+"624","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","LONIUTA","N","N",0.325,1
+"625","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","LUPIARC",NA,NA,0,0
+"626","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","ORTHSEC","N","N",3.25,1
+"627","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","PAXIMYR","N","N",12.75,1
+"628","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","PHLODIF",NA,NA,0,0
+"629","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","PICEENE","N","N",23.25,1
+"630","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","PINUCON",NA,NA,0,0
+"631","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","PSEUMEN",NA,NA,0,0
+"632","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","PYROASA","N","N",1.7,1
+"633","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","RHODALB","N","N",2.15,1
+"634","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","RIBEACE",NA,NA,0,0
+"635","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","RIBELAC","N","N",0.55,1
+"636","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","RUBUPAR",NA,NA,0,0
+"637","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","RUBUPED","N","N",1.6,1
+"638","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","SORBSCO","N","N",0.375,1
+"639","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","SORBSIT",NA,NA,0,0
+"640","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","SPIRLUC","N","N",0.3,1
+"641","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","THALOCC","N","N",0.1,1
+"642","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","THUJPLI",NA,NA,0,0
+"643","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","TIARTRI","N","N",0.775,1
+"644","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","TSUGHET",NA,NA,0,0
+"645","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","VACCMEM","N","N",6,1
+"646","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","VACCSCO","N","N",1.45,1
+"647","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","VALESIT","N","N",2.25,1
+"648","00NCe95","NCBG_ESSFplots",1408.897095,2025,"jpstamp","Med-High","VERAVIR",NA,NA,0,0
+"649","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","ABIEAMA",NA,NA,0,0
+"650","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","ABIELAS","Y","N",8.5,1
+"651","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","AMELALN",NA,NA,0,0
+"652","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","ARNILAT",NA,NA,0,0
+"653","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","CHAMANG",NA,NA,0,0
+"654","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","CHIMUMB",NA,NA,0,0
+"655","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","CLINUNI",NA,NA,0,0
+"656","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","CORNCAN",NA,NA,0,0
+"657","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","GOODOBL",NA,NA,0,0
+"658","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","HERAMAX",NA,NA,0,0
+"659","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","LINNBOR",NA,NA,0,0
+"660","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","LONIUTA",NA,NA,0,0
+"661","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","LUPIARC","Y","N",5,1
+"662","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","ORTHSEC",NA,NA,0,0
+"663","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","PAXIMYR",NA,NA,0,0
+"664","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","PHLODIF","Y","N",0.05,1
+"665","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","PICEENE","Y","N",5.5,1
+"666","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","PINUCON",NA,NA,0,0
+"667","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","PSEUMEN",NA,NA,0,0
+"668","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","PYROASA",NA,NA,0,0
+"669","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","RHODALB",NA,NA,0,0
+"670","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","RIBEACE",NA,NA,0,0
+"671","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","RIBELAC",NA,NA,0,0
+"672","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","RUBUPAR",NA,NA,0,0
+"673","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","RUBUPED",NA,NA,0,0
+"674","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","SORBSCO",NA,NA,0,0
+"675","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","SORBSIT",NA,NA,0,0
+"676","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","SPIRLUC",NA,NA,0,0
+"677","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","THALOCC",NA,NA,0,0
+"678","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","THUJPLI",NA,NA,0,0
+"679","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","TIARTRI",NA,NA,0,0
+"680","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","TSUGHET",NA,NA,0,0
+"681","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","VACCMEM","Y","N",0,1
+"682","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","VACCSCO","Y","N",10,1
+"683","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","VALESIT",NA,NA,0,0
+"684","02-3085","BC Parks Manning TEM",2038.597534,2025,"HAK EAC","High","VERAVIR",NA,NA,0,0
+"685","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","ABIEAMA",NA,NA,0,0
+"686","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","ABIELAS","Y","N",2,1
+"687","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","AMELALN",NA,NA,0,0
+"688","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","ARNILAT","Y","N",1,1
+"689","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","CHAMANG",NA,NA,0,0
+"690","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","CHIMUMB",NA,NA,0,0
+"691","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","CLINUNI",NA,NA,0,0
+"692","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","CORNCAN",NA,NA,0,0
+"693","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","GOODOBL",NA,NA,0,0
+"694","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","HERAMAX",NA,NA,0,0
+"695","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","LINNBOR",NA,NA,0,0
+"696","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","LONIUTA",NA,NA,0,0
+"697","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","LUPIARC","Y","N",0.25,1
+"698","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","ORTHSEC",NA,NA,0,0
+"699","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","PAXIMYR",NA,NA,0,0
+"700","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","PHLODIF",NA,NA,0,0
+"701","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","PICEENE",NA,NA,0,0
+"702","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","PINUCON",NA,NA,0,0
+"703","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","PSEUMEN",NA,NA,0,0
+"704","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","PYROASA",NA,NA,0,0
+"705","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","RHODALB",NA,NA,0,0
+"706","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","RIBEACE",NA,NA,0,0
+"707","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","RIBELAC",NA,NA,0,0
+"708","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","RUBUPAR",NA,NA,0,0
+"709","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","RUBUPED",NA,NA,0,0
+"710","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","SORBSCO",NA,NA,0,0
+"711","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","SORBSIT",NA,NA,0,0
+"712","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","SPIRLUC",NA,NA,0,0
+"713","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","THALOCC",NA,NA,0,0
+"714","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","THUJPLI",NA,NA,0,0
+"715","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","TIARTRI",NA,NA,0,0
+"716","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","TSUGHET",NA,NA,0,0
+"717","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","VACCMEM",NA,NA,0,0
+"718","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","VACCSCO","Y","N",7.9,1
+"719","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","VALESIT",NA,NA,0,0
+"720","02-3089","BC Parks Manning TEM",2130.962158,2025,"HAK EAC GH","High","VERAVIR",NA,NA,0,0
+"721","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","ABIEAMA",NA,NA,0,0
+"722","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","ABIELAS","N","N",1.375,1
+"723","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","AMELALN",NA,NA,0,0
+"724","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","ARNILAT",NA,NA,0,0
+"725","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","CHAMANG",NA,NA,0,0
+"726","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","CHIMUMB",NA,NA,0,0
+"727","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","CLINUNI",NA,NA,0,0
+"728","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","CORNCAN",NA,NA,0,0
+"729","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","GOODOBL",NA,NA,0,0
+"730","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","HERAMAX",NA,NA,0,0
+"731","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","LINNBOR",NA,NA,0,0
+"732","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","LONIUTA",NA,NA,0,0
+"733","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","LUPIARC","N","N",0.025,1
+"734","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","ORTHSEC",NA,NA,0,0
+"735","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","PAXIMYR",NA,NA,0,0
+"736","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","PHLODIF","N","N",2,1
+"737","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","PICEENE",NA,NA,0,0
+"738","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","PINUCON",NA,NA,0,0
+"739","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","PSEUMEN",NA,NA,0,0
+"740","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","PYROASA",NA,NA,0,0
+"741","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","RHODALB",NA,NA,0,0
+"742","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","RIBEACE",NA,NA,0,0
+"743","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","RIBELAC",NA,NA,0,0
+"744","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","RUBUPAR",NA,NA,0,0
+"745","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","RUBUPED",NA,NA,0,0
+"746","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","SORBSCO",NA,NA,0,0
+"747","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","SORBSIT",NA,NA,0,0
+"748","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","SPIRLUC",NA,NA,0,0
+"749","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","THALOCC",NA,NA,0,0
+"750","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","THUJPLI",NA,NA,0,0
+"751","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","TIARTRI",NA,NA,0,0
+"752","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","TSUGHET",NA,NA,0,0
+"753","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","VACCMEM",NA,NA,0,0
+"754","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","VACCSCO","N","N",2.25,1
+"755","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","VALESIT",NA,NA,0,0
+"756","114791","Alpine2007_BEC",2194.082031,2025,"whm","High","VERAVIR",NA,NA,0,0
+"757","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","ABIEAMA",NA,NA,0,0
+"758","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","ABIELAS",NA,NA,0,0
+"759","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","AMELALN",NA,NA,0,0
+"760","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","ARNILAT",NA,NA,0,0
+"761","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","CHAMANG","N","N",0.025,1
+"762","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","CHIMUMB",NA,NA,0,0
+"763","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","CLINUNI",NA,NA,0,0
+"764","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","CORNCAN",NA,NA,0,0
+"765","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","GOODOBL",NA,NA,0,0
+"766","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","HERAMAX",NA,NA,0,0
+"767","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","LINNBOR",NA,NA,0,0
+"768","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","LONIUTA",NA,NA,0,0
+"769","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","LUPIARC","N","N",2.65,1
+"770","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","ORTHSEC",NA,NA,0,0
+"771","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","PAXIMYR",NA,NA,0,0
+"772","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","PHLODIF","N","N",1.4,1
+"773","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","PICEENE",NA,NA,0,0
+"774","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","PINUCON",NA,NA,0,0
+"775","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","PSEUMEN",NA,NA,0,0
+"776","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","PYROASA",NA,NA,0,0
+"777","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","RHODALB",NA,NA,0,0
+"778","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","RIBEACE",NA,NA,0,0
+"779","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","RIBELAC",NA,NA,0,0
+"780","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","RUBUPAR",NA,NA,0,0
+"781","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","RUBUPED",NA,NA,0,0
+"782","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","SORBSCO",NA,NA,0,0
+"783","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","SORBSIT",NA,NA,0,0
+"784","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","SPIRLUC",NA,NA,0,0
+"785","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","THALOCC",NA,NA,0,0
+"786","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","THUJPLI",NA,NA,0,0
+"787","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","TIARTRI",NA,NA,0,0
+"788","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","TSUGHET",NA,NA,0,0
+"789","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","VACCMEM",NA,NA,0,0
+"790","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","VACCSCO","N","N",43.75,1
+"791","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","VALESIT",NA,NA,0,0
+"792","114792","Alpine2007_BEC",2228.038574,2025,"whm","High","VERAVIR",NA,NA,0,0
+"793","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","ABIEAMA",NA,NA,0,0
+"794","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","ABIELAS",NA,NA,0,0
+"795","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","AMELALN",NA,NA,0,0
+"796","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","ARNILAT",NA,NA,0,0
+"797","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","CHAMANG",NA,NA,0,0
+"798","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","CHIMUMB",NA,NA,0,0
+"799","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","CLINUNI",NA,NA,0,0
+"800","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","CORNCAN",NA,NA,0,0
+"801","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","GOODOBL",NA,NA,0,0
+"802","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","HERAMAX",NA,NA,0,0
+"803","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","LINNBOR",NA,NA,0,0
+"804","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","LONIUTA",NA,NA,0,0
+"805","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","LUPIARC","N","N",0.025,1
+"806","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","ORTHSEC",NA,NA,0,0
+"807","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","PAXIMYR",NA,NA,0,0
+"808","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","PHLODIF",NA,NA,0,0
+"809","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","PICEENE","N","N",3.25,1
+"810","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","PINUCON",NA,NA,0,0
+"811","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","PSEUMEN",NA,NA,0,0
+"812","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","PYROASA",NA,NA,0,0
+"813","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","RHODALB",NA,NA,0,0
+"814","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","RIBEACE",NA,NA,0,0
+"815","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","RIBELAC",NA,NA,0,0
+"816","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","RUBUPAR",NA,NA,0,0
+"817","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","RUBUPED",NA,NA,0,0
+"818","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","SORBSCO",NA,NA,0,0
+"819","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","SORBSIT",NA,NA,0,0
+"820","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","SPIRLUC",NA,NA,0,0
+"821","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","THALOCC",NA,NA,0,0
+"822","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","THUJPLI",NA,NA,0,0
+"823","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","TIARTRI",NA,NA,0,0
+"824","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","TSUGHET",NA,NA,0,0
+"825","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","VACCMEM",NA,NA,0,0
+"826","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","VACCSCO",NA,NA,0,0
+"827","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","VALESIT",NA,NA,0,0
+"828","114793","Alpine2007_BEC",2193.841553,2025,"whm","High","VERAVIR",NA,NA,0,0
+"829","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","ABIEAMA",NA,NA,0,0
+"830","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","ABIELAS","N","N",2,1
+"831","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","AMELALN",NA,NA,0,0
+"832","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","ARNILAT","N","N",3.75,1
+"833","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","CHAMANG",NA,NA,0,0
+"834","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","CHIMUMB",NA,NA,0,0
+"835","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","CLINUNI",NA,NA,0,0
+"836","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","CORNCAN",NA,NA,0,0
+"837","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","GOODOBL",NA,NA,0,0
+"838","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","HERAMAX",NA,NA,0,0
+"839","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","LINNBOR",NA,NA,0,0
+"840","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","LONIUTA",NA,NA,0,0
+"841","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","LUPIARC",NA,NA,0,0
+"842","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","ORTHSEC",NA,NA,0,0
+"843","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","PAXIMYR",NA,NA,0,0
+"844","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","PHLODIF",NA,NA,0,0
+"845","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","PICEENE","N","N",1.85,1
+"846","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","PINUCON",NA,NA,0,0
+"847","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","PSEUMEN",NA,NA,0,0
+"848","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","PYROASA",NA,NA,0,0
+"849","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","RHODALB","N","N",0.05,1
+"850","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","RIBEACE",NA,NA,0,0
+"851","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","RIBELAC",NA,NA,0,0
+"852","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","RUBUPAR",NA,NA,0,0
+"853","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","RUBUPED",NA,NA,0,0
+"854","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","SORBSCO",NA,NA,0,0
+"855","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","SORBSIT",NA,NA,0,0
+"856","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","SPIRLUC",NA,NA,0,0
+"857","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","THALOCC",NA,NA,0,0
+"858","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","THUJPLI",NA,NA,0,0
+"859","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","TIARTRI",NA,NA,0,0
+"860","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","TSUGHET",NA,NA,0,0
+"861","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","VACCMEM","N","N",0.275,1
+"862","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","VACCSCO","N","N",1.5,1
+"863","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","VALESIT","N","N",2.025,1
+"864","114794","Alpine2007_BEC",2138.398682,2025,"whm","High","VERAVIR","N","N",0.1,1
+"865","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","ABIEAMA",NA,NA,0,0
+"866","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","ABIELAS","N","N",6.875,1
+"867","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","AMELALN",NA,NA,0,0
+"868","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","ARNILAT","N","N",0.875,1
+"869","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","CHAMANG",NA,NA,0,0
+"870","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","CHIMUMB",NA,NA,0,0
+"871","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","CLINUNI",NA,NA,0,0
+"872","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","CORNCAN",NA,NA,0,0
+"873","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","GOODOBL",NA,NA,0,0
+"874","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","HERAMAX",NA,NA,0,0
+"875","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","LINNBOR",NA,NA,0,0
+"876","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","LONIUTA",NA,NA,0,0
+"877","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","LUPIARC","N","N",3.3,1
+"878","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","ORTHSEC",NA,NA,0,0
+"879","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","PAXIMYR",NA,NA,0,0
+"880","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","PHLODIF",NA,NA,0,0
+"881","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","PICEENE","N","N",21,1
+"882","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","PINUCON",NA,NA,0,0
+"883","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","PSEUMEN",NA,NA,0,0
+"884","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","PYROASA",NA,NA,0,0
+"885","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","RHODALB",NA,NA,0,0
+"886","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","RIBEACE",NA,NA,0,0
+"887","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","RIBELAC",NA,NA,0,0
+"888","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","RUBUPAR",NA,NA,0,0
+"889","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","RUBUPED",NA,NA,0,0
+"890","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","SORBSCO",NA,NA,0,0
+"891","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","SORBSIT",NA,NA,0,0
+"892","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","SPIRLUC",NA,NA,0,0
+"893","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","THALOCC",NA,NA,0,0
+"894","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","THUJPLI",NA,NA,0,0
+"895","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","TIARTRI",NA,NA,0,0
+"896","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","TSUGHET",NA,NA,0,0
+"897","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","VACCMEM","N","N",0.025,1
+"898","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","VACCSCO","N","N",1.175,1
+"899","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","VALESIT","N","N",0.025,1
+"900","114795","Alpine2007_BEC",2132.828125,2025,"whm","High","VERAVIR",NA,NA,0,0
+"901","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","ABIEAMA",NA,NA,0,0
+"902","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","ABIELAS",NA,NA,0,0
+"903","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","AMELALN",NA,NA,0,0
+"904","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","ARNILAT","N","N",1.825,1
+"905","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","CHAMANG",NA,NA,0,0
+"906","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","CHIMUMB",NA,NA,0,0
+"907","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","CLINUNI",NA,NA,0,0
+"908","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","CORNCAN",NA,NA,0,0
+"909","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","GOODOBL",NA,NA,0,0
+"910","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","HERAMAX","N","N",0.325,1
+"911","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","LINNBOR",NA,NA,0,0
+"912","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","LONIUTA",NA,NA,0,0
+"913","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","LUPIARC","N","N",18,1
+"914","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","ORTHSEC",NA,NA,0,0
+"915","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","PAXIMYR",NA,NA,0,0
+"916","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","PHLODIF","N","N",0.525,1
+"917","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","PICEENE",NA,NA,0,0
+"918","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","PINUCON",NA,NA,0,0
+"919","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","PSEUMEN",NA,NA,0,0
+"920","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","PYROASA",NA,NA,0,0
+"921","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","RHODALB",NA,NA,0,0
+"922","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","RIBEACE",NA,NA,0,0
+"923","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","RIBELAC",NA,NA,0,0
+"924","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","RUBUPAR",NA,NA,0,0
+"925","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","RUBUPED",NA,NA,0,0
+"926","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","SORBSCO",NA,NA,0,0
+"927","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","SORBSIT",NA,NA,0,0
+"928","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","SPIRLUC",NA,NA,0,0
+"929","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","THALOCC",NA,NA,0,0
+"930","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","THUJPLI",NA,NA,0,0
+"931","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","TIARTRI",NA,NA,0,0
+"932","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","TSUGHET",NA,NA,0,0
+"933","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","VACCMEM",NA,NA,0,0
+"934","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","VACCSCO",NA,NA,0,0
+"935","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","VALESIT","N","N",12.5,1
+"936","114796","Alpine2007_BEC",2089.561768,2025,"whm","High","VERAVIR","N","N",1.85,1
+"937","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","ABIEAMA",NA,NA,0,0
+"938","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","ABIELAS",NA,NA,0,0
+"939","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","AMELALN",NA,NA,0,0
+"940","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","ARNILAT","N","N",0.5,1
+"941","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","CHAMANG",NA,NA,0,0
+"942","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","CHIMUMB",NA,NA,0,0
+"943","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","CLINUNI",NA,NA,0,0
+"944","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","CORNCAN",NA,NA,0,0
+"945","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","GOODOBL",NA,NA,0,0
+"946","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","HERAMAX",NA,NA,0,0
+"947","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","LINNBOR",NA,NA,0,0
+"948","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","LONIUTA",NA,NA,0,0
+"949","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","LUPIARC",NA,NA,0,0
+"950","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","ORTHSEC",NA,NA,0,0
+"951","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","PAXIMYR",NA,NA,0,0
+"952","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","PHLODIF","N","N",0.6,1
+"953","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","PICEENE",NA,NA,0,0
+"954","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","PINUCON",NA,NA,0,0
+"955","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","PSEUMEN",NA,NA,0,0
+"956","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","PYROASA",NA,NA,0,0
+"957","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","RHODALB",NA,NA,0,0
+"958","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","RIBEACE",NA,NA,0,0
+"959","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","RIBELAC",NA,NA,0,0
+"960","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","RUBUPAR",NA,NA,0,0
+"961","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","RUBUPED",NA,NA,0,0
+"962","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","SORBSCO",NA,NA,0,0
+"963","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","SORBSIT",NA,NA,0,0
+"964","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","SPIRLUC",NA,NA,0,0
+"965","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","THALOCC","N","N",0.25,1
+"966","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","THUJPLI",NA,NA,0,0
+"967","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","TIARTRI",NA,NA,0,0
+"968","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","TSUGHET",NA,NA,0,0
+"969","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","VACCMEM",NA,NA,0,0
+"970","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","VACCSCO",NA,NA,0,0
+"971","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","VALESIT","N","N",0.1,1
+"972","114797","Alpine2007_BEC",2112.701904,2025,"whm","High","VERAVIR",NA,NA,0,0
+"973","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","ABIEAMA","N","N",0.8,1
+"974","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","ABIELAS","N","N",0.5,1
+"975","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","AMELALN","N","N",0.05,1
+"976","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","ARNILAT",NA,NA,0,0
+"977","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","CHAMANG",NA,NA,0,0
+"978","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","CHIMUMB","N","N",0.825,1
+"979","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","CLINUNI","N","N",1.075,1
+"980","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","CORNCAN","N","N",1.3,1
+"981","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","GOODOBL","N","N",0.175,1
+"982","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","HERAMAX",NA,NA,0,0
+"983","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","LINNBOR","N","N",1.2,1
+"984","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","LONIUTA",NA,NA,0,0
+"985","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","LUPIARC",NA,NA,0,0
+"986","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","ORTHSEC","N","N",0.825,1
+"987","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","PAXIMYR","N","N",4,1
+"988","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","PHLODIF",NA,NA,0,0
+"989","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","PICEENE","N","N",1.25,1
+"990","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","PINUCON",NA,NA,0,0
+"991","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","PSEUMEN","N","N",8.625,1
+"992","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","PYROASA","N","N",0.7,1
+"993","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","RHODALB","N","N",1.625,1
+"994","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","RIBEACE",NA,NA,0,0
+"995","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","RIBELAC",NA,NA,0,0
+"996","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","RUBUPAR",NA,NA,0,0
+"997","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","RUBUPED",NA,NA,0,0
+"998","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","SORBSCO",NA,NA,0,0
+"999","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","SORBSIT",NA,NA,0,0
+"1000","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","SPIRLUC","N","N",0.075,1
+"1001","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","THALOCC",NA,NA,0,0
+"1002","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","THUJPLI","N","N",16,1
+"1003","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","TIARTRI",NA,NA,0,0
+"1004","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","TSUGHET","N","N",69.5,1
+"1005","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","VACCMEM","N","N",6,1
+"1006","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","VACCSCO",NA,NA,0,0
+"1007","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","VALESIT",NA,NA,0,0
+"1008","12-1929","RCOBEC15",887.190186,2025,"MWR; SCS; HAK","High","VERAVIR",NA,NA,0,0
+"1009","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","ABIEAMA",NA,NA,0,0
+"1010","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","ABIELAS","Y","N",9.5,1
+"1011","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","AMELALN",NA,NA,0,0
+"1012","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","ARNILAT","Y","N",5,1
+"1013","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","CHAMANG","Y","N",0.15,1
+"1014","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","CHIMUMB",NA,NA,0,0
+"1015","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","CLINUNI",NA,NA,0,0
+"1016","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","CORNCAN",NA,NA,0,0
+"1017","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","GOODOBL","Y","N",0,1
+"1018","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","HERAMAX","Y","N",0,1
+"1019","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","LINNBOR",NA,NA,0,0
+"1020","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","LONIUTA",NA,NA,0,0
+"1021","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","LUPIARC","Y","N",3,1
+"1022","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","ORTHSEC","Y","N",0,1
+"1023","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","PAXIMYR",NA,NA,0,0
+"1024","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","PHLODIF",NA,NA,0,0
+"1025","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","PICEENE","Y","N",10.5,1
+"1026","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","PINUCON",NA,NA,0,0
+"1027","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","PSEUMEN",NA,NA,0,0
+"1028","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","PYROASA",NA,NA,0,0
+"1029","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","RHODALB",NA,NA,0,0
+"1030","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","RIBEACE",NA,NA,0,0
+"1031","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","RIBELAC",NA,NA,0,0
+"1032","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","RUBUPAR",NA,NA,0,0
+"1033","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","RUBUPED",NA,NA,0,0
+"1034","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","SORBSCO",NA,NA,0,0
+"1035","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","SORBSIT",NA,NA,0,0
+"1036","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","SPIRLUC",NA,NA,0,0
+"1037","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","THALOCC","Y","N",3.5,1
+"1038","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","THUJPLI",NA,NA,0,0
+"1039","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","TIARTRI",NA,NA,0,0
+"1040","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","TSUGHET",NA,NA,0,0
+"1041","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","VACCMEM",NA,NA,0,0
+"1042","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","VACCSCO","Y","N",0.35,1
+"1043","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","VALESIT","Y","N",26,1
+"1044","12-2000","BC Parks Manning TEM",1956.121094,2025,"EAC HAK GH","High","VERAVIR","Y","N",13,1
+"1045","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","ABIEAMA",NA,NA,0,0
+"1046","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","ABIELAS","Y","N",0.25,1
+"1047","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","AMELALN","Y","N",0.9,1
+"1048","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","ARNILAT",NA,NA,0,0
+"1049","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","CHAMANG","Y","N",47.5,1
+"1050","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","CHIMUMB",NA,NA,0,0
+"1051","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","CLINUNI","Y","N",0.4,1
+"1052","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","CORNCAN","Y","N",0.6,1
+"1053","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","GOODOBL",NA,NA,0,0
+"1054","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","HERAMAX",NA,NA,0,0
+"1055","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","LINNBOR","Y","N",1.7,1
+"1056","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","LONIUTA",NA,NA,0,0
+"1057","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","LUPIARC",NA,NA,0,0
+"1058","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","ORTHSEC",NA,NA,0,0
+"1059","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","PAXIMYR",NA,NA,0,0
+"1060","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","PHLODIF",NA,NA,0,0
+"1061","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","PICEENE",NA,NA,0,0
+"1062","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","PINUCON",NA,NA,0,0
+"1063","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","PSEUMEN",NA,NA,0,0
+"1064","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","PYROASA",NA,NA,0,0
+"1065","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","RHODALB",NA,NA,0,0
+"1066","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","RIBEACE",NA,NA,0,0
+"1067","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","RIBELAC","Y","N",1,1
+"1068","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","RUBUPAR","Y","N",9.5,1
+"1069","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","RUBUPED",NA,NA,0,0
+"1070","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","SORBSCO","Y","N",0,1
+"1071","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","SORBSIT",NA,NA,0,0
+"1072","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","SPIRLUC","Y","N",0.15,1
+"1073","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","THALOCC",NA,NA,0,0
+"1074","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","THUJPLI",NA,NA,0,0
+"1075","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","TIARTRI",NA,NA,0,0
+"1076","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","TSUGHET",NA,NA,0,0
+"1077","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","VACCMEM",NA,NA,0,0
+"1078","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","VACCSCO",NA,NA,0,0
+"1079","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","VALESIT",NA,NA,0,0
+"1080","14-4311","BC Parks Manning TEM",1130.973145,2025,"GH EAC MM","High","VERAVIR","Y","N",0.4,1
+"1081","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","ABIEAMA","Y","N",0.75,1
+"1082","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","ABIELAS","Y","N",34.5,1
+"1083","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","AMELALN",NA,NA,0,0
+"1084","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","ARNILAT","Y","N",3,1
+"1085","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","CHAMANG","Y","N",3.5,1
+"1086","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","CHIMUMB",NA,NA,0,0
+"1087","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","CLINUNI","Y","N",1.7,1
+"1088","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","CORNCAN",NA,NA,0,0
+"1089","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","GOODOBL","Y","N",0.15,1
+"1090","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","HERAMAX","Y","N",1,1
+"1091","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","LINNBOR",NA,NA,0,0
+"1092","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","LONIUTA","Y","N",13,1
+"1093","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","LUPIARC",NA,NA,0,0
+"1094","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","ORTHSEC","Y","N",0.55,1
+"1095","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","PAXIMYR","Y","N",7,1
+"1096","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","PHLODIF",NA,NA,0,0
+"1097","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","PICEENE","Y","N",3,1
+"1098","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","PINUCON",NA,NA,0,0
+"1099","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","PSEUMEN",NA,NA,0,0
+"1100","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","PYROASA","Y","N",0.85,1
+"1101","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","RHODALB","Y","N",4.5,1
+"1102","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","RIBEACE",NA,NA,0,0
+"1103","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","RIBELAC","Y","N",6.5,1
+"1104","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","RUBUPAR","Y","N",44,1
+"1105","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","RUBUPED","Y","N",5,1
+"1106","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","SORBSCO","Y","N",0.25,1
+"1107","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","SORBSIT","Y","N",0.5,1
+"1108","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","SPIRLUC",NA,NA,0,0
+"1109","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","THALOCC","Y","N",14,1
+"1110","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","THUJPLI",NA,NA,0,0
+"1111","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","TIARTRI","Y","N",2,1
+"1112","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","TSUGHET",NA,NA,0,0
+"1113","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","VACCMEM","Y","N",5.5,1
+"1114","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","VACCSCO","Y","N",1,1
+"1115","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","VALESIT","Y","N",29,1
+"1116","14-4316","BC Parks Manning TEM",1546.151611,2025,"GKH EAC","High","VERAVIR","Y","N",1.5,1
+"1117","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","ABIEAMA","Y","N",1.5,1
+"1118","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","ABIELAS","Y","N",27,1
+"1119","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","AMELALN","Y","N",1.5,1
+"1120","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","ARNILAT","Y","N",0.5,1
+"1121","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","CHAMANG","Y","N",0.1,1
+"1122","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","CHIMUMB","Y","N",0.3,1
+"1123","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","CLINUNI",NA,NA,0,0
+"1124","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","CORNCAN",NA,NA,0,0
+"1125","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","GOODOBL","Y","N",0.5,1
+"1126","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","HERAMAX",NA,NA,0,0
+"1127","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","LINNBOR",NA,NA,0,0
+"1128","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","LONIUTA","Y","N",1.5,1
+"1129","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","LUPIARC","Y","N",8.5,1
+"1130","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","ORTHSEC","Y","N",2,1
+"1131","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","PAXIMYR","Y","N",17,1
+"1132","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","PHLODIF",NA,NA,0,0
+"1133","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","PICEENE","Y","N",7.5,1
+"1134","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","PINUCON",NA,NA,0,0
+"1135","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","PSEUMEN","Y","N",3.5,1
+"1136","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","PYROASA",NA,NA,0,0
+"1137","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","RHODALB","Y","N",1,1
+"1138","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","RIBEACE",NA,NA,0,0
+"1139","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","RIBELAC",NA,NA,0,0
+"1140","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","RUBUPAR",NA,NA,0,0
+"1141","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","RUBUPED",NA,NA,0,0
+"1142","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","SORBSCO","Y","N",2.5,1
+"1143","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","SORBSIT",NA,NA,0,0
+"1144","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","SPIRLUC","Y","N",4.75,1
+"1145","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","THALOCC",NA,NA,0,0
+"1146","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","THUJPLI",NA,NA,0,0
+"1147","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","TIARTRI",NA,NA,0,0
+"1148","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","TSUGHET","Y","N",3.5,1
+"1149","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","VACCMEM","Y","N",11,1
+"1150","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","VACCSCO","Y","N",30,1
+"1151","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","VALESIT","Y","N",0.3,1
+"1152","14-4317","BC Parks Manning TEM",1554.978394,2025,"GKH EAC","High","VERAVIR",NA,NA,0,0
+"1153","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","ABIEAMA",NA,NA,0,0
+"1154","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","ABIELAS",NA,NA,0,0
+"1155","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","AMELALN",NA,NA,0,0
+"1156","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","ARNILAT",NA,NA,0,0
+"1157","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","CHAMANG",NA,NA,0,0
+"1158","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","CHIMUMB",NA,NA,0,0
+"1159","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","CLINUNI",NA,NA,0,0
+"1160","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","CORNCAN",NA,NA,0,0
+"1161","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","GOODOBL",NA,NA,0,0
+"1162","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","HERAMAX",NA,NA,0,0
+"1163","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","LINNBOR",NA,NA,0,0
+"1164","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","LONIUTA",NA,NA,0,0
+"1165","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","LUPIARC",NA,NA,0,0
+"1166","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","ORTHSEC",NA,NA,0,0
+"1167","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","PAXIMYR","Y","N",0.25,1
+"1168","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","PHLODIF","Y","N",0.65,1
+"1169","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","PICEENE",NA,NA,0,0
+"1170","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","PINUCON",NA,NA,0,0
+"1171","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","PSEUMEN",NA,NA,0,0
+"1172","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","PYROASA",NA,NA,0,0
+"1173","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","RHODALB",NA,NA,0,0
+"1174","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","RIBEACE",NA,NA,0,0
+"1175","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","RIBELAC",NA,NA,0,0
+"1176","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","RUBUPAR",NA,NA,0,0
+"1177","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","RUBUPED",NA,NA,0,0
+"1178","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","SORBSCO",NA,NA,0,0
+"1179","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","SORBSIT",NA,NA,0,0
+"1180","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","SPIRLUC","Y","N",0,1
+"1181","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","THALOCC",NA,NA,0,0
+"1182","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","THUJPLI",NA,NA,0,0
+"1183","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","TIARTRI",NA,NA,0,0
+"1184","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","TSUGHET",NA,NA,0,0
+"1185","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","VACCMEM",NA,NA,0,0
+"1186","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","VACCSCO",NA,NA,0,0
+"1187","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","VALESIT",NA,NA,0,0
+"1188","14-4320","BC Parks Manning TEM",1819.606201,2025,"DSF EAC GH","High","VERAVIR",NA,NA,0,0
+"1189","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","ABIEAMA",NA,NA,0,0
+"1190","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","ABIELAS","Y","N",7.5,1
+"1191","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","AMELALN",NA,NA,0,0
+"1192","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","ARNILAT","Y","N",0.15,1
+"1193","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","CHAMANG",NA,NA,0,0
+"1194","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","CHIMUMB",NA,NA,0,0
+"1195","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","CLINUNI",NA,NA,0,0
+"1196","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","CORNCAN",NA,NA,0,0
+"1197","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","GOODOBL",NA,NA,0,0
+"1198","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","HERAMAX",NA,NA,0,0
+"1199","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","LINNBOR",NA,NA,0,0
+"1200","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","LONIUTA",NA,NA,0,0
+"1201","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","LUPIARC",NA,NA,0,0
+"1202","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","ORTHSEC",NA,NA,0,0
+"1203","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","PAXIMYR",NA,NA,0,0
+"1204","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","PHLODIF","Y","N",11.5,1
+"1205","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","PICEENE",NA,NA,0,0
+"1206","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","PINUCON",NA,NA,0,0
+"1207","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","PSEUMEN",NA,NA,0,0
+"1208","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","PYROASA",NA,NA,0,0
+"1209","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","RHODALB",NA,NA,0,0
+"1210","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","RIBEACE",NA,NA,0,0
+"1211","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","RIBELAC",NA,NA,0,0
+"1212","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","RUBUPAR",NA,NA,0,0
+"1213","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","RUBUPED",NA,NA,0,0
+"1214","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","SORBSCO",NA,NA,0,0
+"1215","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","SORBSIT",NA,NA,0,0
+"1216","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","SPIRLUC",NA,NA,0,0
+"1217","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","THALOCC","Y","N",0.2,1
+"1218","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","THUJPLI",NA,NA,0,0
+"1219","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","TIARTRI",NA,NA,0,0
+"1220","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","TSUGHET",NA,NA,0,0
+"1221","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","VACCMEM",NA,NA,0,0
+"1222","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","VACCSCO","Y","N",12,1
+"1223","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","VALESIT","Y","N",3.65,1
+"1224","14-4386","BC Parks Manning TEM",1994.03418,2025,"WHM EAC RJC BDH","Med-High","VERAVIR",NA,NA,0,0
+"1225","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","ABIEAMA",NA,NA,0,0
+"1226","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","ABIELAS","Y","N",5,1
+"1227","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","AMELALN",NA,NA,0,0
+"1228","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","ARNILAT","Y","N",0.5,1
+"1229","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","CHAMANG","Y","N",0.15,1
+"1230","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","CHIMUMB",NA,NA,0,0
+"1231","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","CLINUNI",NA,NA,0,0
+"1232","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","CORNCAN",NA,NA,0,0
+"1233","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","GOODOBL",NA,NA,0,0
+"1234","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","HERAMAX",NA,NA,0,0
+"1235","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","LINNBOR",NA,NA,0,0
+"1236","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","LONIUTA",NA,NA,0,0
+"1237","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","LUPIARC","Y","N",0.75,1
+"1238","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","ORTHSEC",NA,NA,0,0
+"1239","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","PAXIMYR","Y","N",14,1
+"1240","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","PHLODIF","Y","N",6,1
+"1241","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","PICEENE","Y","N",4,1
+"1242","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","PINUCON",NA,NA,0,0
+"1243","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","PSEUMEN",NA,NA,0,0
+"1244","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","PYROASA",NA,NA,0,0
+"1245","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","RHODALB",NA,NA,0,0
+"1246","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","RIBEACE",NA,NA,0,0
+"1247","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","RIBELAC",NA,NA,0,0
+"1248","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","RUBUPAR",NA,NA,0,0
+"1249","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","RUBUPED",NA,NA,0,0
+"1250","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","SORBSCO",NA,NA,0,0
+"1251","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","SORBSIT",NA,NA,0,0
+"1252","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","SPIRLUC",NA,NA,0,0
+"1253","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","THALOCC",NA,NA,0,0
+"1254","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","THUJPLI",NA,NA,0,0
+"1255","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","TIARTRI",NA,NA,0,0
+"1256","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","TSUGHET",NA,NA,0,0
+"1257","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","VACCMEM",NA,NA,0,0
+"1258","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","VACCSCO","Y","N",0.5,1
+"1259","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","VALESIT",NA,NA,0,0
+"1260","14-4387","BC Parks Manning TEM",1950.674438,2025,"WHM EAC BDH RJC","High","VERAVIR",NA,NA,0,0
+"1261","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","ABIEAMA",NA,NA,0,0
+"1262","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","ABIELAS",NA,NA,0,0
+"1263","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","AMELALN","Y","N",1.5,1
+"1264","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","ARNILAT",NA,NA,0,0
+"1265","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","CHAMANG",NA,NA,0,0
+"1266","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","CHIMUMB",NA,NA,0,0
+"1267","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","CLINUNI",NA,NA,0,0
+"1268","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","CORNCAN",NA,NA,0,0
+"1269","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","GOODOBL","Y","N",0.05,1
+"1270","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","HERAMAX",NA,NA,0,0
+"1271","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","LINNBOR",NA,NA,0,0
+"1272","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","LONIUTA","Y","N",2.1,1
+"1273","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","LUPIARC",NA,NA,0,0
+"1274","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","ORTHSEC",NA,NA,0,0
+"1275","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","PAXIMYR","Y","N",21,1
+"1276","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","PHLODIF","Y","N",0.25,1
+"1277","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","PICEENE",NA,NA,0,0
+"1278","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","PINUCON","Y","N",2,1
+"1279","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","PSEUMEN","Y","N",22.5,1
+"1280","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","PYROASA",NA,NA,0,0
+"1281","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","RHODALB",NA,NA,0,0
+"1282","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","RIBEACE",NA,NA,0,0
+"1283","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","RIBELAC",NA,NA,0,0
+"1284","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","RUBUPAR",NA,NA,0,0
+"1285","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","RUBUPED",NA,NA,0,0
+"1286","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","SORBSCO","Y","N",0.5,1
+"1287","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","SORBSIT",NA,NA,0,0
+"1288","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","SPIRLUC","Y","N",6,1
+"1289","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","THALOCC",NA,NA,0,0
+"1290","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","THUJPLI",NA,NA,0,0
+"1291","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","TIARTRI",NA,NA,0,0
+"1292","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","TSUGHET",NA,NA,0,0
+"1293","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","VACCMEM",NA,NA,0,0
+"1294","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","VACCSCO",NA,NA,0,0
+"1295","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","VALESIT",NA,NA,0,0
+"1296","14-4388","BC Parks Manning TEM",1617.820679,2025,"WHM EAC RJC BDH","High","VERAVIR",NA,NA,0,0
+"1297","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","ABIEAMA",NA,NA,0,0
+"1298","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","ABIELAS",NA,NA,0,0
+"1299","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","AMELALN","N","N",3.425,1
+"1300","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","ARNILAT","N","N",0.125,1
+"1301","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","CHAMANG",NA,NA,0,0
+"1302","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","CHIMUMB","N","N",0.675,1
+"1303","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","CLINUNI","N","N",12.75,1
+"1304","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","CORNCAN",NA,NA,0,0
+"1305","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","GOODOBL","N","N",0.525,1
+"1306","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","HERAMAX",NA,NA,0,0
+"1307","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","LINNBOR","N","N",10.5,1
+"1308","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","LONIUTA",NA,NA,0,0
+"1309","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","LUPIARC",NA,NA,0,0
+"1310","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","ORTHSEC","N","N",0.275,1
+"1311","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","PAXIMYR","N","N",0.125,1
+"1312","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","PHLODIF",NA,NA,0,0
+"1313","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","PICEENE",NA,NA,0,0
+"1314","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","PINUCON",NA,NA,0,0
+"1315","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","PSEUMEN","N","N",12.25,1
+"1316","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","PYROASA","N","N",1.1,1
+"1317","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","RHODALB","N","N",0.075,1
+"1318","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","RIBEACE",NA,NA,0,0
+"1319","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","RIBELAC","N","N",1.45,1
+"1320","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","RUBUPAR","N","N",0.325,1
+"1321","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","RUBUPED","N","N",0.675,1
+"1322","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","SORBSCO","N","N",1.5,1
+"1323","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","SORBSIT",NA,NA,0,0
+"1324","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","SPIRLUC",NA,NA,0,0
+"1325","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","THALOCC",NA,NA,0,0
+"1326","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","THUJPLI","N","N",52.875,1
+"1327","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","TIARTRI","N","N",4.9,1
+"1328","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","TSUGHET","N","N",12.375,1
+"1329","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","VACCMEM","N","N",0.5,1
+"1330","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","VACCSCO",NA,NA,0,0
+"1331","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","VALESIT",NA,NA,0,0
+"1332","35079","BEC-Vancouver",736.891357,2025,NA,"Med-High","VERAVIR",NA,NA,0,0
+"1333","35179","BEC-Vancouver",1246.216553,2025,NA,"High","ABIEAMA","N","N",0.25,1
+"1334","35179","BEC-Vancouver",1246.216553,2025,NA,"High","ABIELAS","N","N",7.125,1
+"1335","35179","BEC-Vancouver",1246.216553,2025,NA,"High","AMELALN","N","N",0.475,1
+"1336","35179","BEC-Vancouver",1246.216553,2025,NA,"High","ARNILAT","N","N",0.025,1
+"1337","35179","BEC-Vancouver",1246.216553,2025,NA,"High","CHAMANG","N","N",0.025,1
+"1338","35179","BEC-Vancouver",1246.216553,2025,NA,"High","CHIMUMB","N","N",0.125,1
+"1339","35179","BEC-Vancouver",1246.216553,2025,NA,"High","CLINUNI","N","N",5.5,1
+"1340","35179","BEC-Vancouver",1246.216553,2025,NA,"High","CORNCAN","N","N",3.5,1
+"1341","35179","BEC-Vancouver",1246.216553,2025,NA,"High","GOODOBL","N","N",0.25,1
+"1342","35179","BEC-Vancouver",1246.216553,2025,NA,"High","HERAMAX",NA,NA,0,0
+"1343","35179","BEC-Vancouver",1246.216553,2025,NA,"High","LINNBOR","N","N",3.25,1
+"1344","35179","BEC-Vancouver",1246.216553,2025,NA,"High","LONIUTA","N","N",11.25,1
+"1345","35179","BEC-Vancouver",1246.216553,2025,NA,"High","LUPIARC","N","N",3.2,1
+"1346","35179","BEC-Vancouver",1246.216553,2025,NA,"High","ORTHSEC","N","N",0.2,1
+"1347","35179","BEC-Vancouver",1246.216553,2025,NA,"High","PAXIMYR","N","N",33,1
+"1348","35179","BEC-Vancouver",1246.216553,2025,NA,"High","PHLODIF",NA,NA,0,0
+"1349","35179","BEC-Vancouver",1246.216553,2025,NA,"High","PICEENE","N","N",15.5,1
+"1350","35179","BEC-Vancouver",1246.216553,2025,NA,"High","PINUCON",NA,NA,0,0
+"1351","35179","BEC-Vancouver",1246.216553,2025,NA,"High","PSEUMEN",NA,NA,0,0
+"1352","35179","BEC-Vancouver",1246.216553,2025,NA,"High","PYROASA","N","N",0.025,1
+"1353","35179","BEC-Vancouver",1246.216553,2025,NA,"High","RHODALB","N","N",2.25,1
+"1354","35179","BEC-Vancouver",1246.216553,2025,NA,"High","RIBEACE",NA,NA,0,0
+"1355","35179","BEC-Vancouver",1246.216553,2025,NA,"High","RIBELAC","N","N",2.5,1
+"1356","35179","BEC-Vancouver",1246.216553,2025,NA,"High","RUBUPAR","N","N",1,1
+"1357","35179","BEC-Vancouver",1246.216553,2025,NA,"High","RUBUPED","N","N",0.5,1
+"1358","35179","BEC-Vancouver",1246.216553,2025,NA,"High","SORBSCO","N","N",0.15,1
+"1359","35179","BEC-Vancouver",1246.216553,2025,NA,"High","SORBSIT","N","N",0.175,1
+"1360","35179","BEC-Vancouver",1246.216553,2025,NA,"High","SPIRLUC",NA,NA,0,0
+"1361","35179","BEC-Vancouver",1246.216553,2025,NA,"High","THALOCC","N","N",0.2,1
+"1362","35179","BEC-Vancouver",1246.216553,2025,NA,"High","THUJPLI",NA,NA,0,0
+"1363","35179","BEC-Vancouver",1246.216553,2025,NA,"High","TIARTRI","N","N",0.15,1
+"1364","35179","BEC-Vancouver",1246.216553,2025,NA,"High","TSUGHET","N","N",1.75,1
+"1365","35179","BEC-Vancouver",1246.216553,2025,NA,"High","VACCMEM","N","N",15.5,1
+"1366","35179","BEC-Vancouver",1246.216553,2025,NA,"High","VACCSCO","N","N",1.525,1
+"1367","35179","BEC-Vancouver",1246.216553,2025,NA,"High","VALESIT","N","N",0.8,1
+"1368","35179","BEC-Vancouver",1246.216553,2025,NA,"High","VERAVIR",NA,NA,0,0
+"1369","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","ABIEAMA","N","N",13.5,1
+"1370","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","ABIELAS","N","N",22.5,1
+"1371","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","AMELALN","N","N",0.5,1
+"1372","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","ARNILAT",NA,NA,0,0
+"1373","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","CHAMANG",NA,NA,0,0
+"1374","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","CHIMUMB","N","N",0.075,1
+"1375","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","CLINUNI","N","N",5.5,1
+"1376","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","CORNCAN","N","N",9.75,1
+"1377","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","GOODOBL","N","N",0.175,1
+"1378","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","HERAMAX",NA,NA,0,0
+"1379","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","LINNBOR","N","N",0.3,1
+"1380","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","LONIUTA","N","N",4.25,1
+"1381","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","LUPIARC",NA,NA,0,0
+"1382","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","ORTHSEC","N","N",0.2,1
+"1383","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","PAXIMYR","N","N",31.3,1
+"1384","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","PHLODIF",NA,NA,0,0
+"1385","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","PICEENE","N","N",19,1
+"1386","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","PINUCON",NA,NA,0,0
+"1387","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","PSEUMEN",NA,NA,0,0
+"1388","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","PYROASA","N","N",0.125,1
+"1389","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","RHODALB",NA,NA,0,0
+"1390","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","RIBEACE",NA,NA,0,0
+"1391","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","RIBELAC","N","N",1.625,1
+"1392","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","RUBUPAR","N","N",3.5,1
+"1393","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","RUBUPED","N","N",1.35,1
+"1394","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","SORBSCO","N","N",0.05,1
+"1395","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","SORBSIT",NA,NA,0,0
+"1396","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","SPIRLUC","N","N",0.275,1
+"1397","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","THALOCC","N","N",0.25,1
+"1398","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","THUJPLI",NA,NA,0,0
+"1399","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","TIARTRI","N","N",0.2,1
+"1400","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","TSUGHET","N","N",10,1
+"1401","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","VACCMEM","N","N",3.5,1
+"1402","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","VACCSCO","N","N",0.025,1
+"1403","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","VALESIT","N","N",0.033333333,1
+"1404","35379","BEC-Vancouver",1251.628296,2025,NA,"Low","VERAVIR",NA,NA,0,0
+"1405","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","ABIEAMA","N","N",0.1,1
+"1406","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","ABIELAS","N","N",31.625,1
+"1407","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","AMELALN","N","N",2,1
+"1408","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","ARNILAT","N","N",7,1
+"1409","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","CHAMANG","N","N",0.125,1
+"1410","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","CHIMUMB","N","N",0.325,1
+"1411","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","CLINUNI","N","N",13.5,1
+"1412","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","CORNCAN","N","N",6.525,1
+"1413","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","GOODOBL","N","N",1.1,1
+"1414","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","HERAMAX",NA,NA,0,0
+"1415","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","LINNBOR",NA,NA,0,0
+"1416","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","LONIUTA","N","N",2,1
+"1417","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","LUPIARC","N","N",0.025,1
+"1418","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","ORTHSEC","N","N",1.875,1
+"1419","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","PAXIMYR","N","N",7.275,1
+"1420","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","PHLODIF",NA,NA,0,0
+"1421","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","PICEENE","N","N",32.4,1
+"1422","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","PINUCON","N","N",1.25,1
+"1423","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","PSEUMEN",NA,NA,0,0
+"1424","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","PYROASA","N","N",0.05,1
+"1425","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","RHODALB","N","N",1.375,1
+"1426","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","RIBEACE",NA,NA,0,0
+"1427","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","RIBELAC","N","N",0.25,1
+"1428","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","RUBUPAR",NA,NA,0,0
+"1429","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","RUBUPED","N","N",2.8,1
+"1430","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","SORBSCO","N","N",0.15,1
+"1431","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","SORBSIT","N","N",0.15,1
+"1432","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","SPIRLUC",NA,NA,0,0
+"1433","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","THALOCC","N","N",0.55,1
+"1434","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","THUJPLI",NA,NA,0,0
+"1435","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","TIARTRI",NA,NA,0,0
+"1436","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","TSUGHET",NA,NA,0,0
+"1437","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","VACCMEM",NA,NA,0,0
+"1438","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","VACCSCO","N","N",6,1
+"1439","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","VALESIT","N","N",6.25,1
+"1440","MP 287","BEC-Vancouver",1339.150269,2025,NA,"Med","VERAVIR",NA,NA,0,0
+"1441","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","ABIEAMA",NA,NA,0,0
+"1442","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","ABIELAS","N","N",15.5,1
+"1443","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","AMELALN",NA,NA,0,0
+"1444","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","ARNILAT","N","N",3.5,1
+"1445","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","CHAMANG","N","N",1,1
+"1446","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","CHIMUMB",NA,NA,0,0
+"1447","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","CLINUNI","N","N",2,1
+"1448","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","CORNCAN","N","N",2,1
+"1449","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","GOODOBL",NA,NA,0,0
+"1450","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","HERAMAX",NA,NA,0,0
+"1451","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","LINNBOR",NA,NA,0,0
+"1452","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","LONIUTA","N","N",1.875,1
+"1453","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","LUPIARC",NA,NA,0,0
+"1454","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","ORTHSEC",NA,NA,0,0
+"1455","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","PAXIMYR","N","N",2.75,1
+"1456","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","PHLODIF",NA,NA,0,0
+"1457","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","PICEENE","N","N",37.5,1
+"1458","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","PINUCON",NA,NA,0,0
+"1459","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","PSEUMEN",NA,NA,0,0
+"1460","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","PYROASA",NA,NA,0,0
+"1461","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","RHODALB","N","N",1.25,1
+"1462","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","RIBEACE","N","N",3.25,1
+"1463","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","RIBELAC","N","N",6.575,1
+"1464","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","RUBUPAR",NA,NA,0,0
+"1465","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","RUBUPED","N","N",2.75,1
+"1466","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","SORBSCO","N","N",0.95,1
+"1467","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","SORBSIT","N","N",0.075,1
+"1468","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","SPIRLUC",NA,NA,0,0
+"1469","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","THALOCC","N","N",2.75,1
+"1470","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","THUJPLI",NA,NA,0,0
+"1471","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","TIARTRI","N","N",0.55,1
+"1472","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","TSUGHET",NA,NA,0,0
+"1473","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","VACCMEM","N","N",9.25,1
+"1474","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","VACCSCO","N","N",0.825,1
+"1475","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","VALESIT","N","N",8,1
+"1476","MP 288","BEC-Vancouver",1346.288208,2025,NA,"Med","VERAVIR","N","N",1.35,1
+"1477","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","ABIEAMA",NA,NA,0,0
+"1478","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","ABIELAS","N","N",4.625,1
+"1479","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","AMELALN","N","N",3.25,1
+"1480","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","ARNILAT",NA,NA,0,0
+"1481","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","CHAMANG","N","N",0.075,1
+"1482","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","CHIMUMB","N","N",1.025,1
+"1483","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","CLINUNI",NA,NA,0,0
+"1484","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","CORNCAN",NA,NA,0,0
+"1485","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","GOODOBL","N","N",0.3,1
+"1486","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","HERAMAX",NA,NA,0,0
+"1487","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","LINNBOR",NA,NA,0,0
+"1488","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","LONIUTA","N","N",2.75,1
+"1489","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","LUPIARC","N","N",0.35,1
+"1490","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","ORTHSEC","N","N",0.8,1
+"1491","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","PAXIMYR","N","N",50,1
+"1492","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","PHLODIF",NA,NA,0,0
+"1493","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","PICEENE","N","N",1.875,1
+"1494","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","PINUCON",NA,NA,0,0
+"1495","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","PSEUMEN","N","N",33,1
+"1496","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","PYROASA","N","N",0.1,1
+"1497","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","RHODALB",NA,NA,0,0
+"1498","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","RIBEACE",NA,NA,0,0
+"1499","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","RIBELAC",NA,NA,0,0
+"1500","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","RUBUPAR","N","N",4.25,1
+"1501","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","RUBUPED",NA,NA,0,0
+"1502","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","SORBSCO","N","N",0.025,1
+"1503","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","SORBSIT",NA,NA,0,0
+"1504","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","SPIRLUC","N","N",4.175,1
+"1505","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","THALOCC",NA,NA,0,0
+"1506","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","THUJPLI",NA,NA,0,0
+"1507","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","TIARTRI",NA,NA,0,0
+"1508","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","TSUGHET","N","N",0.5,1
+"1509","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","VACCMEM","N","N",0.525,1
+"1510","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","VACCSCO","N","N",2.5,1
+"1511","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","VALESIT",NA,NA,0,0
+"1512","MP 291","BEC-Vancouver",1289.884155,2025,NA,"Med-High","VERAVIR",NA,NA,0,0
+"1513","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","ABIEAMA",NA,NA,0,0
+"1514","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","ABIELAS","N","N",1.75,1
+"1515","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","AMELALN","N","N",3.25,1
+"1516","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","ARNILAT",NA,NA,0,0
+"1517","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","CHAMANG","N","N",0.075,1
+"1518","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","CHIMUMB",NA,NA,0,0
+"1519","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","CLINUNI",NA,NA,0,0
+"1520","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","CORNCAN",NA,NA,0,0
+"1521","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","GOODOBL",NA,NA,0,0
+"1522","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","HERAMAX",NA,NA,0,0
+"1523","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","LINNBOR",NA,NA,0,0
+"1524","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","LONIUTA","N","N",2.25,1
+"1525","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","LUPIARC","N","N",2.65,1
+"1526","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","ORTHSEC","N","N",0.15,1
+"1527","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","PAXIMYR","N","N",10.5,1
+"1528","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","PHLODIF","N","N",0.3,1
+"1529","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","PICEENE","N","N",3.5,1
+"1530","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","PINUCON","N","N",8.125,1
+"1531","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","PSEUMEN","N","N",8.25,1
+"1532","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","PYROASA",NA,NA,0,0
+"1533","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","RHODALB",NA,NA,0,0
+"1534","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","RIBEACE",NA,NA,0,0
+"1535","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","RIBELAC",NA,NA,0,0
+"1536","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","RUBUPAR",NA,NA,0,0
+"1537","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","RUBUPED",NA,NA,0,0
+"1538","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","SORBSCO",NA,NA,0,0
+"1539","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","SORBSIT",NA,NA,0,0
+"1540","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","SPIRLUC","N","N",2,1
+"1541","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","THALOCC",NA,NA,0,0
+"1542","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","THUJPLI",NA,NA,0,0
+"1543","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","TIARTRI",NA,NA,0,0
+"1544","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","TSUGHET",NA,NA,0,0
+"1545","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","VACCMEM","N","N",5,1
+"1546","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","VACCSCO","N","N",1.25,1
+"1547","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","VALESIT",NA,NA,0,0
+"1548","MP 294","BEC-Vancouver",1429.303345,2025,NA,"High","VERAVIR",NA,NA,0,0
+"1549","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","ABIEAMA","N","N",1.75,1
+"1550","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","ABIELAS","N","N",14.25,1
+"1551","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","AMELALN",NA,NA,0,0
+"1552","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","ARNILAT","N","N",15.5,1
+"1553","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","CHAMANG",NA,NA,0,0
+"1554","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","CHIMUMB",NA,NA,0,0
+"1555","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","CLINUNI",NA,NA,0,0
+"1556","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","CORNCAN","N","N",28.5,1
+"1557","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","GOODOBL","N","N",0.075,1
+"1558","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","HERAMAX",NA,NA,0,0
+"1559","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","LINNBOR",NA,NA,0,0
+"1560","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","LONIUTA","N","N",2.55,1
+"1561","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","LUPIARC","N","N",0.1,1
+"1562","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","ORTHSEC","N","N",0.475,1
+"1563","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","PAXIMYR","N","N",12.5,1
+"1564","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","PHLODIF",NA,NA,0,0
+"1565","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","PICEENE","N","N",18.5,1
+"1566","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","PINUCON",NA,NA,0,0
+"1567","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","PSEUMEN",NA,NA,0,0
+"1568","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","PYROASA","N","N",0.1,1
+"1569","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","RHODALB","N","N",1.5,1
+"1570","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","RIBEACE",NA,NA,0,0
+"1571","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","RIBELAC","N","N",3.625,1
+"1572","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","RUBUPAR","N","N",0.5,1
+"1573","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","RUBUPED","N","N",4.5,1
+"1574","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","SORBSCO","N","N",0.725,1
+"1575","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","SORBSIT","N","N",0.25,1
+"1576","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","SPIRLUC","N","N",0.35,1
+"1577","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","THALOCC","N","N",0.9,1
+"1578","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","THUJPLI",NA,NA,0,0
+"1579","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","TIARTRI","N","N",1.9,1
+"1580","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","TSUGHET","N","N",2.5,1
+"1581","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","VACCMEM","N","N",16.75,1
+"1582","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","VACCSCO","N","N",0.6,1
+"1583","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","VALESIT","N","N",2.25,1
+"1584","MP 295","BEC-Vancouver",1354.060669,2025,NA,"Med-High","VERAVIR",NA,NA,0,0
+"1585","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","ABIEAMA","N","N",0.75,1
+"1586","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","ABIELAS","N","N",15.625,1
+"1587","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","AMELALN",NA,NA,0,0
+"1588","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","ARNILAT","N","N",6,1
+"1589","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","CHAMANG",NA,NA,0,0
+"1590","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","CHIMUMB","N","N",0.175,1
+"1591","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","CLINUNI","N","N",7.75,1
+"1592","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","CORNCAN","N","N",1.75,1
+"1593","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","GOODOBL","N","N",0.175,1
+"1594","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","HERAMAX","N","N",0.225,1
+"1595","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","LINNBOR",NA,NA,0,0
+"1596","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","LONIUTA","N","N",0.333333333,1
+"1597","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","LUPIARC","N","N",0.175,1
+"1598","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","ORTHSEC","N","N",0.5,1
+"1599","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","PAXIMYR","N","N",8.333333333,1
+"1600","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","PHLODIF",NA,NA,0,0
+"1601","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","PICEENE","N","N",15.75,1
+"1602","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","PINUCON","N","N",1,1
+"1603","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","PSEUMEN",NA,NA,0,0
+"1604","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","PYROASA","N","N",0.225,1
+"1605","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","RHODALB","N","N",0.166666667,1
+"1606","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","RIBEACE",NA,NA,0,0
+"1607","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","RIBELAC","N","N",0.9,1
+"1608","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","RUBUPAR","N","N",12.66666667,1
+"1609","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","RUBUPED","N","N",1.35,1
+"1610","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","SORBSCO",NA,NA,0,0
+"1611","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","SORBSIT",NA,NA,0,0
+"1612","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","SPIRLUC","N","N",0.666666667,1
+"1613","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","THALOCC","N","N",0.775,1
+"1614","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","THUJPLI",NA,NA,0,0
+"1615","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","TIARTRI","N","N",2,1
+"1616","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","TSUGHET",NA,NA,0,0
+"1617","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","VACCMEM","N","N",4.666666667,1
+"1618","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","VACCSCO","N","N",0.666666667,1
+"1619","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","VALESIT","N","N",4.75,1
+"1620","MP 296","BEC-Vancouver",1369.736206,2025,NA,"Med-High","VERAVIR",NA,NA,0,0
+"1621","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIEAMA","N","N",0.5,1
+"1622","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIELAS",NA,NA,0,0
+"1623","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","AMELALN",NA,NA,0,0
+"1624","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ARNILAT",NA,NA,0,0
+"1625","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHAMANG",NA,NA,0,0
+"1626","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHIMUMB","N","N",1.55,1
+"1627","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CLINUNI",NA,NA,0,0
+"1628","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CORNCAN",NA,NA,0,0
+"1629","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","GOODOBL","N","N",0.3,1
+"1630","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","HERAMAX",NA,NA,0,0
+"1631","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LINNBOR","N","N",1.9,1
+"1632","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LONIUTA",NA,NA,0,0
+"1633","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LUPIARC",NA,NA,0,0
+"1634","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ORTHSEC","N","N",0.075,1
+"1635","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PAXIMYR","N","N",0.5,1
+"1636","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PHLODIF",NA,NA,0,0
+"1637","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PICEENE",NA,NA,0,0
+"1638","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PINUCON","N","N",2.5,1
+"1639","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PSEUMEN","N","N",48.5,1
+"1640","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PYROASA","N","N",0.275,1
+"1641","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RHODALB",NA,NA,0,0
+"1642","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBEACE",NA,NA,0,0
+"1643","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBELAC",NA,NA,0,0
+"1644","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPAR",NA,NA,0,0
+"1645","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPED",NA,NA,0,0
+"1646","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSCO",NA,NA,0,0
+"1647","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSIT",NA,NA,0,0
+"1648","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SPIRLUC",NA,NA,0,0
+"1649","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THALOCC",NA,NA,0,0
+"1650","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THUJPLI","N","N",14.75,1
+"1651","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TIARTRI",NA,NA,0,0
+"1652","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TSUGHET","N","N",12.5,1
+"1653","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCMEM","N","N",0.15,1
+"1654","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCSCO",NA,NA,0,0
+"1655","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VALESIT",NA,NA,0,0
+"1656","SK93710","Skagit Rhodo. Comm.",701.248169,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VERAVIR",NA,NA,0,0
+"1657","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIEAMA","N","N",2.916666667,1
+"1658","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIELAS",NA,NA,0,0
+"1659","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","AMELALN",NA,NA,0,0
+"1660","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ARNILAT",NA,NA,0,0
+"1661","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHAMANG",NA,NA,0,0
+"1662","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHIMUMB","N","N",1.25,1
+"1663","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CLINUNI",NA,NA,0,0
+"1664","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CORNCAN",NA,NA,0,0
+"1665","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","GOODOBL","N","N",0.4,1
+"1666","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","HERAMAX",NA,NA,0,0
+"1667","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LINNBOR","N","N",5.75,1
+"1668","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LONIUTA","N","N",0.075,1
+"1669","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LUPIARC",NA,NA,0,0
+"1670","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ORTHSEC","N","N",0.15,1
+"1671","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PAXIMYR","N","N",0.775,1
+"1672","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PHLODIF",NA,NA,0,0
+"1673","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PICEENE",NA,NA,0,0
+"1674","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PINUCON",NA,NA,0,0
+"1675","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PSEUMEN","N","N",41,1
+"1676","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PYROASA","N","N",0.125,1
+"1677","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RHODALB",NA,NA,0,0
+"1678","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBEACE",NA,NA,0,0
+"1679","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBELAC",NA,NA,0,0
+"1680","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPAR",NA,NA,0,0
+"1681","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPED",NA,NA,0,0
+"1682","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSCO",NA,NA,0,0
+"1683","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSIT","N","N",0.175,1
+"1684","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SPIRLUC",NA,NA,0,0
+"1685","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THALOCC",NA,NA,0,0
+"1686","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THUJPLI","N","N",1.125,1
+"1687","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TIARTRI",NA,NA,0,0
+"1688","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TSUGHET","N","N",19.375,1
+"1689","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCMEM","N","N",0.6,1
+"1690","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCSCO",NA,NA,0,0
+"1691","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VALESIT",NA,NA,0,0
+"1692","SK93711","Skagit Rhodo. Comm.",692.169373,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VERAVIR",NA,NA,0,0
+"1693","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIEAMA",NA,NA,0,0
+"1694","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIELAS",NA,NA,0,0
+"1695","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","AMELALN","N","N",0.225,1
+"1696","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ARNILAT",NA,NA,0,0
+"1697","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHAMANG",NA,NA,0,0
+"1698","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHIMUMB","N","N",1.1,1
+"1699","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CLINUNI","N","N",0.2,1
+"1700","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CORNCAN",NA,NA,0,0
+"1701","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","GOODOBL","N","N",0.35,1
+"1702","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","HERAMAX",NA,NA,0,0
+"1703","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LINNBOR","N","N",1.55,1
+"1704","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LONIUTA",NA,NA,0,0
+"1705","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LUPIARC",NA,NA,0,0
+"1706","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ORTHSEC","N","N",0.15,1
+"1707","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PAXIMYR","N","N",0.2,1
+"1708","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PHLODIF",NA,NA,0,0
+"1709","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PICEENE",NA,NA,0,0
+"1710","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PINUCON",NA,NA,0,0
+"1711","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PSEUMEN","N","N",19,1
+"1712","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PYROASA","N","N",0.175,1
+"1713","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RHODALB",NA,NA,0,0
+"1714","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBEACE",NA,NA,0,0
+"1715","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBELAC",NA,NA,0,0
+"1716","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPAR",NA,NA,0,0
+"1717","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPED",NA,NA,0,0
+"1718","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSCO",NA,NA,0,0
+"1719","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSIT",NA,NA,0,0
+"1720","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SPIRLUC",NA,NA,0,0
+"1721","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THALOCC",NA,NA,0,0
+"1722","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THUJPLI","N","N",14.25,1
+"1723","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TIARTRI",NA,NA,0,0
+"1724","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TSUGHET","N","N",42.25,1
+"1725","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCMEM","N","N",0.275,1
+"1726","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCSCO",NA,NA,0,0
+"1727","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VALESIT",NA,NA,0,0
+"1728","SK93721","Skagit Rhodo. Comm.",716.597107,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VERAVIR",NA,NA,0,0
+"1729","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIEAMA","N","N",1,1
+"1730","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIELAS",NA,NA,0,0
+"1731","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","AMELALN",NA,NA,0,0
+"1732","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ARNILAT",NA,NA,0,0
+"1733","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHAMANG",NA,NA,0,0
+"1734","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHIMUMB","N","N",3.5,1
+"1735","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CLINUNI","N","N",0.225,1
+"1736","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CORNCAN",NA,NA,0,0
+"1737","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","GOODOBL","N","N",0.65,1
+"1738","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","HERAMAX",NA,NA,0,0
+"1739","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LINNBOR","N","N",14,1
+"1740","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LONIUTA",NA,NA,0,0
+"1741","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LUPIARC",NA,NA,0,0
+"1742","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ORTHSEC","N","N",0.2,1
+"1743","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PAXIMYR","N","N",0.55,1
+"1744","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PHLODIF",NA,NA,0,0
+"1745","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PICEENE",NA,NA,0,0
+"1746","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PINUCON",NA,NA,0,0
+"1747","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PSEUMEN","N","N",70,1
+"1748","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PYROASA","N","N",0.025,1
+"1749","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RHODALB",NA,NA,0,0
+"1750","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBEACE",NA,NA,0,0
+"1751","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBELAC",NA,NA,0,0
+"1752","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPAR",NA,NA,0,0
+"1753","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPED",NA,NA,0,0
+"1754","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSCO",NA,NA,0,0
+"1755","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSIT",NA,NA,0,0
+"1756","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SPIRLUC",NA,NA,0,0
+"1757","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THALOCC",NA,NA,0,0
+"1758","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THUJPLI","N","N",38.25,1
+"1759","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TIARTRI","N","N",0.025,1
+"1760","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TSUGHET","N","N",11.25,1
+"1761","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCMEM","N","N",2.125,1
+"1762","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCSCO",NA,NA,0,0
+"1763","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VALESIT",NA,NA,0,0
+"1764","SK93722","Skagit Rhodo. Comm.",704.28064,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VERAVIR",NA,NA,0,0
+"1765","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIEAMA","N","N",0.1,1
+"1766","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIELAS","N","N",0.75,1
+"1767","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","AMELALN","N","N",0.025,1
+"1768","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ARNILAT",NA,NA,0,0
+"1769","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHAMANG",NA,NA,0,0
+"1770","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHIMUMB","N","N",0.475,1
+"1771","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CLINUNI","N","N",0.8,1
+"1772","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CORNCAN",NA,NA,0,0
+"1773","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","GOODOBL","N","N",0.55,1
+"1774","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","HERAMAX",NA,NA,0,0
+"1775","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LINNBOR","N","N",0.55,1
+"1776","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LONIUTA",NA,NA,0,0
+"1777","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LUPIARC",NA,NA,0,0
+"1778","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ORTHSEC","N","N",0.275,1
+"1779","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PAXIMYR","N","N",1.575,1
+"1780","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PHLODIF",NA,NA,0,0
+"1781","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PICEENE",NA,NA,0,0
+"1782","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PINUCON",NA,NA,0,0
+"1783","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PSEUMEN","N","N",3.75,1
+"1784","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PYROASA","N","N",0.425,1
+"1785","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RHODALB",NA,NA,0,0
+"1786","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBEACE",NA,NA,0,0
+"1787","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBELAC",NA,NA,0,0
+"1788","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPAR",NA,NA,0,0
+"1789","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPED",NA,NA,0,0
+"1790","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSCO",NA,NA,0,0
+"1791","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSIT",NA,NA,0,0
+"1792","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SPIRLUC","N","N",0.2,1
+"1793","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THALOCC",NA,NA,0,0
+"1794","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THUJPLI","N","N",24.25,1
+"1795","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TIARTRI",NA,NA,0,0
+"1796","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TSUGHET","N","N",64.125,1
+"1797","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCMEM","N","N",0.875,1
+"1798","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCSCO",NA,NA,0,0
+"1799","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VALESIT",NA,NA,0,0
+"1800","SK93734","Skagit Rhodo. Comm.",866.168091,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VERAVIR",NA,NA,0,0
+"1801","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIEAMA",NA,NA,0,0
+"1802","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ABIELAS","N","N",9.05,1
+"1803","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","AMELALN","N","N",0.15,1
+"1804","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ARNILAT",NA,NA,0,0
+"1805","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHAMANG",NA,NA,0,0
+"1806","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CHIMUMB","N","N",0.725,1
+"1807","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CLINUNI",NA,NA,0,0
+"1808","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","CORNCAN",NA,NA,0,0
+"1809","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","GOODOBL","N","N",0.55,1
+"1810","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","HERAMAX",NA,NA,0,0
+"1811","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LINNBOR","N","N",1.75,1
+"1812","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LONIUTA",NA,NA,0,0
+"1813","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","LUPIARC",NA,NA,0,0
+"1814","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","ORTHSEC",NA,NA,0,0
+"1815","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PAXIMYR","N","N",3,1
+"1816","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PHLODIF",NA,NA,0,0
+"1817","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PICEENE","N","N",0.5,1
+"1818","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PINUCON",NA,NA,0,0
+"1819","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PSEUMEN","N","N",26.25,1
+"1820","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","PYROASA","N","N",0.075,1
+"1821","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RHODALB",NA,NA,0,0
+"1822","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBEACE",NA,NA,0,0
+"1823","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RIBELAC",NA,NA,0,0
+"1824","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPAR",NA,NA,0,0
+"1825","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","RUBUPED",NA,NA,0,0
+"1826","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSCO","N","N",0.05,1
+"1827","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SORBSIT",NA,NA,0,0
+"1828","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","SPIRLUC","N","N",0.7,1
+"1829","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THALOCC",NA,NA,0,0
+"1830","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","THUJPLI","N","N",15.5,1
+"1831","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TIARTRI",NA,NA,0,0
+"1832","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","TSUGHET","N","N",2.75,1
+"1833","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCMEM","N","N",6.75,1
+"1834","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VACCSCO",NA,NA,0,0
+"1835","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VALESIT",NA,NA,0,0
+"1836","SK93735","Skagit Rhodo. Comm.",889.392212,2025,"J. Bryce, C. Cadrin, J. Desros","Med-High","VERAVIR",NA,NA,0,0
+"1837","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","ABIEAMA","N","N",1.25,1
+"1838","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","ABIELAS","N","N",1.25,1
+"1839","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","AMELALN","N","N",0.175,1
+"1840","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","ARNILAT",NA,NA,0,0
+"1841","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","CHAMANG",NA,NA,0,0
+"1842","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","CHIMUMB","N","N",0.875,1
+"1843","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","CLINUNI","N","N",0.1,1
+"1844","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","CORNCAN","N","N",0.025,1
+"1845","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","GOODOBL","N","N",0.425,1
+"1846","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","HERAMAX",NA,NA,0,0
+"1847","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","LINNBOR","N","N",3.075,1
+"1848","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","LONIUTA",NA,NA,0,0
+"1849","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","LUPIARC",NA,NA,0,0
+"1850","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","ORTHSEC","N","N",0.2,1
+"1851","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","PAXIMYR","N","N",3.75,1
+"1852","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","PHLODIF",NA,NA,0,0
+"1853","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","PICEENE","N","N",1.75,1
+"1854","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","PINUCON",NA,NA,0,0
+"1855","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","PSEUMEN","N","N",6.25,1
+"1856","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","PYROASA","N","N",0.575,1
+"1857","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","RHODALB",NA,NA,0,0
+"1858","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","RIBEACE",NA,NA,0,0
+"1859","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","RIBELAC",NA,NA,0,0
+"1860","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","RUBUPAR","N","N",0.15,1
+"1861","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","RUBUPED",NA,NA,0,0
+"1862","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","SORBSCO",NA,NA,0,0
+"1863","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","SORBSIT",NA,NA,0,0
+"1864","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","SPIRLUC","N","N",0.1,1
+"1865","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","THALOCC",NA,NA,0,0
+"1866","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","THUJPLI","N","N",23.25,1
+"1867","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","TIARTRI",NA,NA,0,0
+"1868","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","TSUGHET","N","N",24,1
+"1869","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","VACCMEM","N","N",0.65,1
+"1870","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","VACCSCO",NA,NA,0,0
+"1871","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","VALESIT",NA,NA,0,0
+"1872","SK93736","Skagit Rhodo. Comm.",830.515564,2025,"J. Bryce, C. Cadrin, J. Desros","High","VERAVIR",NA,NA,0,0
