@@ -18,7 +18,7 @@ set.seed(123)
 ## Read data for PERMANOVA
 data_long <- read_csv("data/processed/relocation_data_long.csv")
 
-species_names <- read_csv("data/processed/cleaning_data/master_species_list.csv")
+species_names <- read_csv("data/processed/master_species_list.csv")
 
 ## Create metadata frame
 str(data_long)
