@@ -42,4 +42,4 @@ This repository is intended as a project archive for supervisors, collaborators,
 
 Casey Lo //
 University of British Columbia //
-B.Sc Honours Ecology and Environmental Science
+B.Sc. Honours Ecology and Environmental Science
