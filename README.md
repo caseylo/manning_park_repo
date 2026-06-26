@@ -30,7 +30,7 @@ Final project outputs are stored in `outputs/`:
 
 ## Main analyses
 
-The main range-shift analysis models species presence as a function of time, elevation, and their interaction, while accounting for several random effects. A functional-group model compares responses among herbs, shrubs, and trees.
+The main range-shift analysis models species presence as a function of time, elevation, and their interaction, while accounting for several random effects. A functional-group model compares responses among herbs, shrubs, and trees. Additionally, this model is currently being developed in a Bayesian framework in order to incorpotate priors from estimates of relocation error. This will allow us to confidently say our results are robust to reloation error.
 
 The relocation-error analysis compares 2019 plots, accurately relocated 2025 plots (2025correct), and intentionally relocated 2025 plots (2025error) to test whether relocation error changes community composition or diversity enough to affect interpretation of temporal change.
 
