@@ -1,4 +1,4 @@
-# Manning Park Vegetation Resurvey Analysis
+# Assessing Upslope Range Shifts with Relocation Error in E.C. Manning Provincial Park- A Vegetation Resurvey Analysis
 
 This repository contains the code, processed data, figures, model outputs, and summary tables for a vegetation resurvey analysis in E.C. Manning Provincial Park, British Columbia. The project examines whether plant species occurrence patterns have shifted along elevation gradients over time and whether those patterns are robust to plot relocation error.
 
