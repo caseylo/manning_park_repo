@@ -40,6 +40,6 @@ This repository is intended as a project archive for supervisors, collaborators,
 
 ## Creator & Maintainer
 
-Casey Lo
-University of British Columbia
+Casey Lo //
+University of British Columbia //
 B.Sc Honours Ecology and Environmental Science
