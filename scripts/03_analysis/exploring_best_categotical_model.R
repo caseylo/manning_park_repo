@@ -290,6 +290,15 @@ emmeans(medhighmod_fg, pairwise ~ Time | Functional_group)
 
 ####
 
+## Save models
+
+saveRDS(bestmod, file = "outputs/models/main_range_shift_model/bestmod.rds")
+saveRDS(bestmod_fg, file = "outputs/models/main_range_shift_model/bestmod_fg.rds")
+saveRDS(confmod, file = "outputs/models/main_range_shift_model/confmod.rds")
+saveRDS(confmod_fg, file = "outputs/models/main_range_shift_model/confmod_fg.rds")
+saveRDS(medhighmod, file = "outputs/models/main_range_shift_model/medhighmod.rds")
+saveRDS(medhighmod_fg, file = "outputs/models/main_range_shift_model/medhighmod_fg.rds")
+
 ## Visualizing models: Best model
 pred <- ggpredict(bestmod, terms = c("Elevation_sc [all]", "Time"))
 

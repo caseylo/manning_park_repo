@@ -402,6 +402,60 @@ summary(mod9.5_full)
 
 ####
 
+## Saving models to folders
+
+saveRDS(mod1_full, file = "outputs/models/continuous_glmm_model_selection_models/mod1_full.rds")
+
+saveRDS(mod2_full, file = "outputs/models/continuous_glmm_model_selection_models/mod2_full.rds")
+
+saveRDS(mod3_full, file = "outputs/models/continuous_glmm_model_selection_models/mod3_full.rds")
+
+saveRDS(mod3.1_full, file = "outputs/models/continuous_glmm_model_selection_models/mod3.1_full.rds")
+
+saveRDS(mod3.2_full, file = "outputs/models/continuous_glmm_model_selection_models/mod3.2_full.rds")
+
+saveRDS(mod4_full, file = "outputs/models/continuous_glmm_model_selection_models/mod4_full.rds")
+
+saveRDS(mod5_full, file = "outputs/models/continuous_glmm_model_selection_models/mod5_full.rds")
+
+saveRDS(mod5.1_full, file = "outputs/models/continuous_glmm_model_selection_models/mod5.1_full.rds")
+
+saveRDS(mod5.2_full, file = "outputs/models/continuous_glmm_model_selection_models/mod5.2_full.rds")
+
+saveRDS(mod6_full, file = "outputs/models/continuous_glmm_model_selection_models/mod6_full.rds")
+
+saveRDS(mod6.1_full, file = "outputs/models/continuous_glmm_model_selection_models/mod6.1_full.rds")
+
+saveRDS(mod7_full, file = "outputs/models/continuous_glmm_model_selection_models/mod7_full.rds")
+
+saveRDS(mod7.1_full, file = "outputs/models/continuous_glmm_model_selection_models/mod7.1_full.rds")
+
+saveRDS(mod8_full, file = "outputs/models/continuous_glmm_model_selection_models/mod8_full.rds")
+
+saveRDS(mod8.1_full, file = "outputs/models/continuous_glmm_model_selection_models/mod8.1_full.rds")
+
+saveRDS(mod8.2_full, file = "outputs/models/continuous_glmm_model_selection_models/mod8.2_full.rds")
+
+saveRDS(mod8.3_full, file = "outputs/models/continuous_glmm_model_selection_models/mod8.3_full.rds")
+
+saveRDS(mod8.4_full, file = "outputs/models/continuous_glmm_model_selection_models/mod8.4_full.rds")
+
+saveRDS(mod8.5_full, file = "outputs/models/continuous_glmm_model_selection_models/mod8.5_full.rds")
+
+saveRDS(mod9_full, file = "outputs/models/continuous_glmm_model_selection_models/mod9_full.rds")
+
+saveRDS(mod9.1_full, file = "outputs/models/continuous_glmm_model_selection_models/mod9.1_full.rds")
+
+saveRDS(mod9.2_full, file = "outputs/models/continuous_glmm_model_selection_models/mod9.2_full.rds")
+
+saveRDS(mod9.3_full, file = "outputs/models/continuous_glmm_model_selection_models/mod9.3_full.rds")
+
+saveRDS(mod9.4_full, file = "outputs/models/continuous_glmm_model_selection_models/mod9.4_full.rds")
+
+saveRDS(mod9.5_full, file = "outputs/models/continuous_glmm_model_selection_models/mod9.5_full.rds")
+
+####
+
 ## Moran's I test for spatial autocorrelation in GLMM residuals
 
 #Extract Pearson residuals

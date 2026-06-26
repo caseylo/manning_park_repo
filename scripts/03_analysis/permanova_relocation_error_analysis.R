@@ -212,6 +212,16 @@ perm_mod_jaccard_pairwise_tree_shrub
 
 ####
 
+## Saving main permanovas
+
+#### Save relocation error PERMANOVA models
+
+saveRDS(perm_mod_bray, file = "outputs/models/relocation_error_permanova/perm_mod_bray.rds")
+saveRDS(perm_mod_bray_pairwise, file = "outputs/models/relocation_error_permanova/perm_mod_bray_pairwise.rds")
+
+saveRDS(perm_mod_jaccard, file = "outputs/models/relocation_error_permanova/perm_mod_jaccard.rds")
+saveRDS(perm_mod_jaccard_pairwise, file = "outputs/models/relocation_error_permanova/perm_mod_jaccard_pairwise.rds")
+
 ## Plot an NMDS for Bray-Curtis Dissimilarity
 
 nmds_bray <- metaMDS(comm_matrix, distance = "bray", k = 2)
