@@ -1,0 +1,7 @@
+"ProjectID","statistic","p.value","method","alternative"
+"Alpine2007_BEC",40.5,"0.045","Wilcoxon rank sum test with continuity correction","two.sided"
+"BC Parks Manning TEM",58.5,"0.544","Wilcoxon rank sum test with continuity correction","two.sided"
+"BEC-Vancouver",60.5,"0.084","Wilcoxon rank sum test with continuity correction","two.sided"
+"NCBG_ESSFplots",292,"<0.001","Wilcoxon rank sum test with continuity correction","two.sided"
+"RCOBEC15",1,"1.000","Wilcoxon rank sum exact test","two.sided"
+"Skagit Rhodo. Comm.",24.5,"1.000","Wilcoxon rank sum test with continuity correction","two.sided"
