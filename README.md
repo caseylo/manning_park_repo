@@ -25,7 +25,7 @@ The scripts are organized into three main folders:
 Final project outputs are stored in `outputs/`:
 
 * `outputs/figures/`: elevation-response plots, functional-group plots, NMDS figures, diagnostics, and maps.
-* `outputs/models/`: saved model objects from the main range-shift and relocation-error analyses.
+* `outputs/models/`: saved model objects from the main range-shift, relocation-error analyses, and Bayesian analysis.
 * `outputs/tables/`: summary tables for richness and diversity comparisons.
 
 ## Main analyses
