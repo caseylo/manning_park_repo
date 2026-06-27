@@ -4,7 +4,7 @@ This repository contains the code, processed data, figures, model outputs, and s
 
 ## Project overview
 
-Montane plant communities are expected to respond to climate change, but observed range shifts can vary among species and functional groups. This project compares historical vegetation surveys with a 2025 resurvey to assess changes in species occurrence across elevation. It also includes a relocation-error analysis using 2019 plots that were resurveyed in 2025 both at the best-estimated original location and at intentionally mis-relocated comparison plots.
+Montane plant communities are expected to respond to climate change, but observed range shifts can vary among species and functional groups. This project compares historical vegetation surveys with a 2025 resurvey to assess changes in species occurrence across elevation. It also includes a relocation-error analysis using 2019 plots that were resurveyed in 2025 both at an exactly re-located and at intentionally relocated plots.
 
 The main goals are to evaluate:
 
@@ -36,7 +36,7 @@ The relocation-error analysis compares 2019 plots, accurately relocated 2025 plo
 
 ## Notes
 
-This repository is intended as a project archive for supervisors, collaborators, and readers who want to understand the organization and main analyses.
+This repository is intended as a project archive for supervisors and readers who want to understand the organization and main analyses.
 
 ## Creator & Maintainer
 
