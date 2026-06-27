@@ -11,7 +11,7 @@ For a general understanding of the analysis workflow, start with:
 3. `exploring_best_categotical_model.R`
 4. `permanova_relocation_error_analysis.R`
 5. `relocation_error_sr_comparisons.R`
-6. bayesian_analysis_script folder
+6. bayesian_analysis_script folder (see README in this folder)
 
 
 ## `01_cleaning/`
