@@ -134,6 +134,6 @@ prior_summary(bayesmod_full_no_prior)
 ## Save models
 
 saveRDS(bayesmod_full, "outputs/models/bayesian_analysis_models/bayesmod_full_108_260_spp.rds")
-saveRDS(bayesmod_full_no_prior, "bayesian_analysis_scripts/bayesmod_full_no_prior_108_260_spp.rds")
+saveRDS(bayesmod_full_no_prior, "outputs/models/bayesian_analysis_models/bayesmod_full_no_prior_108_260_spp.rds")
 
 ####
