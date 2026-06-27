@@ -36,7 +36,7 @@ The relocation-error analysis compares 2019 plots, accurately relocated 2025 plo
 
 ## Notes
 
-This repository is intended as a project archive for supervisors, collaborators, and readers who want to understand the organization and main analyses. It is not intended as a full public data-release or step-by-step reproduction guide.
+This repository is intended as a project archive for supervisors, collaborators, and readers who want to understand the organization and main analyses.
 
 ## Creator & Maintainer
 
