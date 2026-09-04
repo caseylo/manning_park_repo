@@ -15,6 +15,21 @@
                 "type": 1,
                 "is_package_breakpoint": false,
                 "package_name": ""
+            },
+            {
+                "id": 1,
+                "path": "C:/Users/Owner/OneDrive/Desktop/manning_park_repo/scripts/03_analysis/bayesian_analysis_scripts/04_analyzing_main_model.R",
+                "line_number": 243,
+                "function_steps": "",
+                "function_name": "toplevel",
+                "state": 1,
+                "editor_state": 1,
+                "editor_line_number": 243,
+                "is_pending_debug_completion": false,
+                "needs_updated_steps": true,
+                "type": 1,
+                "is_package_breakpoint": false,
+                "package_name": ""
             }
         ]
     }

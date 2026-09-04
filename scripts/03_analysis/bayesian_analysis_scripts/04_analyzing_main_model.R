@@ -184,6 +184,10 @@ panel_b <- ggplot(
   xlab("Coefficient estimate") +
   ylab("Density") +
   labs(tag = "B") +
+  geom_vline(
+    xintercept = 0,
+    linetype = "dashed",
+    linewidth = 0.8) +
   theme_classic()
 
 panel_b
