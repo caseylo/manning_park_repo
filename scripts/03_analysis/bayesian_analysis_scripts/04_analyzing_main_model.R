@@ -7,6 +7,9 @@ library(posterior)
 library(bayesplot)
 library(ggeffects)
 library(ggplot2)
+library(patchwork)
+
+set.seed(1234)
 
 ## Read in models
 bayesmod_full <- readRDS("outputs/models/bayesian_analysis_models/bayesmod_full_30_30_spp.rds")
@@ -19,20 +22,43 @@ summary(bayesmod_error)
 summary(bayesmod_full_no_prior)
 
 ## Plot models
+#bayesmod_full_plot <- plot(bayesmod_full) #+ labs(title = "Bayesian full model")
+#bayesmod_error_plot <- plot(bayesmod_error) + labs(title = "Bayesian relocation error model")
+#bayesmod_full_no_prior_plot <- plot(bayesmod_full_no_prior) + labs(title = "Bayesian full model without informative priors")
 
-plot(bayesmod_full)
-plot(bayesmod_error)
-plot(bayesmod_full_no_prior)
+## Posterior predictive checks
+pp_full <- pp_check(bayesmod_full, ndraws = 100) + 
+  labs(x = "Proportion of species present", y = "Density")
+pp_error <- pp_check(bayesmod_error, ndraws = 100) +
+  labs(title = "Posterior predictive check: relocation error model", x = "Proportion of species present", y = "Density")
+pp_full_no_prior <- pp_check(bayesmod_full_no_prior, ndraws = 100) +
+  labs(title = "Posterior predictive check: full model without informative priors", x = "Proportion of species present", y = "Density")
 
-## pp checks
-pp_check(bayesmod_full, ndraws = 1000)
-pp_check(bayesmod_error, ndraws = 1000)
-pp_check(bayesmod_full_no_prior, ndraws = 1000)
+pp_full
+pp_error
+pp_full_no_prior
 
-## Posterior predictive check of the mean (ratio of present vs absent)
-pp_check(bayesmod_full, type = "stat", stat = "mean", ndraws = 1000)
-pp_check(bayesmod_error, type = "stat", stat = "mean", ndraws = 1000)
-pp_check(bayesmod_full_no_prior, type = "stat", stat = "mean", ndraws = 1000)
+## Save posterior predictive checks
+ggsave("outputs/figures/bayesian_figures/pp_check_full.png", pp_full, width = 8, height = 6, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/pp_check_error.png", pp_error, width = 8, height = 6, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/pp_check_full_no_prior.png", pp_full_no_prior, width = 8, height = 6, dpi = 300)
+
+## Posterior predictive checks of the mean
+pp_mean_full <- pp_check(bayesmod_full, type = "stat", stat = "mean", ndraws = 1000) + 
+  labs(x = "Proportion of species present")
+pp_mean_error <- pp_check(bayesmod_error, type = "stat", stat = "mean",ndraws = 1000) + 
+  labs(title = "Posterior predictive check of the mean: relocation error model", x = "Proportion of species present")
+pp_mean_full_no_prior <- pp_check(bayesmod_full_no_prior, type = "stat", stat = "mean", ndraws = 1000) + 
+  labs(title = "Posterior predictive check of the mean: full model without informative priors", x = "Proportion of species present")
+
+pp_mean_full
+pp_mean_error
+pp_mean_full_no_prior
+
+## Save mean posterior predictive checks
+ggsave("outputs/figures/bayesian_figures/pp_mean_full.png", pp_mean_full, width = 8, height = 6, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/pp_mean_error.png", pp_mean_error, width = 8, height = 6, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/pp_mean_full_no_prior.png", pp_mean_full_no_prior, width = 8, height = 6, dpi = 300)
 
 ## Bayes R^2
 bayes_R2(bayesmod_full)
@@ -40,7 +66,6 @@ bayes_R2(bayesmod_error)
 bayes_R2(bayesmod_full_no_prior)
 
 ## Check divergences
-
 nuts_full <- nuts_params(bayesmod_full)
 nuts_error <- nuts_params(bayesmod_error)
 nuts_full_no_prior <- nuts_params(bayesmod_full_no_prior)
@@ -91,7 +116,7 @@ posterior_draws <- as_draws_df(bayesmod_full) %>%
   select(
     b_Timepresent,
     `b_Timepresent:polyElevation_sc2rawEQTRUE1`,
-    `b_Timepresent:polyElevation_sc2rawEQTRUE2`  )
+    `b_Timepresent:polyElevation_sc2rawEQTRUE2`)
 
 ## Convert prior draws to long format
 
@@ -138,9 +163,38 @@ prior_posterior_dist <-
   facet_wrap(~ Parameter) +
   xlab("Coefficient estimate") +
   ylab("Density") +
+  labs(tag = "A") +
   theme_classic()
 
 prior_posterior_dist
+
+#ggsave("outputs/figures/bayesian_figures/prior_posterior_dist.png", prior_posterior_dist, width = 8, height = 6, dpi = 300)
+
+## Make a zoomed in version of the prior/ posterior graph and combine as panels
+
+panel_b <- ggplot(
+  prior_posterior,
+  aes(
+    x = Estimate,
+    fill = Distribution,
+    colour = Distribution)) +
+  geom_density(alpha = 0.3) +
+  facet_wrap(~ Parameter) +
+  coord_cartesian(xlim = c(-1, 1)) +
+  xlab("Coefficient estimate") +
+  ylab("Density") +
+  labs(tag = "B") +
+  theme_classic()
+
+panel_b
+
+## Combine panels
+
+prior_posterior_combined <- prior_posterior_dist / panel_b
+prior_posterior_combined
+
+ggsave("outputs/figures/bayesian_figures/prior_posterior_dist_zoom.png", prior_posterior_combined, width = 7, height = 9, dpi = 300)
+
 
 ####
 
@@ -191,7 +245,7 @@ prediction_data <- bind_cols(
 
 ## Plot historical vs. present curves
 
-bayes_mod <- ggplot(
+bayesmod_plot <- ggplot(
   prediction_data,
   aes(
     x = Elevation,
@@ -206,21 +260,69 @@ bayes_mod <- ggplot(
     colour = NA) +
   geom_line(
     linewidth = 1) +
+  geom_vline(
+    xintercept = historical_median,
+    colour = "#00BFC4",
+    linetype = "dashed",
+    linewidth = 0.8) +
+  annotate(
+    "point",
+    x = historical_median,
+    y = approx(
+      prediction_data$Elevation[
+        prediction_data$Time == "historical"],
+      prediction_data$estimate[
+        prediction_data$Time == "historical"],
+      xout = historical_median)$y,
+    colour = "#00BFC4",
+    size = 3) +
+  geom_vline(
+    xintercept = present_median,
+    colour = "#F8766D",
+    linetype = "dashed",
+    linewidth = 0.8) +
+  annotate(
+    "point",
+    x = present_median,
+    y = approx(
+      prediction_data$Elevation[
+        prediction_data$Time == "present"],
+      prediction_data$estimate[
+        prediction_data$Time == "present"],
+      xout = present_median)$y,
+    colour = "#F8766D",
+    size = 3) +
   xlab("Elevation (m)") +
   ylab("Predicted probability of occurrence") +
   scale_colour_manual(
     values = c(
       "present" = "#F8766D",
-      "historical" = "#00BFC4")) +
+      "historical" = "#00BFC4"),
+    labels = c(
+      "present" = "Present",
+      "historical" = "Historical")) +
   scale_fill_manual(
     values = c(
       "present" = "#F8766D",
-      "historical" = "#00BFC4")) +
+      "historical" = "#00BFC4"),
+    guide = "none") +
+  annotate(
+    "text",
+    x = Inf,
+    y = Inf,
+    label = "+55 m",
+    hjust = 1.1,
+    vjust = 1.5,
+    size = 4) +
+  scale_x_continuous(
+    breaks = seq(600, 1800, by = 100),
+    minor_breaks = seq(600, 1800, by = 50),
+    guide = guide_axis(minor.ticks = TRUE)) +
   theme_classic()
 
-bayes_mod
+bayesmod_plot
 
-ggsave("outputs/figures/bayesian_figures/bayesmod_elevation_curve.png",plot = bestmod_plot, width = 7, height = 4, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/bayesmod_elevation_curve.png",plot = bayesmod_plot, width = 7, height = 4, dpi = 300)
 
 
 ####
@@ -235,7 +337,7 @@ freq_curve <- ggpredict(
 
 ## Plot Bayesian and alternative prediction curves
 
-ggplot() +
+gg_predict_curve <- ggplot() +
   geom_ribbon(
     data = prediction_data,
     aes(
@@ -272,6 +374,11 @@ ggplot() +
       "present" = "#F8766D",
       "historical" = "#00BFC4")) +
   theme_classic()
+
+gg_predict_curve
+
+ggsave("outputs/figures/bayesian_figures/gg_predict_bayesmod_elevation_curve.png",plot = gg_predict_curve, width = 7, height = 4, dpi = 300)
+
 
 ####
 
@@ -328,27 +435,85 @@ range_shift_summary
 
 ## Visualize posterior distribution of range shift
 
-ggplot(
-  range_shift_draws,
-  aes(x = shift_m)) +
-  geom_density() +
+density_shift <- density(range_shift_draws$shift_m)
+
+density_data <- tibble(
+  x = density_shift$x,
+  y = density_shift$y
+)
+
+ci_density <- density_data %>%
+  filter(
+    x >= 6.97,
+    x <= 127)
+
+median_density <- approx(
+  density_data$x,
+  density_data$y,
+  xout = 54.6)$y
+
+bayes_range_shift <- ggplot(
+  density_data,
+  aes(x = x, y = y)) +
+  geom_ribbon(
+    data = ci_density,
+    aes(
+      ymin = 0,
+      ymax = y),
+    alpha = 0.2) +
+  geom_line() +
+  annotate(
+    "segment",
+    x = 55,
+    xend = 55,
+    y = 0,
+    yend = median_density,
+    linetype = "dashed") +
+  annotate(
+    "point",
+    x = 55,
+    y = median_density,
+    size = 3) +
+  annotate(
+    "text",
+    x = 55,
+    y = median_density,
+    label = "55 m",
+    vjust = -1,
+    size = 4) +
   geom_vline(
     xintercept = 0,
     linetype = "dashed") +
   xlab("Range shift (m)") +
   ylab("Posterior density") +
+  #labs(title = "Posterior distribution of elevation range shift") +
+  scale_x_continuous(
+    limits = c(-50, 250),
+    breaks = seq(
+      floor(min(range_shift_draws$shift_m) / 100) * 100,
+      ceiling(max(range_shift_draws$shift_m) / 100) * 100,
+      by = 100),
+    minor_breaks = seq(
+      floor(min(range_shift_draws$shift_m) / 50) * 50,
+      ceiling(max(range_shift_draws$shift_m) / 50) * 50,
+      by = 50),
+    guide = guide_axis(minor.ticks = TRUE)) +
+  scale_y_continuous(
+    expand = expansion(mult = c(0, 0.08)),
+    guide = guide_axis(minor.ticks = TRUE)) +
   theme_classic()
 
-## Calculate the posterior max
+bayes_range_shift
+
+#ggsave("outputs/figures/bayesian_figures/bayes_range_shift.png", plot = bayes_range_shift, width = 7, height = 4, dpi = 300)
+
+## Calculate posterior medians
+
+historical_median <- median(range_shift_draws$historical_optimum)
+present_median <- median(range_shift_draws$present_optimum)
 
 historical_density <- density(range_shift_draws$historical_optimum)
 present_density <- density(range_shift_draws$present_optimum)
-
-historical_max <- historical_density$x[
-  which.max(historical_density$y)]
-
-present_max <- present_density$x[
-  which.max(present_density$y)]
 
 ## Plot posterior distributions with optima
 
@@ -358,48 +523,89 @@ bayes_optima <- ggplot(
     aes(
       x = historical_optimum,
       colour = "Historical"),
-    linewidth = 1) +
+    linewidth = 1,
+    key_glyph = "path") +
   geom_density(
     aes(
       x = present_optimum,
       colour = "Present"),
-    linewidth = 1) +
+    linewidth = 1,
+    key_glyph = "path") +
   annotate(
     "segment",
-    x = historical_max,
-    xend = historical_max,
+    x = historical_median,
+    xend = historical_median,
     y = 0,
-    yend = max(historical_density$y),
+    yend = approx(
+      historical_density$x,
+      historical_density$y,
+      xout = historical_median)$y,
     colour = "#00BFC4",
     linetype = "dashed",
     linewidth = 0.8) +
   annotate(
     "point",
-    x = historical_max,
-    y = max(historical_density$y),
+    x = historical_median,
+    y = approx(
+      historical_density$x,
+      historical_density$y,
+      xout = historical_median)$y,
     colour = "#00BFC4",
     size = 3) +
   annotate(
     "segment",
-    x = present_max,
-    xend = present_max,
+    x = present_median,
+    xend = present_median,
     y = 0,
-    yend = max(present_density$y),
+    yend = approx(
+      present_density$x,
+      present_density$y,
+      xout = present_median)$y,
     colour = "#F8766D",
     linetype = "dashed",
     linewidth = 0.8) +
   annotate(
     "point",
-    x = present_max,
-    y = max(present_density$y),
+    x = present_median,
+    y = approx(
+      present_density$x,
+      present_density$y,
+      xout = present_median)$y,
     colour = "#F8766D",
     size = 3) +
   xlab("Elevation of predicted optimum (m)") +
   ylab("Posterior density") +
   scale_colour_manual(
+    name = "Time",
     values = c(
       "Historical" = "#00BFC4",
       "Present" = "#F8766D")) +
+  annotate(
+    "text",
+    x = historical_median,
+    y = approx(
+      historical_density$x,
+      historical_density$y,
+      xout = historical_median)$y,
+    label = paste0(
+      round(historical_median, 0),
+      " m"),
+    vjust = -1,
+    colour = "#00BFC4",
+    size = 4) +
+  annotate(
+    "text",
+    x = present_median + 30,
+    y = approx(
+      present_density$x,
+      present_density$y,
+      xout = present_median)$y,
+    label = paste0(
+      round(present_median, 0),
+      " m"),
+    vjust = -1,
+    colour = "#F8766D",
+    size = 4) +
   scale_x_continuous(
     breaks = seq(
       floor(min(range_shift_draws$historical_optimum) / 200) * 200,
@@ -409,7 +615,7 @@ bayes_optima <- ggplot(
       floor(min(range_shift_draws$historical_optimum) / 100) * 100,
       ceiling(max(range_shift_draws$present_optimum) / 100) * 100,
       by = 100),
-    guide = guide_axis(minor.ticks = TRUE))+
+    guide = guide_axis(minor.ticks = TRUE)) +
   scale_y_continuous(
     breaks = seq(0, 0.008, by = 0.002),
     minor_breaks = seq(0, 0.008, by = 0.001),
@@ -419,7 +625,25 @@ bayes_optima <- ggplot(
 
 bayes_optima
 
-ggsave("ouputs/figures/bayesian_figures/bayesian_optima.png", plot = bayes_optima, width = 8, height = 6, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/bayesian_optima.png", plot = bayes_optima, width = 8, height = 6, dpi = 300)
+
+####
+
+## Combine range shift curve and range shift distribution
+
+bayes_range_shift2 <- bayes_range_shift +
+  scale_y_continuous(
+    expand = expansion(mult = c(0, 0.15)),
+    guide = guide_axis(minor.ticks = TRUE))
+bayes_range_shift2
+
+bayes_combined <- bayesmod_plot / bayes_range_shift2 +
+  plot_annotation(tag_levels = "A")
+
+bayes_combined
+
+ggsave("outputs/figures/bayesian_figures/range_shift_combined.png", plot = bayes_combined, width = 7, height = 8, dpi = 300)
+
 
 ####
 
@@ -447,9 +671,91 @@ prediction_data_np <- bind_cols(
       estimate = `50%`,
       upper = `97.5%`))
 
-## Plot model with no priors
 
-ggplot(
+####
+
+## Calculate range shift for model with no priors
+
+range_shift_draws_np <- map_dfr(
+  1:nrow(posterior_predictions_np),
+  function(i) {
+    
+    predictions <- posterior_predictions_np[i, ]
+    
+    historical_predictions <- predictions[
+      newdata$Time == "historical"]
+    
+    present_predictions <- predictions[
+      newdata$Time == "present"]
+    
+    historical_optimum <- newdata$Elevation[
+      newdata$Time == "historical"
+    ][which.max(historical_predictions)]
+    
+    present_optimum <- newdata$Elevation[
+      newdata$Time == "present"
+    ][which.max(present_predictions)]
+    
+    tibble(
+      historical_optimum = historical_optimum,
+      present_optimum = present_optimum,
+      shift_m = present_optimum - historical_optimum)
+  })
+
+
+## Summarize Bayesian range shift
+
+range_shift_summary_np <- range_shift_draws_np %>%
+  summarise(
+    median_historical_optimum = median(historical_optimum),
+    lower_95_historical_optimum = quantile(
+      historical_optimum, 0.025),
+    upper_95_historical_optimum = quantile(
+      historical_optimum, 0.975),
+    median_present_optimum = median(present_optimum),
+    lower_95_present_optimum = quantile(
+      present_optimum, 0.025),
+    upper_95_present_optimum = quantile(
+      present_optimum, 0.975),
+    median_shift = median(shift_m),
+    lower_95_shift = quantile(
+      shift_m, 0.025),
+    upper_95_shift = quantile(
+      shift_m, 0.975),
+    probability_positive = mean(shift_m > 0)) %>%
+  pivot_longer(
+    cols = everything(),
+    names_to = "Statistic",
+    values_to = "Value")
+
+range_shift_summary_np
+
+
+####
+
+## Calculate posterior medians
+
+historical_median_np <- median(
+  range_shift_draws_np$historical_optimum)
+
+present_median_np <- median(
+  range_shift_draws_np$present_optimum)
+
+median_shift_np <- median(
+  range_shift_draws_np$shift_m)
+
+lower_95_shift_np <- quantile(
+  range_shift_draws_np$shift_m, 0.025)
+
+upper_95_shift_np <- quantile(
+  range_shift_draws_np$shift_m, 0.975)
+
+
+####
+
+## Plot historical vs. present curves for model with no priors
+
+bayesmod_plot_np <- ggplot(
   prediction_data_np,
   aes(
     x = Elevation,
@@ -464,16 +770,159 @@ ggplot(
     colour = NA) +
   geom_line(
     linewidth = 1) +
+  geom_vline(
+    xintercept = historical_median_np,
+    colour = "#00BFC4",
+    linetype = "dashed",
+    linewidth = 0.8) +
+  annotate(
+    "point",
+    x = historical_median_np,
+    y = approx(
+      prediction_data_np$Elevation[
+        prediction_data_np$Time == "historical"],
+      prediction_data_np$estimate[
+        prediction_data_np$Time == "historical"],
+      xout = historical_median_np)$y,
+    colour = "#00BFC4",
+    size = 3) +
+  geom_vline(
+    xintercept = present_median_np,
+    colour = "#F8766D",
+    linetype = "dashed",
+    linewidth = 0.8) +
+  annotate(
+    "point",
+    x = present_median_np,
+    y = approx(
+      prediction_data_np$Elevation[
+        prediction_data_np$Time == "present"],
+      prediction_data_np$estimate[
+        prediction_data_np$Time == "present"],
+      xout = present_median_np)$y,
+    colour = "#F8766D",
+    size = 3) +
   xlab("Elevation (m)") +
   ylab("Predicted probability of occurrence") +
   scale_colour_manual(
+    name = "Time",
     values = c(
       "present" = "#F8766D",
-      "historical" = "#00BFC4")) +
+      "historical" = "#00BFC4"),
+    labels = c(
+      "present" = "Present",
+      "historical" = "Historical")) +
   scale_fill_manual(
     values = c(
       "present" = "#F8766D",
-      "historical" = "#00BFC4")) +
+      "historical" = "#00BFC4"),
+    guide = "none") +
+  annotate(
+    "text",
+    x = Inf,
+    y = Inf,
+    label = paste0(
+      "+", round(median_shift_np, 0), " m"),
+    hjust = 1.1,
+    vjust = 1.5,
+    size = 4) +
+  scale_x_continuous(
+    breaks = seq(600, 1800, by = 100),
+    minor_breaks = seq(600, 1800, by = 50),
+    guide = guide_axis(minor.ticks = TRUE)) +
   theme_classic()
 
+bayesmod_plot_np
 
+ggsave(
+  "outputs/figures/bayesian_figures/bayesmod_elevation_curve_no_prior.png",
+  plot = bayesmod_plot_np,
+  width = 7,
+  height = 4,
+  dpi = 300)
+
+
+####
+
+## Visualize posterior distribution of range shift
+
+density_shift_np <- density(
+  range_shift_draws_np$shift_m)
+
+density_data_np <- tibble(
+  x = density_shift_np$x,
+  y = density_shift_np$y)
+
+ci_density_np <- density_data_np %>%
+  filter(
+    x >= lower_95_shift_np,
+    x <= upper_95_shift_np)
+
+median_density_np <- approx(
+  density_data_np$x,
+  density_data_np$y,
+  xout = median_shift_np)$y
+
+bayes_range_shift_np <- ggplot(
+  density_data_np,
+  aes(x = x, y = y)) +
+  geom_ribbon(
+    data = ci_density_np,
+    aes(
+      ymin = 0,
+      ymax = y),
+    alpha = 0.2) +
+  geom_line() +
+  annotate(
+    "segment",
+    x = median_shift_np,
+    xend = median_shift_np,
+    y = 0,
+    yend = median_density_np,
+    linetype = "dashed") +
+  annotate(
+    "point",
+    x = median_shift_np,
+    y = median_density_np,
+    size = 3) +
+  annotate(
+    "text",
+    x = median_shift_np,
+    y = median_density_np,
+    label = paste0(
+      round(median_shift_np, 0), " m"),
+    vjust = -1,
+    size = 4) +
+  geom_vline(
+    xintercept = 0,
+    linetype = "dashed") +
+  xlab("Range shift (m)") +
+  ylab("Posterior density") +
+  scale_x_continuous(
+    limits = c(-50, 250),
+    breaks = seq(-50, 250, by = 50),
+    minor_breaks = seq(-50, 250, by = 25),
+    guide = guide_axis(minor.ticks = TRUE)) +
+  scale_y_continuous(
+    expand = expansion(mult = c(0, 0.15)),
+    guide = guide_axis(minor.ticks = TRUE)) +
+  theme_classic()
+
+bayes_range_shift_np
+
+
+####
+
+## Combine elevation curve and range shift distribution
+
+bayes_combined_np <- bayesmod_plot_np / bayes_range_shift_np +
+  plot_annotation(tag_levels = "A")
+
+bayes_combined_np
+
+ggsave(
+  "outputs/figures/bayesian_figures/range_shift_combined_no_prior.png",
+  plot = bayes_combined_np,
+  width = 7,
+  height = 8,
+  dpi = 300)

@@ -11,18 +11,20 @@ library(ggplot2)
 
 set.seed(1234)
 
-## Read in data
+## Read in models
+bayesmod_error_fg <- readRDS("outputs/models/bayesian_analysis_models/bayesmod_error_fg_30_spp.rds")
+bayesmod_full_fg <- readRDS("outputs/models/bayesian_analysis_models/bayesmod_full_fg_30_spp.rds")
+bayesmod_full_fg_no_prior <- readRDS("outputs/models/bayesian_analysis_models/bayesmod_full_fg_no_prior_30_spp.rds")
 
+## Read in data
 error_model_data <- read_csv("data/processed/error_model_data.csv")
 model_data <- read_csv("data/processed/model_data_filt.csv")
 
 ## Check data structure
-
 str(error_model_data)
 str(model_data)
 
 ## Prepare error model data
-
 error_model_data <- error_model_data %>%
   mutate(
     Species = factor(Species),
@@ -34,7 +36,6 @@ error_model_data <- error_model_data %>%
   )
 
 ## Prepare full model data
-
 model_data <- model_data %>%
   mutate(
     Species = factor(Species),
@@ -47,182 +48,169 @@ model_data <- model_data %>%
     Elevation_sc = as.numeric(scale(Elevation)),
     Time_sc = as.numeric(scale(YearsSinceStart)),
     Lat_sc = as.numeric(scale(Latitude)),
-    Lon_sc = as.numeric(scale(Longitude))
-  )
+    Lon_sc = as.numeric(scale(Longitude)))
 
 ####
 
+## Creating the functional group interaction model
+
 ## Run relocation error model with functional group interaction
 
-bayesmod_error_fg <- brm(
-  present ~ Treatment * poly(Elevation_sc, 2, raw = TRUE) * Functional_group
-  + (poly(Elevation_sc, 2, raw = TRUE) | Species)
-  + (1 | PlotNumber)
-  + Lat_sc,
-  data = error_model_data,
-  family = bernoulli(link = "logit"),
-  chains = 4,
-  iter = 4000,
-  warmup = 1000,
-  cores = 4,
-  seed = 1234
-)
+#bayesmod_error_fg <- brm(
+#  present ~ Treatment * poly(Elevation_sc, 2, raw = TRUE) * Functional_group
+#  + (poly(Elevation_sc, 2, raw = TRUE) | Species)
+#  + (1 | PlotNumber)
+#  + Lat_sc,
+#  data = error_model_data,
+#  family = bernoulli(link = "logit"),
+# chains = 4,
+#  iter = 4000,
+#  warmup = 1000,
+#  cores = 4,
+#  seed = 1234)
 
-summary(bayesmod_error_fg)
-pp_check(bayesmod_error_fg)
+#summary(bayesmod_error_fg)
+#pp_check(bayesmod_error_fg)
 
 ## Extract error-model coefficients
 
-error_priors_fg <- fixef(bayesmod_error_fg)
-error_priors_fg
+#error_priors_fg <- fixef(bayesmod_error_fg)
+#error_priors_fg
 
 ## Get full model coefficient names
 
-get_prior(
-  present ~ Time * poly(Elevation_sc, 2, raw = TRUE) * Functional_group
-  + (poly(Elevation_sc, 2, raw = TRUE) | Species)
-  + (1 | PlotNumber)
-  + Lat_sc,
-  data = model_data,
-  family = bernoulli(link = "logit")
-)
+#get_prior(
+#  present ~ Time * poly(Elevation_sc, 2, raw = TRUE) * Functional_group
+#  + (poly(Elevation_sc, 2, raw = TRUE) | Species)
+#  + (1 | PlotNumber)
+#  + Lat_sc,
+#  data = model_data,
+#  family = bernoulli(link = "logit"))
 
 ## Identify functional group levels
 
-levels(model_data$Functional_group)
+#levels(model_data$Functional_group)
 
 ## Identify treatment and treatment-by-elevation coefficients
 
-grep(
-  "^TreatmentError$|^TreatmentError:polyElevation",
-  rownames(error_priors_fg),
-  value = TRUE
-)
+#grep(
+#  "^TreatmentError$|^TreatmentError:polyElevation",
+#  rownames(error_priors_fg),
+#  value = TRUE)
 
 ## Identify functional group interaction coefficients
 
-grep(
-  "TreatmentError.*Functional_group",
-  rownames(error_priors_fg),
-  value = TRUE
-)
+#grep(
+#  "TreatmentError.*Functional_group",
+#  rownames(error_priors_fg),
+#  value = TRUE)
 
 ## Extract treatment and treatment-by-elevation priors
 
-trt_mu <- error_priors_fg["TreatmentError", "Estimate"]
-trt_sd <- error_priors_fg["TreatmentError", "Est.Error"]
+#trt_mu <- error_priors_fg["TreatmentError", "Estimate"]
+#trt_sd <- error_priors_fg["TreatmentError", "Est.Error"]
 
-elev_mu <- error_priors_fg["TreatmentError:polyElevation_sc2rawEQTRUE1", "Estimate"]
-elev_sd <- error_priors_fg["TreatmentError:polyElevation_sc2rawEQTRUE1", "Est.Error"]
+#elev_mu <- error_priors_fg["TreatmentError:polyElevation_sc2rawEQTRUE1", "Estimate"]
+#elev_sd <- error_priors_fg["TreatmentError:polyElevation_sc2rawEQTRUE1", "Est.Error"]
 
-elev2_mu <- error_priors_fg["TreatmentError:polyElevation_sc2rawEQTRUE2", "Estimate"]
-elev2_sd <- error_priors_fg["TreatmentError:polyElevation_sc2rawEQTRUE2", "Est.Error"]
+#elev2_mu <- error_priors_fg["TreatmentError:polyElevation_sc2rawEQTRUE2", "Estimate"]
+#elev2_sd <- error_priors_fg["TreatmentError:polyElevation_sc2rawEQTRUE2", "Est.Error"]
 
 ## Set priors for treatment and treatment-by-elevation effects
 
-priors_error_fg <- c(
-  set_prior(
-    paste0("normal(", trt_mu, ", ", trt_sd, ")"),
-    class = "b",
-    coef = "Timepresent"
-  ),
-  set_prior(
-    paste0("normal(", elev_mu, ", ", elev_sd, ")"),
-    class = "b",
-    coef = "Timepresent:polyElevation_sc2rawEQTRUE1"
-  ),
-  set_prior(
-    paste0("normal(", elev2_mu, ", ", elev2_sd, ")"),
-    class = "b",
-    coef = "Timepresent:polyElevation_sc2rawEQTRUE2"
-  )
-)
+#priors_error_fg <- c(
+#  set_prior(
+#    paste0("normal(", trt_mu, ", ", trt_sd, ")"),
+#    class = "b",
+#    coef = "Timepresent"),
+#  set_prior(
+#    paste0("normal(", elev_mu, ", ", elev_sd, ")"),
+#    class = "b",
+#    coef = "Timepresent:polyElevation_sc2rawEQTRUE1"),
+#  set_prior(
+#    paste0("normal(", elev2_mu, ", ", elev2_sd, ")"),
+#    class = "b",
+#    coef = "Timepresent:polyElevation_sc2rawEQTRUE2"))
 
 ## Extract functional group interaction priors
 
-fg_error_priors <- error_priors_fg[
-  grep(
-    "TreatmentError.*Functional_group",
-    rownames(error_priors_fg)
-  ),
-]
+#fg_error_priors <- error_priors_fg[
+#  grep(
+#    "TreatmentError.*Functional_group",
+#    rownames(error_priors_fg)),]
 
-fg_error_priors
+#fg_error_priors
 
 ## Add functional group interaction priors
 
-for (parameter in rownames(fg_error_priors)) {
+#for (parameter in rownames(fg_error_priors)) {
   
-  prior_mean <- fg_error_priors[parameter, "Estimate"]
-  prior_sd <- fg_error_priors[parameter, "Est.Error"]
+#  prior_mean <- fg_error_priors[parameter, "Estimate"]
+#  prior_sd <- fg_error_priors[parameter, "Est.Error"]
   
-  full_parameter <- gsub(
-    "TreatmentError",
-    "Timepresent",
-    parameter
-  )
+#  full_parameter <- gsub(
+#    "TreatmentError",
+#    "Timepresent",
+#    parameter)
   
-  priors_error_fg <- c(
-    priors_error_fg,
-    set_prior(
-      paste0("normal(", prior_mean, ", ", prior_sd, ")"),
-      class = "b",
-      coef = full_parameter))}
+#  priors_error_fg <- c(
+#    priors_error_fg,
+#    set_prior(
+#      paste0("normal(", prior_mean, ", ", prior_sd, ")"),
+#      class = "b",
+#      coef = full_parameter))}
 
 ## View priors
 
-priors_error_fg
+#priors_error_fg
 
 ####
 
 ## Run full model with functional group interaction and priors
 
-bayesmod_full_fg <- brm(
-  present ~ Time * poly(Elevation_sc, 2, raw = TRUE) * Functional_group
-  + (poly(Elevation_sc, 2, raw = TRUE) | Species)
-  + (1 | PlotNumber)
-  + Lat_sc,
-  data = model_data,
-  family = bernoulli(link = "logit"),
-  prior = priors_error_fg,
-  chains = 4,
-  iter = 4000,
-  warmup = 1000,
-  cores = 4,
-  seed = 1234
-)
+#bayesmod_full_fg <- brm(
+#  present ~ Time * poly(Elevation_sc, 2, raw = TRUE) * Functional_group
+#  + (poly(Elevation_sc, 2, raw = TRUE) | Species)
+#  + (1 | PlotNumber)
+#  + Lat_sc,
+#  data = model_data,
+#  family = bernoulli(link = "logit"),
+#  prior = priors_error_fg,
+#  chains = 4,
+#  iter = 4000,
+#  warmup = 1000,
+#  cores = 4,
+#  seed = 1234)
 
-summary(bayesmod_full_fg)
-pp_check(bayesmod_full_fg)
-prior_summary(bayesmod_full_fg)
+#summary(bayesmod_full_fg)
+#pp_check(bayesmod_full_fg)
+#prior_summary(bayesmod_full_fg)
 
 ## Run full model without informative priors
 
-bayesmod_full_fg_no_prior <- brm(
-  present ~ Time * poly(Elevation_sc, 2, raw = TRUE) * Functional_group
-  + (poly(Elevation_sc, 2, raw = TRUE) | Species)
-  + (1 | PlotNumber)
-  + Lat_sc,
-  data = model_data,
-  family = bernoulli(link = "logit"),
-  chains = 4,
-  iter = 4000,
-  warmup = 1000,
-  cores = 4,
-  seed = 1234
-)
+#bayesmod_full_fg_no_prior <- brm(
+#  present ~ Time * poly(Elevation_sc, 2, raw = TRUE) * Functional_group
+# + (poly(Elevation_sc, 2, raw = TRUE) | Species)
+#  + (1 | PlotNumber)
+#  + Lat_sc,
+#  data = model_data,
+#  family = bernoulli(link = "logit"),
+#  chains = 4,
+#  iter = 4000,
+#  warmup = 1000,
+#  cores = 4,
+#  seed = 1234)
 
-summary(bayesmod_full_fg_no_prior)
-pp_check(bayesmod_full_fg_no_prior)
-prior_summary(bayesmod_full_fg_no_prior)
+#summary(bayesmod_full_fg_no_prior)
+#pp_check(bayesmod_full_fg_no_prior)
+#prior_summary(bayesmod_full_fg_no_prior)
 
 ####
 
 ## Save models
-
-saveRDS(bayesmod_error_fg, "outputs/models/bayesian_analysis_models/bayesmod_error_fg_30_spp.rds")
-saveRDS(bayesmod_full_fg, "outputs/models/bayesian_analysis_models/bayesmod_full_fg_30_spp.rds")
-saveRDS(bayesmod_full_fg_no_prior, "outputs/models/bayesian_analysis_models/bayesmod_full_fg_no_prior_30_spp.rds")
+#saveRDS(bayesmod_error_fg, "outputs/models/bayesian_analysis_models/bayesmod_error_fg_30_spp.rds")
+#saveRDS(bayesmod_full_fg, "outputs/models/bayesian_analysis_models/bayesmod_full_fg_30_spp.rds")
+#saveRDS(bayesmod_full_fg_no_prior, "outputs/models/bayesian_analysis_models/bayesmod_full_fg_no_prior_30_spp.rds")
 
 ####
 
@@ -239,16 +227,38 @@ plot(bayesmod_error_fg)
 plot(bayesmod_full_fg_no_prior)
 
 ## Posterior predictive checks
+pp_full_fg <- pp_check(bayesmod_full_fg, ndraws = 100) + 
+  labs(x = "Proportion of species present", y = "Density", title = "Posterior predictive check: full functional group model")
+pp_error_fg <- pp_check(bayesmod_error_fg, ndraws = 100) + 
+  labs(x = "Proportion of species present", y = "Density", title = "Posterior predictive check: functional group relocation error model")
+pp_full_no_prior_fg <- pp_check(bayesmod_full_fg_no_prior, ndraws = 100) + 
+  labs(x = "Proportion of species present", y = "Density", title = "Posterior predictive check: full functional group model without informative priors")
 
-pp_check(bayesmod_full_fg, ndraws = 1000)
-pp_check(bayesmod_error_fg, ndraws = 1000)
-pp_check(bayesmod_full_fg_no_prior, ndraws = 1000)
+pp_full_fg
+pp_error_fg
+pp_full_no_prior_fg
 
-## Posterior predictive check of the mean
+## Save posterior predictive checks
+ggsave("outputs/figures/bayesian_figures/pp_check_full_fg.png", pp_full_fg, width = 8, height = 6, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/pp_check_error_fg.png", pp_error_fg, width = 8, height = 6, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/pp_check_full_no_prior_fg.png", pp_full_no_prior_fg, width = 8, height = 6, dpi = 300)
 
-pp_check(bayesmod_full_fg, type = "stat", stat = "mean", ndraws = 1000)
-pp_check(bayesmod_error_fg, type = "stat", stat = "mean", ndraws = 1000)
-pp_check(bayesmod_full_fg_no_prior, type = "stat", stat = "mean", ndraws = 1000)
+## Posterior predictive checks of the mean
+pp_mean_full_fg <- pp_check(bayesmod_full_fg, type = "stat", stat = "mean", ndraws = 1000) + 
+  labs(x = "Proportion of species present", title = "Posterior predictive check of the mean: full functional group model")
+pp_mean_error_fg <- pp_check(bayesmod_error_fg, type = "stat", stat = "mean", ndraws = 1000) + 
+  labs(x = "Proportion of species present", title = "Posterior predictive check of the mean: functional group relocation error model")
+pp_mean_full_no_prior_fg <- pp_check(bayesmod_full_fg_no_prior, type = "stat", stat = "mean", ndraws = 1000) + 
+  labs(x = "Proportion of species present", title = "Posterior predictive check of the mean: full functional group model without informative priors")
+
+pp_mean_full_fg
+pp_mean_error_fg
+pp_mean_full_no_prior_fg
+
+## Save mean posterior predictive checks
+ggsave("outputs/figures/bayesian_figures/pp_mean_full_fg.png", pp_mean_full_fg, width = 8, height = 6, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/pp_mean_error_fg.png", pp_mean_error_fg, width = 8, height = 6, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/pp_mean_full_no_prior_fg.png", pp_mean_full_no_prior_fg, width = 8, height = 6, dpi = 300)
 
 ## Bayes R2
 
@@ -348,14 +358,21 @@ prior_posterior_fg <- prior_posterior_fg %>%
   )
 
 ## Plot
-ggplot(
-  prior_posterior_fg,
-  aes(x = Estimate, fill = Distribution, color = Distribution)) +
+
+prior_posterior_fg_dist <- 
+  ggplot(
+    prior_posterior_fg,
+    aes(x = Estimate, fill = Distribution, color = Distribution)) +
   geom_density(alpha = 0.3, linewidth = 0.5) +
   facet_wrap(~ Parameter, scales = "free", ncol = 3) +
   xlab("Coefficient estimate") +
   ylab("Density") +
+  labs(title = "Prior and posterior distributions: functional group model") +
   theme_classic()
+
+prior_posterior_fg_dist
+
+ggsave("outputs/figures/bayesian_figures/prior_posterior_fg.png", plot = prior_posterior_fg_dist, width = 8, height = 6, dpi = 300)
 
 ####
 
@@ -410,7 +427,7 @@ prediction_data_fg <- bind_cols(
 
 ## Plot historical vs present curves by functional group
 
-ggplot(
+bayes_mod_fg <- ggplot(
   prediction_data_fg,
   aes(
     x = Elevation,
@@ -428,14 +445,15 @@ ggplot(
   facet_wrap(~ Functional_group) +
   xlab("Elevation (m)") +
   ylab("Predicted probability of occurrence") +
+  labs(title = "Predicted occurrence by functional group") +
   scale_x_continuous(
     breaks = seq(
-      floor(min(pred$Elevation_m) / 200) * 200,
-      ceiling(max(pred$Elevation_m) / 200) * 200,
+      floor(min(prediction_data_fg$Elevation) / 200) * 200,
+      ceiling(max(prediction_data_fg$Elevation) / 200) * 200,
       by = 200),
     minor_breaks = seq(
-      floor(min(pred$Elevation_m) / 100) * 100,
-      ceiling(max(pred$Elevation_m) / 100) * 100,
+      floor(min(prediction_data_fg$Elevation) / 100) * 100,
+      ceiling(max(prediction_data_fg$Elevation) / 100) * 100,
       by = 100),
     guide = guide_axis(minor.ticks = TRUE)) +
   scale_colour_manual(
@@ -451,6 +469,10 @@ ggplot(
       "historical" = "solid",
       "present" = "solid")) +
   theme_classic()
+
+bayes_mod_fg
+
+ggsave("outputs/figures/bayesian_figures/bayesmod_elevation_curve_fg.png", plot = bayes_mod_fg, width = 9, height = 5, dpi = 300)
 
 ####
 
@@ -541,3 +563,4 @@ ggplot(
   xlab("Range shift (m)") +
   ylab("Posterior density") +
   theme_classic()
+
