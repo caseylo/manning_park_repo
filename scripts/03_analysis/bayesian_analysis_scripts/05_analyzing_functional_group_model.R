@@ -336,23 +336,23 @@ prior_posterior_fg <- bind_rows(
 prior_posterior_fg <- prior_posterior_fg %>%
   mutate(
     Parameter = case_when(
-      Parameter == "Timepresent" ~ "Timepresent",
+      Parameter == "Timepresent" ~ "Time",
       Parameter == "Timepresent:polyElevation_sc2rawEQTRUE1" ~
-        "Timepresent × Elevation",
+        "Time × Elevation",
       Parameter == "Timepresent:polyElevation_sc2rawEQTRUE2" ~
-        "Timepresent × Elevation²",
+        "Time × Elevation²",
       Parameter == "Timepresent:Functional_groupshrub" ~
-        "Timepresent × Shrub",
+        "Time × Shrub",
       Parameter == "Timepresent:Functional_grouptree" ~
-        "Timepresent × Tree",
+        "Time × Tree",
       Parameter == "Timepresent:polyElevation_sc2rawEQTRUE1:Functional_groupshrub" ~
-        "Timepresent × Elevation × Shrub",
+        "Time × Elevation × Shrub",
       Parameter == "Timepresent:polyElevation_sc2rawEQTRUE2:Functional_groupshrub" ~
-        "Timepresent × Elevation² × Shrub",
+        "Time × Elevation² × Shrub",
       Parameter == "Timepresent:polyElevation_sc2rawEQTRUE1:Functional_grouptree" ~
-        "Timepresent × Elevation × Tree",
+        "Time × Elevation × Tree",
       Parameter == "Timepresent:polyElevation_sc2rawEQTRUE2:Functional_grouptree" ~
-        "Timepresent × Elevation² × Tree",
+        "Time × Elevation² × Tree",
       TRUE ~ Parameter
     )
   )
@@ -367,7 +367,7 @@ prior_posterior_fg_dist <-
   facet_wrap(~ Parameter, scales = "free", ncol = 3) +
   xlab("Coefficient estimate") +
   ylab("Density") +
-  labs(title = "Prior and posterior distributions: functional group model") +
+  #labs(title = "Prior and posterior distributions: functional group model") +
   theme_classic()
 
 prior_posterior_fg_dist
@@ -376,7 +376,7 @@ ggsave("outputs/figures/bayesian_figures/prior_posterior_fg.png", plot = prior_p
 
 ####
 
-## Visualizing historical vs present by functional group
+## Calculating range shifts by functional group
 
 ## Get elevation scaling parameters
 
@@ -425,58 +425,6 @@ prediction_data_fg <- bind_cols(
   newdata_fg,
   prediction_summary_fg)
 
-## Plot historical vs present curves by functional group
-
-bayes_mod_fg <- ggplot(
-  prediction_data_fg,
-  aes(
-    x = Elevation,
-    y = estimate,
-    linetype = Time,
-    colour = Time,
-    fill = Time)) +
-  geom_ribbon(
-    aes(
-      ymin = lower,
-      ymax = upper),
-    alpha = 0.2,
-    colour = NA) +
-  geom_line(linewidth = 1) +
-  facet_wrap(~ Functional_group) +
-  xlab("Elevation (m)") +
-  ylab("Predicted probability of occurrence") +
-  labs(title = "Predicted occurrence by functional group") +
-  scale_x_continuous(
-    breaks = seq(
-      floor(min(prediction_data_fg$Elevation) / 200) * 200,
-      ceiling(max(prediction_data_fg$Elevation) / 200) * 200,
-      by = 200),
-    minor_breaks = seq(
-      floor(min(prediction_data_fg$Elevation) / 100) * 100,
-      ceiling(max(prediction_data_fg$Elevation) / 100) * 100,
-      by = 100),
-    guide = guide_axis(minor.ticks = TRUE)) +
-  scale_colour_manual(
-    values = c(
-      "present" = "#F8766D",
-      "historical" = "#00BFC4")) +
-  scale_fill_manual(
-    values = c(
-      "present" = "#F8766D",
-      "historical" = "#00BFC4")) +
-  scale_linetype_manual(
-    values = c(
-      "historical" = "solid",
-      "present" = "solid")) +
-  theme_classic()
-
-bayes_mod_fg
-
-ggsave("outputs/figures/bayesian_figures/bayesmod_elevation_curve_fg.png", plot = bayes_mod_fg, width = 9, height = 5, dpi = 300)
-
-####
-
-## Calculating range shifts by functional group
 
 ## Find the elevation of maximum predicted probability for each posterior draw
 
@@ -544,23 +492,309 @@ range_shift_summary_fg <- range_shift_draws_fg %>%
     lower_95_shift = quantile(shift_m, 0.025),
     upper_95_shift = quantile(shift_m, 0.975),
     probability_positive = mean(shift_m > 0)
-  )
+  ) %>%
+  pivot_longer(
+    cols = -Functional_group,
+    names_to = "Statistic",
+    values_to = "Value") %>%
+  pivot_wider(
+    names_from = Functional_group,
+    values_from = Value)
 
 range_shift_summary_fg
 
 ## Visualize posterior distribution of range shifts
 
-ggplot(
-  range_shift_draws_fg,
-  aes(x = shift_m)
-) +
-  geom_density() +
+## Calculate density for each functional group
+
+density_fg <- range_shift_draws_fg %>%
+  group_by(Functional_group) %>%
+  summarise(
+    density = list(density(shift_m)),
+    lower = quantile(shift_m, 0.025),
+    upper = quantile(shift_m, 0.975),
+    .groups = "drop") %>%
+  mutate(
+    density_data = map(
+      density,
+      ~ tibble(
+        x = .x$x,
+        y = .x$y))) %>%
+  select(-density) %>%
+  unnest(density_data) %>%
+  mutate(
+    in_ci = x >= lower & x <= upper)
+
+
+## Plot posterior distributions
+
+## Calculate median range shift by functional group
+
+median <- range_shift_draws_fg %>%
+  group_by(Functional_group) %>%
+  summarise(
+    median_shift = median(shift_m))
+
+median$y <- mapply(
+  function(group, median) {
+    density_fg %>%
+      filter(Functional_group == group) %>%
+      slice_min(abs(x - median), n = 1) %>%
+      pull(y)
+  },
+  median$Functional_group,
+  median$median_shift)
+
+median_fg <- median %>%
+  mutate(
+    label_y = y + case_when(
+      Functional_group == "herb" ~ 0.0013,
+      Functional_group == "shrub" ~ 0.0008,
+      Functional_group == "tree" ~ 0.0008,
+      TRUE ~ 0),
+    label_x = median_shift + case_when(
+      Functional_group == "shrub" ~ 45,
+      Functional_group == "tree" ~ 15,
+      TRUE ~ 0),
+    label = paste0(
+      ifelse(
+        Functional_group == "herb",
+        "+",
+        ""),
+      round(median_shift),
+      " m",
+      ifelse(
+        Functional_group == "herb",
+        "*",
+        "")))
+
+bayes_range_shift_fg <- ggplot(
+  density_fg,
+  aes(x = x, y = y)) +
+  geom_ribbon(
+    data = density_fg %>%
+      filter(in_ci),
+    aes(
+      ymin = 0,
+      ymax = y),
+      fill = "grey40",
+    alpha = 0.4) +
+  geom_line(
+    linewidth = 0.58) +
   geom_vline(
     xintercept = 0,
-    linetype = "dashed"
-  ) +
-  facet_wrap(~ Functional_group) +
+    linetype = "solid",
+    linewidth = 0.5) +
+  geom_segment(
+    data = median_fg,
+    aes(
+      x = median_shift,
+      xend = median_shift,
+      y = 0,
+      yend = y),
+    linetype = "dashed",
+    linewidth = 0.3,
+    inherit.aes = FALSE) +
+  geom_point(
+    data = median_fg,
+    aes(
+      x = median_shift,
+      y = y),
+    size = 2,
+    inherit.aes = FALSE) +
+  geom_text(
+    data = median_fg,
+    aes(
+      x = label_x,
+      y = label_y,
+      label = label),
+    size = 4,
+    inherit.aes = FALSE) +
+  facet_wrap(
+    ~ Functional_group,
+    labeller = as_labeller(c(
+      herb = "Herb",
+      shrub = "Shrub",
+      tree = "Tree"))) +
   xlab("Range shift (m)") +
   ylab("Posterior density") +
+  scale_x_continuous(
+    limits = c(-220, 460),
+    breaks = seq(
+      floor(min(range_shift_draws_fg$shift_m) / 200) * 200,
+      ceiling(max(range_shift_draws_fg$shift_m) / 200) * 200,
+      by = 200),
+    minor_breaks = seq(
+      floor(min(range_shift_draws_fg$shift_m) / 100) * 100,
+      ceiling(max(range_shift_draws_fg$shift_m) / 100) * 100,
+      by = 100),
+    guide = guide_axis(minor.ticks = TRUE)) +
+  scale_y_continuous(
+    expand = expansion(mult = c(0.02, 0.08))) +
   theme_classic()
+
+bayes_range_shift_fg
+
+## Visualizing historical vs present by functional group
+
+## Calculate median optima by functional group
+
+optima_fg <- range_shift_draws_fg %>%
+  group_by(Functional_group) %>%
+  summarise(
+    historical_median = median(historical_optimum),
+    present_median = median(present_optimum))
+
+## Add predicted probability at median optima
+
+optima_fg <- optima_fg %>%
+  rowwise() %>%
+  mutate(
+    historical_y = approx(
+      prediction_data_fg$Elevation[
+        prediction_data_fg$Functional_group == Functional_group &
+          prediction_data_fg$Time == "historical"],
+      prediction_data_fg$estimate[
+        prediction_data_fg$Functional_group == Functional_group &
+          prediction_data_fg$Time == "historical"],
+      xout = historical_median)$y,
+    present_y = approx(
+      prediction_data_fg$Elevation[
+        prediction_data_fg$Functional_group == Functional_group &
+          prediction_data_fg$Time == "present"],
+      prediction_data_fg$estimate[
+        prediction_data_fg$Functional_group == Functional_group &
+          prediction_data_fg$Time == "present"],
+      xout = present_median)$y) %>%
+  ungroup()
+
+## Plot historical vs present curves by functional group
+
+bayes_mod_fg <- ggplot(
+  prediction_data_fg,
+  aes(
+    x = Elevation,
+    y = estimate,
+    linetype = Time,
+    colour = Time,
+    fill = Time)) +
+  geom_ribbon(
+    aes(
+      ymin = lower,
+      ymax = upper),
+    alpha = 0.2,
+    colour = NA) +
+  geom_line(linewidth = 1) +
+  facet_wrap(
+    ~ Functional_group,
+    labeller = as_labeller(c(
+      herb = "Herb",
+      shrub = "Shrub",
+      tree = "Tree"))) +
+  xlab("Elevation (m)") +
+  ylab("Predicted probability of occurrence") +
+  scale_x_continuous(
+    breaks = seq(
+      floor(min(prediction_data_fg$Elevation) / 200) * 200,
+      ceiling(max(prediction_data_fg$Elevation) / 200) * 200,
+      by = 200),
+    minor_breaks = seq(
+      floor(min(prediction_data_fg$Elevation) / 100) * 100,
+      ceiling(max(prediction_data_fg$Elevation) / 100) * 100,
+      by = 100),
+    guide = guide_axis(minor.ticks = TRUE)) +
+  scale_colour_manual(
+    values = c(
+      "present" = "#F8766D",
+      "historical" = "#00BFC4"),
+    labels = c(
+      "present" = "Present",
+      "historical" = "Historical")) +
+  scale_fill_manual(
+    values = c(
+      "present" = "#F8766D",
+      "historical" = "#00BFC4"),
+    guide = "none") +
+  scale_linetype_manual(
+    values = c(
+      "historical" = "solid",
+      "present" = "solid"),
+    guide = "none") +
+  geom_vline(
+    data = optima_fg,
+    aes(xintercept = historical_median),
+    colour = "#00BFC4",
+    linetype = "dashed",
+    linewidth = 0.8,
+    inherit.aes = FALSE) +
+  geom_vline(
+    data = optima_fg,
+    aes(xintercept = present_median),
+    colour = "#F8766D",
+    linetype = "dashed",
+    linewidth = 0.8,
+    inherit.aes = FALSE) +
+  geom_point(
+    data = optima_fg,
+    aes(
+      x = historical_median,
+      y = historical_y),
+    colour = "#00BFC4",
+    size = 2.5,
+    inherit.aes = FALSE) +
+  geom_point(
+    data = optima_fg,
+    aes(
+      x = present_median,
+      y = present_y),
+    colour = "#F8766D",
+    size = 2.5,
+    inherit.aes = FALSE) +
+  geom_text(
+    data = data.frame(Functional_group = "herb"),
+    aes(
+      x = Inf,
+      y = Inf,
+      label = "+135 m*"),
+    hjust = 1.1,
+    vjust = 1.5,
+    size = 4,
+    inherit.aes = FALSE) +
+  geom_text(
+    data = data.frame(Functional_group = "shrub"),
+    aes(
+      x = Inf,
+      y = Inf,
+      label = "+9 m"),
+    hjust = 1.1,
+    vjust = 1.5,
+    size = 4,
+    inherit.aes = FALSE) +
+  geom_text(
+    data = data.frame(Functional_group = "tree"),
+    aes(
+      x = Inf,
+      y = Inf,
+      label = "+56 m"),
+    hjust = 1.1,
+    vjust = 1.5,
+    size = 4,
+    inherit.aes = FALSE) +
+  theme_classic()
+
+bayes_mod_fg
+
+ggsave("outputs/figures/bayesian_figures/bayesmod_elevation_curve_fg.png", plot = bayes_mod_fg, width = 9, height = 5, dpi = 300)
+
+####
+
+## Combine plots
+
+bayes_combined <- bayes_mod_fg / bayes_range_shift_fg +
+  plot_annotation(tag_levels = "A")
+
+bayes_combined
+
+ggsave("outputs/figures/bayesian_figures/range_shift_combined.png", plot = bayes_combined, width = 9, height = 8, dpi = 300)
+
 

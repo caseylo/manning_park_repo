@@ -146,13 +146,13 @@ prior_posterior <- prior_posterior %>%
   mutate(
     Parameter = case_when(
       Parameter %in% c(
-        "Timepresent", "b_Timepresent") ~ "Timepresent",
+        "Timepresent", "b_Timepresent") ~ "Time",
       Parameter %in% c(
         "Timepresent:polyElevation_sc2rawEQTRUE1",
-        "b_Timepresent:polyElevation_sc2rawEQTRUE1") ~ "Timepresent × Elevation",
+        "b_Timepresent:polyElevation_sc2rawEQTRUE1") ~ "Time × Elevation",
       Parameter %in% c(
         "Timepresent:polyElevation_sc2rawEQTRUE2",
-        "b_Timepresent:polyElevation_sc2rawEQTRUE2") ~ "Timepresent × Elevation²", TRUE ~ Parameter))
+        "b_Timepresent:polyElevation_sc2rawEQTRUE2") ~ "Time × Elevation²", TRUE ~ Parameter))
 
 ## Plot prior and posterior distributions
 
@@ -327,62 +327,6 @@ bayesmod_plot <- ggplot(
 bayesmod_plot
 
 ggsave("outputs/figures/bayesian_figures/bayesmod_elevation_curve.png",plot = bayesmod_plot, width = 7, height = 4, dpi = 300)
-
-
-####
-
-## Generate alternative predictions
-
-freq_curve <- ggpredict(
-  bayesmod_full,
-  terms = c("Elevation_sc [all]", "Time")) %>%
-  mutate(
-    Elevation_m = x * elevation_sd + elevation_mean)
-
-## Plot Bayesian and alternative prediction curves
-
-gg_predict_curve <- ggplot() +
-  geom_ribbon(
-    data = prediction_data,
-    aes(
-      x = Elevation,
-      ymin = lower,
-      ymax = upper,
-      fill = Time),
-    alpha = 0.15) +
-  geom_line(
-    data = prediction_data,
-    aes(
-      x = Elevation,
-      y = estimate,
-      colour = Time),
-    linewidth = 1) +
-  geom_line(
-    data = freq_curve,
-    aes(
-      x = Elevation_m,
-      y = predicted,
-      colour = group),
-    linewidth = 1) +
-  xlab("Elevation (m)") +
-  ylab("Predicted probability of occurrence") +
-  labs(
-    colour = "Time",
-    fill = "Time") +
-  scale_colour_manual(
-    values = c(
-      "present" = "#F8766D",
-      "historical" = "#00BFC4")) +
-  scale_fill_manual(
-    values = c(
-      "present" = "#F8766D",
-      "historical" = "#00BFC4")) +
-  theme_classic()
-
-gg_predict_curve
-
-ggsave("outputs/figures/bayesian_figures/gg_predict_bayesmod_elevation_curve.png",plot = gg_predict_curve, width = 7, height = 4, dpi = 300)
-
 
 ####
 
