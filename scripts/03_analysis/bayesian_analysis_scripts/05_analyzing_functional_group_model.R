@@ -795,6 +795,6 @@ bayes_combined <- bayes_mod_fg / bayes_range_shift_fg +
 
 bayes_combined
 
-ggsave("outputs/figures/bayesian_figures/range_shift_combined.png", plot = bayes_combined, width = 9, height = 8, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/range_shift_combined_fg.png", plot = bayes_combined, width = 9, height = 8, dpi = 300)
 
 

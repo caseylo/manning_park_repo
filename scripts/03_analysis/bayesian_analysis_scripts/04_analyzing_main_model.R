@@ -168,7 +168,7 @@ prior_posterior_dist <-
 
 prior_posterior_dist
 
-#ggsave("outputs/figures/bayesian_figures/prior_posterior_dist.png", prior_posterior_dist, width = 8, height = 6, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/prior_posterior_dist.png", prior_posterior_dist, width = 8, height = 6, dpi = 300)
 
 ## Make a zoomed in version of the prior/ posterior graph and combine as panels
 
@@ -186,8 +186,8 @@ panel_b <- ggplot(
   labs(tag = "B") +
   geom_vline(
     xintercept = 0,
-    linetype = "dashed",
-    linewidth = 0.8) +
+    linetype = "solid",
+    linewidth = 0.2) +
   theme_classic()
 
 panel_b
@@ -246,89 +246,6 @@ prediction_data <- bind_cols(
       lower = `2.5%`,
       estimate = `50%`,
       upper = `97.5%`))
-
-## Plot historical vs. present curves
-
-bayesmod_plot <- ggplot(
-  prediction_data,
-  aes(
-    x = Elevation,
-    y = estimate,
-    colour = Time)) +
-  geom_ribbon(
-    aes(
-      ymin = lower,
-      ymax = upper,
-      fill = Time),
-    alpha = 0.2,
-    colour = NA) +
-  geom_line(
-    linewidth = 1) +
-  geom_vline(
-    xintercept = historical_median,
-    colour = "#00BFC4",
-    linetype = "dashed",
-    linewidth = 0.8) +
-  annotate(
-    "point",
-    x = historical_median,
-    y = approx(
-      prediction_data$Elevation[
-        prediction_data$Time == "historical"],
-      prediction_data$estimate[
-        prediction_data$Time == "historical"],
-      xout = historical_median)$y,
-    colour = "#00BFC4",
-    size = 3) +
-  geom_vline(
-    xintercept = present_median,
-    colour = "#F8766D",
-    linetype = "dashed",
-    linewidth = 0.8) +
-  annotate(
-    "point",
-    x = present_median,
-    y = approx(
-      prediction_data$Elevation[
-        prediction_data$Time == "present"],
-      prediction_data$estimate[
-        prediction_data$Time == "present"],
-      xout = present_median)$y,
-    colour = "#F8766D",
-    size = 3) +
-  xlab("Elevation (m)") +
-  ylab("Predicted probability of occurrence") +
-  scale_colour_manual(
-    values = c(
-      "present" = "#F8766D",
-      "historical" = "#00BFC4"),
-    labels = c(
-      "present" = "Present",
-      "historical" = "Historical")) +
-  scale_fill_manual(
-    values = c(
-      "present" = "#F8766D",
-      "historical" = "#00BFC4"),
-    guide = "none") +
-  annotate(
-    "text",
-    x = Inf,
-    y = Inf,
-    label = "+55 m",
-    hjust = 1.1,
-    vjust = 1.5,
-    size = 4) +
-  scale_x_continuous(
-    breaks = seq(600, 1800, by = 100),
-    minor_breaks = seq(600, 1800, by = 50),
-    guide = guide_axis(minor.ticks = TRUE)) +
-  theme_classic()
-
-bayesmod_plot
-
-ggsave("outputs/figures/bayesian_figures/bayesmod_elevation_curve.png",plot = bayesmod_plot, width = 7, height = 4, dpi = 300)
-
-####
 
 ## Calculating the range shift
 
@@ -431,7 +348,8 @@ bayes_range_shift <- ggplot(
     size = 4) +
   geom_vline(
     xintercept = 0,
-    linetype = "dashed") +
+    linetype = "solid",
+    linewidth = 0.2) +
   xlab("Range shift (m)") +
   ylab("Posterior density") +
   #labs(title = "Posterior distribution of elevation range shift") +
@@ -453,7 +371,7 @@ bayes_range_shift <- ggplot(
 
 bayes_range_shift
 
-#ggsave("outputs/figures/bayesian_figures/bayes_range_shift.png", plot = bayes_range_shift, width = 7, height = 4, dpi = 300)
+ggsave("outputs/figures/bayesian_figures/bayes_range_shift.png", plot = bayes_range_shift, width = 7, height = 4, dpi = 300)
 
 ## Calculate posterior medians
 
@@ -574,6 +492,89 @@ bayes_optima <- ggplot(
 bayes_optima
 
 ggsave("outputs/figures/bayesian_figures/bayesian_optima.png", plot = bayes_optima, width = 8, height = 6, dpi = 300)
+
+####
+
+## Plot historical vs. present curves
+
+bayesmod_plot <- ggplot(
+  prediction_data,
+  aes(
+    x = Elevation,
+    y = estimate,
+    colour = Time)) +
+  geom_ribbon(
+    aes(
+      ymin = lower,
+      ymax = upper,
+      fill = Time),
+    alpha = 0.2,
+    colour = NA) +
+  geom_line(
+    linewidth = 1) +
+  geom_vline(
+    xintercept = historical_median,
+    colour = "#00BFC4",
+    linetype = "dashed",
+    linewidth = 0.8) +
+  annotate(
+    "point",
+    x = historical_median,
+    y = approx(
+      prediction_data$Elevation[
+        prediction_data$Time == "historical"],
+      prediction_data$estimate[
+        prediction_data$Time == "historical"],
+      xout = historical_median)$y,
+    colour = "#00BFC4",
+    size = 3) +
+  geom_vline(
+    xintercept = present_median,
+    colour = "#F8766D",
+    linetype = "dashed",
+    linewidth = 0.8) +
+  annotate(
+    "point",
+    x = present_median,
+    y = approx(
+      prediction_data$Elevation[
+        prediction_data$Time == "present"],
+      prediction_data$estimate[
+        prediction_data$Time == "present"],
+      xout = present_median)$y,
+    colour = "#F8766D",
+    size = 3) +
+  xlab("Elevation (m)") +
+  ylab("Predicted probability of occurrence") +
+  scale_colour_manual(
+    values = c(
+      "present" = "#F8766D",
+      "historical" = "#00BFC4"),
+    labels = c(
+      "present" = "Present",
+      "historical" = "Historical")) +
+  scale_fill_manual(
+    values = c(
+      "present" = "#F8766D",
+      "historical" = "#00BFC4"),
+    guide = "none") +
+  annotate(
+    "text",
+    x = Inf,
+    y = Inf,
+    label = "+55 m",
+    hjust = 1.1,
+    vjust = 1.5,
+    size = 4) +
+  scale_x_continuous(
+    breaks = seq(600, 1800, by = 100),
+    minor_breaks = seq(600, 1800, by = 50),
+    guide = guide_axis(minor.ticks = TRUE)) +
+  theme_classic()
+
+bayesmod_plot
+
+ggsave("outputs/figures/bayesian_figures/bayesmod_elevation_curve.png",plot = bayesmod_plot, width = 7, height = 4, dpi = 300)
 
 ####
 
@@ -843,7 +844,8 @@ bayes_range_shift_np <- ggplot(
     size = 4) +
   geom_vline(
     xintercept = 0,
-    linetype = "dashed") +
+    linetype = "solid",
+    linewidth = 0.2) +
   xlab("Range shift (m)") +
   ylab("Posterior density") +
   scale_x_continuous(
@@ -858,6 +860,12 @@ bayes_range_shift_np <- ggplot(
 
 bayes_range_shift_np
 
+ggsave(
+  "outputs/figures/bayesian_figures/bayes_range_shift_no_prior.png",
+  plot = bayes_range_shift_np,
+  width = 7,
+  height = 4,
+  dpi = 300)
 
 ####
 
