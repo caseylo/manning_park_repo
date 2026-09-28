@@ -142,7 +142,6 @@ bestmod_fg <- glmer(
   control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e5)))
 
 summary(bestmod_fg)
-summary(bestmod_fg)
 
 ## Pairwise significance of linear elevation
 

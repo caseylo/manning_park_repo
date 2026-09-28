@@ -8,6 +8,7 @@ library(posterior)
 library(bayesplot)
 library(ggeffects)
 library(ggplot2)
+library(emmeans)
 
 set.seed(1234)
 
@@ -219,6 +220,19 @@ model_data <- model_data %>%
 summary(bayesmod_full_fg)
 summary(bayesmod_error_fg)
 summary(bayesmod_full_fg_no_prior)
+
+## Functional group-specific Time effects
+
+emmeans(
+  bayesmod_full_fg,
+  pairwise ~ Time | Functional_group,
+  type = "response")
+
+emtrends(
+  bayesmod_full_fg,
+  pairwise ~ Time | Functional_group,
+  var = "Elevation_sc",
+  at = list(Elevation_sc = 0))
 
 ## Plot models
 
