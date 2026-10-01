@@ -228,11 +228,19 @@ emmeans(
   pairwise ~ Time | Functional_group,
   type = "response")
 
-emtrends(
+emm <- emmeans(
   bayesmod_full_fg,
   pairwise ~ Time | Functional_group,
-  var = "Elevation_sc",
-  at = list(Elevation_sc = 0))
+  type = "response"
+)
+
+emm
+
+contrast(
+  emm,
+  method = "revpairwise",
+  type = "response"
+)
 
 ## Plot models
 
@@ -491,29 +499,38 @@ range_shift_draws_fg <- map_dfr(
   }
 )
 
-## Summarize Bayesian range shifts by functional group
+## Summarize Bayesian range shifts by functional group, including SDs
 
 range_shift_summary_fg <- range_shift_draws_fg %>%
   group_by(Functional_group) %>%
   summarise(
     median_historical_optimum = median(historical_optimum),
+    sd_historical_optimum = sd(historical_optimum),
     lower_95_historical_optimum = quantile(historical_optimum, 0.025),
     upper_95_historical_optimum = quantile(historical_optimum, 0.975),
+    
     median_present_optimum = median(present_optimum),
+    sd_present_optimum = sd(present_optimum),
     lower_95_present_optimum = quantile(present_optimum, 0.025),
     upper_95_present_optimum = quantile(present_optimum, 0.975),
+    
     median_shift = median(shift_m),
+    sd_shift = sd(shift_m),
     lower_95_shift = quantile(shift_m, 0.025),
     upper_95_shift = quantile(shift_m, 0.975),
-    probability_positive = mean(shift_m > 0)
+    
+    probability_positive = mean(shift_m > 0),
+    .groups = "drop"
   ) %>%
   pivot_longer(
     cols = -Functional_group,
     names_to = "Statistic",
-    values_to = "Value") %>%
+    values_to = "Value"
+  ) %>%
   pivot_wider(
     names_from = Functional_group,
-    values_from = Value)
+    values_from = Value
+  )
 
 range_shift_summary_fg
 
@@ -811,4 +828,74 @@ bayes_combined
 
 ggsave("outputs/figures/bayesian_figures/range_shift_combined_fg.png", plot = bayes_combined, width = 9, height = 8, dpi = 300)
 
+####
 
+## Calculating differences in probabilities of occurence from the posterior between historical and present 
+
+## Calculate peak probabilities for each posterior draw and functional group
+
+peak_probability_draws_fg <- map_dfr(
+  seq_len(nrow(posterior_predictions_fg)),
+  function(i) {
+    
+    predictions <- posterior_predictions_fg[i, ]
+    
+    map_dfr(
+      levels(model_data$Functional_group),
+      function(fg) {
+        
+        historical_predictions <- predictions[
+          newdata_fg$Time == "historical" &
+            newdata_fg$Functional_group == fg
+        ]
+        
+        present_predictions <- predictions[
+          newdata_fg$Time == "present" &
+            newdata_fg$Functional_group == fg
+        ]
+        
+        historical_peak <- max(historical_predictions)
+        present_peak <- max(present_predictions)
+        
+        tibble(
+          Functional_group = fg,
+          historical_peak = historical_peak,
+          present_peak = present_peak,
+          difference = present_peak - historical_peak
+        )
+      }
+    )
+  }
+)
+
+## Summarise posterior differences in peak predicted probability
+
+peak_probability_summary_fg <- peak_probability_draws_fg %>%
+  group_by(Functional_group) %>%
+  summarise(
+    ## Historical peak probability
+    median_historical_peak = median(historical_peak),
+    sd_historical_peak = sd(historical_peak),
+    lower_95_historical_peak = quantile(historical_peak, 0.025),
+    upper_95_historical_peak = quantile(historical_peak, 0.975),
+    
+    ## Present peak probability
+    median_present_peak = median(present_peak),
+    sd_present_peak = sd(present_peak),
+    lower_95_present_peak = quantile(present_peak, 0.025),
+    upper_95_present_peak = quantile(present_peak, 0.975),
+    
+    ## Difference in peak probability
+    median_difference = median(difference),
+    sd_difference = sd(difference),
+    lower_95_difference = quantile(difference, 0.025),
+    upper_95_difference = quantile(difference, 0.975),
+    
+    ## Posterior probability that peak occurrence increased
+    probability_increase = mean(difference > 0),
+    
+    .groups = "drop"
+  )
+
+## View results
+print(peak_probability_summary_fg, n = Inf, width = Inf)

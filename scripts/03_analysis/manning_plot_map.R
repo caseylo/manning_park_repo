@@ -1,384 +1,301 @@
-#### Making a better plot map of Manning Park sites
+## Making a better map
 
-## Read in data
+library(leaflet)
+library(tidyverse)
+library(sf)
+library(osmdata)
+library(ggplot2)
+library(rnaturalearth)
+library(base64enc)
+library(htmltools)
+library(mapview)
+library(webshot)
 
+# Read data
 data_all <- read_csv("data/processed/model_data_filt.csv")
 error_data <- read_csv("data/processed/error_model_data.csv")
 
-# Load packages
 
-library(tidyverse)
-library(sf)
-library(ggplot2)
-library(ggspatial)
-library(osmdata)
-library(cowplot)
-
-
-# Prepare historical survey years
-
-original_years <- data_all %>%
-  filter(Time == "historical") %>%
-  select(
-    PlotNumber,
-    OriginalSurveyYear = Year
-  ) %>%
-  distinct()
-
-
-# Prepare present-day plots
+# Prepare plot locations
 
 present_plots <- data_all %>%
-  filter(Time == "present") %>%
-  select(
-    PlotNumber,
-    Latitude,
-    Longitude
-  ) %>%
+  filter(Time == "historical") %>%
+  select(PlotNumber, Latitude, Longitude) %>%
   distinct() %>%
-  left_join(
-    original_years,
-    by = "PlotNumber"
-  ) %>%
-  mutate(
-    Location = "Correct"
-  ) %>%
-  filter(
-    !is.na(Latitude),
-    !is.na(Longitude),
-    !is.na(OriginalSurveyYear)
-  )
-
-
-# Prepare relocation error plots
+  drop_na(Latitude, Longitude)
 
 error_plots <- error_data %>%
-  select(
-    PlotNumber,
-    Treatment,
-    Latitude,
-    Longitude
-  ) %>%
+  select(PlotNumber, Treatment, Latitude, Longitude) %>%
   distinct() %>%
-  filter(
-    !is.na(Latitude),
-    !is.na(Longitude)
-  ) %>%
-  mutate(
-    OriginalSurveyYear = 2025,
-    Location = if_else(
-      Treatment == "Error",
-      "Error",
-      "Correct"
-    )
-  )
+  drop_na(Latitude, Longitude) %>%
+  mutate(Location = if_else(Treatment == "Error", "Error", "Correct"))
+
+correct_plots <- error_plots %>%
+  filter(Location == "Correct")
+
+mislocated_plots <- error_plots %>%
+  filter(Location == "Error")
 
 
-# Convert plots to spatial data
-
-present_sf <- st_as_sf(
-  present_plots,
-  coords = c("Longitude", "Latitude"),
-  crs = 4326
-)
-
-error_sf <- st_as_sf(
-  error_plots,
-  coords = c("Longitude", "Latitude"),
-  crs = 4326
-)
-
-
-# Get Manning Park boundary from OpenStreetMap
+# Manning Park boundary
 
 manning_boundary <- opq(
   "E.C. Manning Provincial Park",
   timeout = 120
 ) %>%
-  add_osm_feature(
-    key = "boundary",
-    value = "protected_area"
-  ) %>%
+  add_osm_feature(key = "boundary", value = "protected_area") %>%
   osmdata_sf()
 
-park_poly <- manning_boundary$osm_multipolygons
+park_poly <- manning_boundary$osm_multipolygons %>%
+  st_transform(4326)
 
-park_poly <- st_transform(
-  park_poly,
-  4326
+
+# British Columbia inset with ONE five-point star
+
+north_america <- ne_countries(
+  scale = "medium",
+  returnclass = "sf"
 )
 
-
-# Check the park boundary
-
-park_poly
-
-
-# Set map extent
-
-all_coordinates <- bind_rows(
-  present_plots %>%
-    select(
-      Longitude,
-      Latitude
-    ),
-  error_plots %>%
-    select(
-      Longitude,
-      Latitude
-    )
-)
-
-xlim <- range(
-  all_coordinates$Longitude,
-  na.rm = TRUE
-)
-
-ylim <- range(
-  all_coordinates$Latitude,
-  na.rm = TRUE
-)
-
-xpad <- diff(xlim) * 0.10
-ypad <- diff(ylim) * 0.10
-
-xlim <- xlim + c(-xpad, xpad)
-ylim <- ylim + c(-ypad, ypad)
-
-
-# Create main map
-
-main_map <- ggplot() +
-  
-  annotation_map_tile(
-    type = "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-    zoom = 10,
-    cachedir = "map_tiles",
-    progress = "none"
-  ) +
-  
-  geom_sf(
-    data = park_poly,
-    fill = NA,
-    colour = "black",
-    linewidth = 1
-  ) +
-  
-  geom_sf(
-    data = present_sf,
-    aes(
-      colour = factor(OriginalSurveyYear)
-    ),
-    shape = 16,
-    size = 3.5,
-    alpha = 0.85
-  ) +
-  
-  geom_sf(
-    data = error_sf %>%
-      filter(Location == "Correct"),
-    shape = 21,
-    size = 5,
-    fill = "white",
-    colour = "black",
-    stroke = 1.2
-  ) +
-  
-  geom_sf(
-    data = error_sf %>%
-      filter(Location == "Error"),
-    shape = 4,
-    size = 5,
-    colour = "black",
-    stroke = 1.3
-  ) +
-  
-  scale_colour_viridis_d(
-    option = "turbo",
-    name = "Original survey year"
-  ) +
-  
-  annotation_scale(
-    location = "bl",
-    width_hint = 0.25,
-    text_cex = 0.8
-  ) +
-  
-  annotation_north_arrow(
-    location = "tr",
-    which_north = "true",
-    style = north_arrow_fancy_orienteering(
-      text_size = 10
-    )
-  ) +
-  
-  coord_sf(
-    xlim = xlim,
-    ylim = ylim,
-    expand = FALSE
-  ) +
-  
-  labs(
-    x = NULL,
-    y = NULL
-  ) +
-  
-  theme_bw() +
-  
-  theme(
-    panel.grid = element_blank(),
-    axis.text = element_text(size = 8),
-    legend.position = "right",
-    legend.title = element_text(size = 10),
-    legend.text = element_text(size = 9),
-    plot.margin = margin(
-      5, 5, 5, 5
-    )
-  )
-
-
-# Create relocation error legend
-
-relocation_legend <- ggplot() +
-  
-  geom_point(
-    aes(
-      x = 1,
-      y = 2
-    ),
-    shape = 21,
-    size = 5,
-    fill = "white",
-    colour = "black",
-    stroke = 1.2
-  ) +
-  
-  geom_point(
-    aes(
-      x = 1,
-      y = 1
-    ),
-    shape = 4,
-    size = 5,
-    colour = "black",
-    stroke = 1.3
-  ) +
-  
-  annotate(
-    "text",
-    x = 1.3,
-    y = 2,
-    label = "Correct relocation",
-    hjust = 0,
-    size = 3.5
-  ) +
-  
-  annotate(
-    "text",
-    x = 1.3,
-    y = 1,
-    label = "Relocation error",
-    hjust = 0,
-    size = 3.5
-  ) +
-  
-  annotate(
-    "text",
-    x = 1,
-    y = 2.7,
-    label = "Relocation Error Plots",
-    fontface = "bold",
-    hjust = 0,
-    size = 3.8
-  ) +
-  
-  xlim(
-    0.8,
-    4.5
-  ) +
-  
-  ylim(
-    0.5,
-    3
-  ) +
-  
-  theme_void()
-
-
-# Get British Columbia
-
-bc <- rnaturalearth::ne_states(
+bc <- ne_states(
   country = "Canada",
   returnclass = "sf"
 ) %>%
-  filter(
-    name_en == "British Columbia"
-  )
+  filter(name == "British Columbia")
 
-
-# Create British Columbia inset
+# Combine park polygons and create one point
+manning_point <- st_sfc(
+  st_point(c(-120.8, 49.2)),
+  crs = 4326
+)
 
 bc_inset <- ggplot() +
-  
+  geom_sf(
+    data = north_america,
+    fill = "grey90",
+    colour = "grey65",
+    linewidth = 0.25
+  ) +
   geom_sf(
     data = bc,
-    fill = "grey90",
+    fill = "#DCEEF2",
     colour = "grey30",
     linewidth = 0.4
   ) +
-  
-  geom_sf(
-    data = park_poly,
-    fill = "black",
-    colour = "black",
-    alpha = 0.8
+  geom_sf_text(
+    data = manning_point,
+    label = "\u2605",
+    size = 6,
+    colour = "black"
   ) +
-  
   coord_sf(
-    xlim = c(-139, -114),
-    ylim = c(48, 61),
+    xlim = c(-139, -113),
+    ylim = c(48, 60),
     expand = FALSE
   ) +
-  
-  theme_void()
-
-
-# Combine map and inset
-
-final_map <- ggdraw(
-  main_map
-) +
-  
-  draw_plot(
-    bc_inset,
-    x = 0.70,
-    y = 0.68,
-    width = 0.25,
-    height = 0.25
-  ) +
-  
-  draw_plot(
-    relocation_legend,
-    x = 0.68,
-    y = 0.08,
-    width = 0.27,
-    height = 0.18
+  theme_void() +
+  theme(
+    panel.background = element_rect(fill = "white"),
+    plot.background = element_rect(fill = "white"),
+    plot.margin = margin(3, 3, 3, 3)
   )
 
-
-# Display map
-
-final_map
-
-
-# Save high-resolution map
+inset_file <- tempfile(fileext = ".png")
 
 ggsave(
-  "Manning_Park_map.png",
-  final_map,
-  width = 10,
-  height = 8,
-  units = "in",
-  dpi = 600,
+  inset_file,
+  plot = bc_inset,
+  width = 3,
+  height = 2.5,
+  dpi = 300,
   bg = "white"
 )
+
+inset_image <- base64encode(
+  readBin(inset_file, "raw", n = file.info(inset_file)$size)
+)
+
+inset_html <- paste0(
+  '<div style="background:white;padding:7px;',
+  'border:1px solid #888;border-radius:4px;">',
+  '<img src="data:image/png;base64,',
+  inset_image,
+  '" style="width:500px;display:block;">',
+  '</div>'
+)
+
+
+# Simple legend
+
+legend_html <- paste0(
+  '<div style="background:white;padding:14px 18px;',
+  'border:2px solid #888;border-radius:6px;',
+  'font-family:Arial,sans-serif;font-size:29px;',
+  'line-height:1.6;min-width:260px;">',
+  
+  '<b>Resurvey Plots</b><br>',
+  '<span style="color:#0072B2;font-size:38px;',
+  '-webkit-text-stroke:2px white;paint-order:stroke fill;">▲</span> ',
+  'Resurvey Plot<br>',
+  
+  '<b>Relocation Error Plots</b><br>',
+  '<span style="color:black;font-size:38px;">○</span> Correct<br>',
+  '<span style="color:black;font-size:38px;">×</span> Error',
+  
+  '</div>'
+)
+
+
+# Compass
+
+compass_html <- paste0(
+  '<div style="background:white;padding:16px 20px;',
+  'border:2px solid #888;border-radius:5px;',
+  'text-align:center;font-family:Arial,sans-serif;',
+  'width:75px;">',
+  '<div style="font-size:32px;font-weight:bold;">N</div>',
+  '<div style="font-size:64px;line-height:1.1;">▲</div>',
+  '</div>'
+)
+# Create map
+
+manning_map <- leaflet(options = leafletOptions(
+  zoomSnap = 0,
+  zoomDelta = 0.0000001
+)) %>%
+
+  # Basemap
+  addProviderTiles("Esri.WorldGrayCanvas") %>%
+  addProviderTiles(
+    "OpenTopoMap",
+    options = providerTileOptions(opacity = 0.25)
+  ) %>%
+  
+  # Manning Park boundary
+  addPolygons(
+    data = park_poly,
+    color = "black",
+    weight = 6,
+    fill = FALSE
+  ) %>%
+  
+  # Resurvey plots: blue triangles with white outline
+  addLabelOnlyMarkers(
+    data = present_plots,
+    lng = ~Longitude,
+    lat = ~Latitude,
+    label = ~htmltools::HTML(
+      paste0(
+        "<span style='color:#0072B2;",
+        "-webkit-text-stroke:1.5px white;",
+        "paint-order:stroke fill;",
+        "font-size:40px;font-weight:bold;'>▲</span>"
+      )
+    ),
+    labelOptions = labelOptions(
+      noHide = TRUE,
+      textOnly = FALSE,
+      direction = "center",
+      style = list(
+        "background" = "transparent",
+        "border" = "none",
+        "box-shadow" = "none",
+        "padding" = "0px",
+        "margin" = "0px"
+      )
+    )
+  ) %>%
+  
+  # Correct relocation plots: open circles
+  addCircleMarkers(
+    data = correct_plots,
+    lng = ~Longitude,
+    lat = ~Latitude,
+    radius = 16,
+    color = "black",
+    fillColor = "white",
+    fillOpacity = 1,
+    weight = 1.5
+  ) %>%
+  
+  # Relocation error plots: black Xs
+  addLabelOnlyMarkers(
+    data = mislocated_plots,
+    lng = ~Longitude,
+    lat = ~Latitude,
+    label = ~htmltools::HTML(
+      "<span style='color:black;font-size:40px;font-weight:bold;'>×</span>"
+    ),
+    labelOptions = labelOptions(
+      noHide = TRUE,
+      textOnly = FALSE,
+      direction = "center",
+      style = list(
+        "background" = "transparent",
+        "border" = "none",
+        "box-shadow" = "none",
+        "padding" = "0px",
+        "margin" = "0px"
+      )
+    )
+  ) %>%
+  
+  # Legend, BC inset, compass and scale bar
+  addControl(
+    html = HTML(legend_html),
+    position = "bottomright"
+  ) %>%
+  addControl(
+    html = HTML(inset_html),
+    position = "topright"
+  ) %>%
+  addControl(
+    html = HTML(compass_html),
+    position = "topleft"
+  ) %>%
+  addScaleBar(
+    position = "bottomleft",
+    options = scaleBarOptions(
+      maxWidth = 300,
+      metric = TRUE,
+      imperial = FALSE
+   )
+  ) %>%
+  
+  setView(
+    lng = -120.86,
+    lat = 49.120,
+    zoom = 12.4999999)
+
+manning_map
+
+manning_map <- htmlwidgets::prependContent(
+  manning_map,
+  htmltools::tags$style(
+    htmltools::HTML("
+      .leaflet-control-scale-line {
+        font-size: 24px !important;
+        font-weight: bold !important;
+        line-height: 1.5 !important;
+        padding: 8px 12px !important;
+        border: 4px solid black !important;
+        border-top: none !important;
+        box-sizing: content-box !important;
+        background: white !important;
+        color: black !important;
+      }
+    ")
+  )
+)
+
+mapview::mapshot(
+  manning_map,
+  file = "outputs/figures/bayesian_figures/Manning_Park_Map.png",
+  remove_controls = FALSE,
+  delay = 5,
+  vwidth = 1800,
+  vheight = 1200,
+  zoom = 1.3
+)
+
+

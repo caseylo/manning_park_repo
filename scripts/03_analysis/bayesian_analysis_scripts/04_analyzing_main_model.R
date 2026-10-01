@@ -282,19 +282,27 @@ range_shift_draws <- map_dfr(
 range_shift_summary <- range_shift_draws %>%
   summarise(
     median_historical_optimum = median(historical_optimum),
+    sd_historical_optimum = sd(historical_optimum),
     lower_95_historical_optimum = quantile(historical_optimum, 0.025),
     upper_95_historical_optimum = quantile(historical_optimum, 0.975),
+    
     median_present_optimum = median(present_optimum),
+    sd_present_optimum = sd(present_optimum),
     lower_95_present_optimum = quantile(present_optimum, 0.025),
     upper_95_present_optimum = quantile(present_optimum, 0.975),
+    
     median_shift = median(shift_m),
+    sd_shift = sd(shift_m),
     lower_95_shift = quantile(shift_m, 0.025),
     upper_95_shift = quantile(shift_m, 0.975),
-    probability_positive = mean(shift_m > 0)) %>%
+    
+    probability_positive = mean(shift_m > 0)
+  ) %>%
   pivot_longer(
     cols = everything(),
     names_to = "Statistic",
-    values_to = "Value")
+    values_to = "Value"
+  )
 
 range_shift_summary
 
@@ -657,28 +665,29 @@ range_shift_draws_np <- map_dfr(
 range_shift_summary_np <- range_shift_draws_np %>%
   summarise(
     median_historical_optimum = median(historical_optimum),
-    lower_95_historical_optimum = quantile(
-      historical_optimum, 0.025),
-    upper_95_historical_optimum = quantile(
-      historical_optimum, 0.975),
+    sd_historical_optimum = sd(historical_optimum),
+    lower_95_historical_optimum = quantile(historical_optimum, 0.025),
+    upper_95_historical_optimum = quantile(historical_optimum, 0.975),
+    
     median_present_optimum = median(present_optimum),
-    lower_95_present_optimum = quantile(
-      present_optimum, 0.025),
-    upper_95_present_optimum = quantile(
-      present_optimum, 0.975),
+    sd_present_optimum = sd(present_optimum),
+    lower_95_present_optimum = quantile(present_optimum, 0.025),
+    upper_95_present_optimum = quantile(present_optimum, 0.975),
+    
     median_shift = median(shift_m),
-    lower_95_shift = quantile(
-      shift_m, 0.025),
-    upper_95_shift = quantile(
-      shift_m, 0.975),
-    probability_positive = mean(shift_m > 0)) %>%
+    sd_shift = sd(shift_m),
+    lower_95_shift = quantile(shift_m, 0.025),
+    upper_95_shift = quantile(shift_m, 0.975),
+    
+    probability_positive = mean(shift_m > 0)
+  ) %>%
   pivot_longer(
     cols = everything(),
     names_to = "Statistic",
-    values_to = "Value")
+    values_to = "Value"
+  )
 
 range_shift_summary_np
-
 
 ####
 
