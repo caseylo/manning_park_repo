@@ -899,3 +899,200 @@ peak_probability_summary_fg <- peak_probability_draws_fg %>%
 
 ## View results
 print(peak_probability_summary_fg, n = Inf, width = Inf)
+
+####
+
+####
+
+## Bayesian species interaction model
+
+## Run relocation error model with species interaction
+
+bayesmod_error_species <- brm(
+  present ~ Treatment * poly(Elevation_sc, 2, raw = TRUE) * Species
+  + (poly(Elevation_sc, 2, raw = TRUE) | Species)
+  + (1 | PlotNumber)
+  + Lat_sc,
+  data = error_model_data,
+  family = bernoulli(link = "logit"),
+  chains = 4,
+  iter = 10000,
+  warmup = 2000,
+  cores = 4,
+  seed = 1234
+)
+
+summary(bayesmod_error_species)
+pp_check(bayesmod_error_species)
+
+
+####
+## Extract error-model coefficients
+
+error_priors_species <- fixef(bayesmod_error_species)
+
+error_priors_species
+
+
+####
+## Check coefficient names for the full model
+
+get_prior(
+  present ~ Time * poly(Elevation_sc, 2, raw = TRUE) * Species
+  + (poly(Elevation_sc, 2, raw = TRUE) | Species)
+  + (1 | PlotNumber)
+  + Lat_sc,
+  data = model_data,
+  family = bernoulli(link = "logit")
+)
+
+
+####
+## Identify species levels
+
+levels(model_data$Species)
+
+
+####
+## Extract treatment and treatment-by-elevation priors
+
+trt_mu_species <- error_priors_species[
+  "TreatmentError", "Estimate"
+]
+trt_sd_species <- error_priors_species[
+  "TreatmentError", "Est.Error"
+]
+
+elev_mu_species <- error_priors_species[
+  "TreatmentError:polyElevation_sc2rawEQTRUE1", "Estimate"
+]
+elev_sd_species <- error_priors_species[
+  "TreatmentError:polyElevation_sc2rawEQTRUE1", "Est.Error"
+]
+
+elev2_mu_species <- error_priors_species[
+  "TreatmentError:polyElevation_sc2rawEQTRUE2", "Estimate"
+]
+elev2_sd_species <- error_priors_species[
+  "TreatmentError:polyElevation_sc2rawEQTRUE2", "Est.Error"
+]
+
+
+####
+## Set priors for treatment and treatment-by-elevation effects
+
+priors_error_species <- c(
+  set_prior(
+    paste0("normal(", trt_mu_species, ", ", trt_sd_species, ")"),
+    class = "b",
+    coef = "Timepresent"
+  ),
+  set_prior(
+    paste0("normal(", elev_mu_species, ", ", elev_sd_species, ")"),
+    class = "b",
+    coef = "Timepresent:polyElevation_sc2rawEQTRUE1"
+  ),
+  set_prior(
+    paste0("normal(", elev2_mu_species, ", ", elev2_sd_species, ")"),
+    class = "b",
+    coef = "Timepresent:polyElevation_sc2rawEQTRUE2"
+  )
+)
+
+
+####
+## Extract species-specific treatment interaction priors
+
+species_error_priors <- error_priors_species[
+  grepl(
+    "TreatmentError.*Species",
+    rownames(error_priors_species)
+  ),
+  ,
+  drop = FALSE
+]
+
+species_error_priors
+
+
+####
+## Add species interaction priors
+
+for (parameter in rownames(species_error_priors)) {
+  
+  prior_mean <- species_error_priors[parameter, "Estimate"]
+  prior_sd <- species_error_priors[parameter, "Est.Error"]
+  
+  full_parameter <- gsub(
+    "TreatmentError",
+    "Timepresent",
+    parameter,
+    fixed = TRUE
+  )
+  
+  priors_error_species <- c(
+    priors_error_species,
+    set_prior(
+      paste0("normal(", prior_mean, ", ", prior_sd, ")"),
+      class = "b",
+      coef = full_parameter
+    )
+  )
+}
+
+
+####
+## View priors
+
+priors_error_species
+
+
+####
+## Run full model with species interaction and informative priors
+
+bayesmod_full_species <- brm(
+  present ~ Time * poly(Elevation_sc, 2, raw = TRUE) * Species
+  + (poly(Elevation_sc, 2, raw = TRUE) | Species)
+  + (1 | PlotNumber)
+  + Lat_sc,
+  data = model_data,
+  family = bernoulli(link = "logit"),
+  prior = priors_error_species,
+  chains = 4,
+  iter = 10000,
+  warmup = 2000,
+  cores = 4,
+  seed = 1234
+)
+
+options(max.print=5.5E5)
+summary(bayesmod_full_species)
+pp_check(bayesmod_full_species)
+prior_summary(bayesmod_full_species)
+
+
+####
+## Run full model without informative priors
+
+bayesmod_full_species_no_prior <- brm(
+  present ~ Time * poly(Elevation_sc, 2, raw = TRUE) * Species
+  + (poly(Elevation_sc, 2, raw = TRUE) | Species)
+  + (1 | PlotNumber)
+  + Lat_sc,
+  data = model_data,
+  family = bernoulli(link = "logit"),
+  chains = 4,
+  iter = 10000,
+  warmup = 2000,
+  cores = 4,
+  seed = 1234
+)
+
+summary(bayesmod_full_species_no_prior)
+pp_check(bayesmod_full_species_no_prior)
+prior_summary(bayesmod_full_species_no_prior)
+
+## Save models
+saveRDS(bayesmod_error_species, "outputs/models/bayesian_analysis_models/bayesmod_error_species.rds")
+saveRDS(bayesmod_full_species, "outputs/models/bayesian_analysis_models/bayesmod_full_species.rds")
+saveRDS(bayesmod_full_species_no_prior, "outputs/models/bayesian_analysis_models/bayesmod_full_species_no_prior_species.rds")
