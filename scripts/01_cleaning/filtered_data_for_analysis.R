@@ -135,10 +135,15 @@ data_2025_clean_filt <- data_2025_clean %>%
 
 ####Making final species list:
 
+final_species_occurence <- species_filtered %>%
+  mutate(Species = as.character(Species))
+
+write.csv(final_species_occurence, file = "data/cleaned/species_list_with_occurence.csv")
+
 final_species_list <- species_filtered %>%
   select(-occurences_2025,
-         -occurences_BEC,
-         -total_occurences) %>%
+    -occurences_BEC,
+    -total_occurences) %>%
   mutate(Species = as.character(Species))
 
 ####
