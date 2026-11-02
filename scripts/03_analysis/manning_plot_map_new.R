@@ -76,7 +76,8 @@ park_poly <- bcdc_get_data(
       "MANNING"
     )
   ) %>%
-  st_transform(4326)
+  st_transform(4326) %>%
+  summarise()
 
 ############################################################
 # BUFFER
@@ -397,7 +398,7 @@ study_map <- ggplot() +
     x = -120.95,
     y = 48.99,
     label = "Canada–USA Border",
-    size = 4,
+    size = 3,
     colour = "black",
     hjust = 0
   )+
@@ -405,7 +406,7 @@ study_map <- ggplot() +
   geom_sf(
     data=major_roads,
     colour="#C0392B",
-    linewidth=0.7
+    linewidth=0.5
   ) +  
   geom_sf(
     data = historical_sf,
@@ -578,7 +579,7 @@ ggsave(
 ggsave(
   "outputs/figures/Figure1_ManningPark.png",
   figure1,
-  width = 210,
+  width = 120,
   height = 120,
   units = "mm"
 )
