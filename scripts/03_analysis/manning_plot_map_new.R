@@ -267,10 +267,6 @@ bc <- ne_states(
 park_point <- st_centroid(
   st_union(park_poly)
 )
-park_point <- st_sfc(
-  st_point(c(-120.8, 49.6)),
-  crs = 4326
-)
 bc <- ne_states(
   country = "Canada",
   returnclass = "sf"
@@ -319,7 +315,7 @@ locator_map <- ggplot() +
     label = "\u2605",
     colour = "darkred",
     fontface = "bold",
-    size = 8
+    size = 5
   )+
   
   coord_sf(
@@ -349,44 +345,39 @@ study_map <- ggplot() +
   ) +
   
   scale_fill_gradient(
-    low="grey25",
-    high="white",
-    guide="none"
+    low = "grey55",
+    high = "white",
+    guide = "none"
   ) +
-
+  
   geom_sf(
-    data=lakes_sf,
-    fill="#BFDFF5",
-    colour=NA,
-    alpha=0.8
-  ) +
-  
-  # geom_sf(
-  #   data=rivers_sf,
-  #   colour="#4A90D9",
-  #   linewidth=0.4,
-  #   alpha=0.8
-  # ) +
-  
-  geom_spatvector(
-    data=contours_minor,
-    colour="grey70",
-    linewidth=0.15
+    data = lakes_sf,
+    fill = "#BFDFF5",
+    colour = NA,
+    alpha = 0.8
   ) +
   
   geom_spatvector(
-    data=contours_major,
-    colour="grey40",
-    linewidth=0.30
+    data = contours_minor,
+    colour = "grey75",
+    linewidth = 0.12,
+    alpha = 0.6
   ) +
   
-  geom_sf_text(
-    data = contour_labels,
-    aes(label = paste0(level, " m")),
-    size = 2.8,
-    colour = "grey20",
-    fontface = "bold"
+  geom_spatvector(
+    data = contours_major,
+    colour = "grey55",
+    linewidth = 0.20,
+    alpha = 0.65
   ) +
+  
+#  geom_sf_text(
+#    data = contour_labels,
+#    aes(label = paste0(level, " m")),
+#    size = 2.8,
+#    colour = "grey20",
+#    fontface = "bold"
+#  ) +
   
   geom_sf(
     data=park_poly,
@@ -397,7 +388,7 @@ study_map <- ggplot() +
   geom_hline(
     yintercept = 49,
     colour = "black",
-    linewidth = 1.5,
+    linewidth = 0.9,
     linetype = 1
   )+
 
@@ -417,9 +408,12 @@ study_map <- ggplot() +
     linewidth=0.7
   ) +  
   geom_sf(
-    data=historical_sf,
-    colour="#0072B2",
-    size=2.2
+    data = historical_sf,
+    shape = 21,
+    fill = "#0072B2",
+    colour = "white",
+    stroke = 0.7,
+    size = 2.8
   ) +
   
   geom_sf(
@@ -469,56 +463,88 @@ annotation_north_arrow(
 # MANUAL LEGEND
 ############################################################
 
+# Legend box dimensions — bottom left, above scale bar
+legend_xmin <- map_bbox["xmin"] + 0.009 * (map_bbox["xmax"] - map_bbox["xmin"])
+legend_xmax <- map_bbox["xmin"] + 0.30 * (map_bbox["xmax"] - map_bbox["xmin"])
+
+legend_ymin <- map_bbox["ymin"] + 0.05 * (map_bbox["ymax"] - map_bbox["ymin"])
+legend_ymax <- map_bbox["ymin"] + 0.19 * (map_bbox["ymax"] - map_bbox["ymin"])
+
+# Positions within the legend box
+legend_x_point <- legend_xmin + 0.10 * (legend_xmax - legend_xmin)
+legend_x_text  <- legend_xmin + 0.25 * (legend_xmax - legend_xmin)
+
+legend_y_hist  <- legend_ymin + 0.70 * (legend_ymax - legend_ymin)
+legend_y_reloc <- legend_ymin + 0.30 * (legend_ymax - legend_ymin)
+
+
 study_map <- study_map +
   
+  # Legend box
   annotate(
     "rect",
-    xmin=map_bbox["xmin"] + 0.70*(map_bbox["xmax"]-map_bbox["xmin"]),
-    xmax=map_bbox["xmin"] + 0.98*(map_bbox["xmax"]-map_bbox["xmin"]),
-    ymin=map_bbox["ymin"] + 0.02*(map_bbox["ymax"]-map_bbox["ymin"]),
-    ymax=map_bbox["ymin"] + 0.16*(map_bbox["ymax"]-map_bbox["ymin"]),
-    fill="white",
-    colour="black"
+    xmin = legend_xmin,
+    xmax = legend_xmax,
+    ymin = legend_ymin,
+    ymax = legend_ymax,
+    fill = "white",
+    colour = "black"
   ) +
   
+  # Historical plots
   annotate(
     "point",
-    x=map_bbox["xmin"] + 0.73*(map_bbox["xmax"]-map_bbox["xmin"]),
-    y=map_bbox["ymin"] + 0.12*(map_bbox["ymax"]-map_bbox["ymin"]),
-    colour="#0072B2",
-    size=3
+    x = legend_x_point,
+    y = legend_y_hist,
+    shape = 21,
+    fill = "#0072B2",
+    colour = "white",
+    stroke = 0.8,
+    size = 3.5
   ) +
   
+  # Relocation plots
   annotate(
     "point",
-    x=map_bbox["xmin"] + 0.73*(map_bbox["xmax"]-map_bbox["xmin"]),
-    y=map_bbox["ymin"] + 0.06*(map_bbox["ymax"]-map_bbox["ymin"]),
-    shape=17,
-    colour="#D55E00",
-    size=3
+    x = legend_x_point,
+    y = legend_y_reloc,
+    shape = 17,
+    colour = "#D55E00",
+    size = 3.5
   ) +
   
+  # Historical label
   annotate(
     "text",
-    x=map_bbox["xmin"] + 0.76*(map_bbox["xmax"]-map_bbox["xmin"]),
-    y=map_bbox["ymin"] + 0.12*(map_bbox["ymax"]-map_bbox["ymin"]),
-    label="Historical plots",
-    hjust=0,
-    size=3
+    x = legend_x_text,
+    y = legend_y_hist,
+    label = "Historical plots",
+    hjust = 0,
+    size = 3
   ) +
   
+  # Relocation label
   annotate(
     "text",
-    x=map_bbox["xmin"] + 0.76*(map_bbox["xmax"]-map_bbox["xmin"]),
-    y=map_bbox["ymin"] + 0.06*(map_bbox["ymax"]-map_bbox["ymin"]),
-    label="Relocation plots",
-    hjust=0,
-    size=3
+    x = legend_x_text,
+    y = legend_y_reloc,
+    label = "Relocation plots",
+    hjust = 0,
+    size = 3
   )
 
 ############################################################
 # ADD BC INSET
 ############################################################
+
+locator_map <- locator_map +
+  theme(
+    panel.border = element_rect(
+      colour = "black",
+      fill = NA,
+      linewidth = 0.6
+    )
+  )
 
 figure1 <- study_map +
   inset_element(
@@ -542,7 +568,7 @@ figure1
 ggsave(
   "outputs/figures/Figure1_ManningPark.tiff",
   figure1,
-  width = 180,
+  width = 210,
   height = 120,
   units = "mm",
   dpi = 300,
@@ -550,9 +576,9 @@ ggsave(
 )
 
 ggsave(
-  "outputs/figures/Figure1_ManningPark.pdf",
+  "outputs/figures/Figure1_ManningPark.png",
   figure1,
-  width = 180,
+  width = 210,
   height = 120,
   units = "mm"
 )
