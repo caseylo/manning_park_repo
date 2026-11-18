@@ -4,7 +4,7 @@ This repository contains the code, processed data, figures, model outputs, and s
 
 ## Project overview
 
-Montane plant communities are expected to respond to climate change, but observed range shifts can vary among species and functional groups. This project compares historical vegetation surveys with a 2025 resurvey to assess changes in species occurrence across elevation. It also includes a relocation-error analysis using 2019 plots that were resurveyed in 2025 both at an exactly re-located and at intentionally relocated plots.
+Montane plant communities are expected to respond to climate change, but observed range shifts can vary among species and life forms. This project compares historical vegetation surveys with a 2025 resurvey to assess changes in species occurrence across elevation. It also includes a relocation-error analysis using 2019 plots that were resurveyed in 2025 both at an exactly re-located and at intentionally relocated plots.
 
 The main goals are to evaluate:
 
@@ -24,13 +24,13 @@ The scripts are organized into three main folders:
 
 Final project outputs are stored in `outputs/`:
 
-* `outputs/figures/`: elevation-response plots, functional-group plots, NMDS figures, diagnostics, and maps.
+* `outputs/figures/`: elevation-response plots, life form plots, NMDS figures, diagnostics, and maps.
 * `outputs/models/`: saved model objects from the main range-shift, relocation-error analyses, and Bayesian analysis.
 * `outputs/tables/`: summary tables for richness and diversity comparisons.
 
 ## Main analyses
 
-The main range-shift analysis models species presence as a function of time, elevation, and their interaction, while accounting for several random effects. A functional-group model compares responses among herbs, shrubs, and trees. Additionally, this model is currently being developed in a Bayesian framework in order to incorpotate priors from estimates of relocation error. This will allow us to confidently say our results are robust to reloation error.
+The main range-shift analysis models species presence as a function of time, elevation, and their interaction, while accounting for several random effects. A life form model compares responses among herbs, shrubs, and trees. Additionally, this model is currently being developed in a Bayesian framework in order to incorpotate priors from estimates of relocation error. This will allow us to confidently say our results are robust to reloation error.
 
 The relocation-error analysis compares 2019 plots, accurately relocated 2025 plots (2025correct), and intentionally relocated 2025 plots (2025error) to test whether relocation error changes community composition or diversity enough to affect interpretation of temporal change.
 
@@ -42,4 +42,4 @@ This repository is intended as a project archive for supervisors and readers who
 
 Casey Lo //
 University of British Columbia //
-B.Sc. Honours Ecology and Environmental Science
+M.Sc. Botany
